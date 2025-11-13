@@ -32,11 +32,12 @@ function checkRateLimit(ip) {
 }
 
 async function triggerGitHubWorkflow() {
-  const token = process.env.GITHUB_TOKEN;
-  const repo = process.env.GITHUB_REPO; // format: "owner/repo"
+  // Support both standard and alternate env var names (some platforms restrict 'GITHUB_*')
+  const token = process.env.GITHUB_TOKEN || process.env.GHUB_TOKEN;
+  const repo = process.env.GITHUB_REPO || process.env.GHUB_REPO; // format: "owner/repo"
   
   if (!token || !repo) {
-    throw new Error('Missing GITHUB_TOKEN or GITHUB_REPO environment variables');
+    throw new Error('Missing environment variables: set GITHUB_TOKEN/GITHUB_REPO or GHUB_TOKEN/GHUB_REPO');
   }
 
   const [owner, repoName] = repo.split('/');
