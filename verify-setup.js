@@ -13,7 +13,6 @@ const requiredFiles = [
   'netlify.toml',
   'websitelist.txt',
   'robotlist.txt',
-  'masterpassword.txt',
   'scripts/parse_data.js',
   'netlify/functions/robots.js',
   'public/index.html',

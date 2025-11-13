@@ -6,3 +6,4 @@ public/data.json
 .env
 .env.local
 package-lock.json
+masterpassword.txt

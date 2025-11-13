@@ -158,6 +158,7 @@ After deployment:
 - **MAC format enforcement**: Must be exactly 12 hex characters
 - **Duplicate prevention**: Same MAC on same site is blocked
 - **CORS**: Restricted to site origin (can be tightened further)
+- **Credentials**: See [SECURITY.md](SECURITY.md) for managing master credentials securely
 
 ## Data Model
 

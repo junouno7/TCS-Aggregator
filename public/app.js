@@ -6,10 +6,11 @@ let currentSort = { field: 'name', ascending: true };
 let searchQuery = '';
 let groupBySite = true;
 
-// Master credentials (from masterpassword.txt)
+// Master credentials - can be loaded from environment or config
+// For security, set these as environment variables in Netlify dashboard
 const masterCredentials = {
-  username: 'thkim',
-  password: 'rtcl5435!!'
+  username: window.MASTER_USERNAME || 'thkim',
+  password: window.MASTER_PASSWORD || 'rtcl5435!!'
 };
 
 // Initialize app
