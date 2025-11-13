@@ -4,6 +4,5 @@ node_modules/
 .DS_Store
 .env
 .env.local
-package-lock.json
 masterpassword.txt
 scraper/test-output/
