@@ -452,11 +452,11 @@ async function triggerManualRefresh() {
     
     // Success
     showToast('✅ ' + result.message, 'success');
-    btn.textContent = '⏳ Refreshing (2-3 min)...';
+    btn.textContent = '⏳ Refreshing (8-10 minutes)...';
     
     // Poll for updates every 30 seconds
     let pollCount = 0;
-    const maxPolls = 10; // 5 minutes max
+    const maxPolls = 22; // ~11 minutes max (30s interval)
     
     const pollInterval = setInterval(async () => {
       pollCount++;

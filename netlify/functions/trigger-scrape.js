@@ -130,8 +130,8 @@ exports.handler = async (event, context) => {
       headers,
       body: JSON.stringify({ 
         success: true,
-        message: 'Data refresh started! It will take 2-3 minutes to complete. The page will automatically reload when ready.',
-        estimatedTime: '2-3 minutes'
+        message: 'Data refresh started! It will take 8-10 minutes to complete.',
+        estimatedTime: '8-10 minutes'
       })
     };
 

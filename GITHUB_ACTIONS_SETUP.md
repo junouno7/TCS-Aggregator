@@ -8,7 +8,7 @@
 6. Check the workflow logs
 
 #### Automatic Schedule:
-- The workflow runs every 3 hours automatically
+- The workflow runs every 3 days automatically
 - Check the **Actions** tab to see past runs
 - Logs show what was scraped and if it succeeded
 
@@ -44,8 +44,8 @@ Edit `.github/workflows/scrape-robots.yml`:
 
 ```yaml
 schedule:
-  # Every 12 hours at midnight and noon UTC (default)
-  - cron: '0 0,12 * * *'
+  # Every 3 days at midnight UTC (default)
+  - cron: '0 0 */3 * *'
   
   # Every 3 hours:
   # - cron: '0 */3 * * *'
@@ -59,7 +59,7 @@ schedule:
 
 Cron syntax: `minute hour day month dayofweek`
 
-**Current Schedule**: Every 12 hours (2 times per day)
+**Current Schedule**: Every 3 days (at 00:00 UTC)
 
 ### Disable Automatic Scraping
 
