@@ -4,8 +4,13 @@
   functions = "netlify/functions"
 
 [[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
+  from = "/api/robots"
+  to = "/.netlify/functions/robots"
+  status = 200
+
+[[redirects]]
+  from = "/api/trigger-scrape"
+  to = "/.netlify/functions/trigger-scrape"
   status = 200
 
 [dev]

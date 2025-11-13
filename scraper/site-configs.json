@@ -1,0 +1,185 @@
+{
+  "sites": [
+    {
+      "id": "cs.twinnyservice.com",
+      "loginUrl": "http://cs.twinnyservice.com/login",
+      "robotsUrl": "http://cs.twinnyservice.com/robot",
+      "language": "korean",
+      "selectors": {
+        "usernameInput": "input[type='text']",
+        "passwordInput": "input[type='password']",
+        "loginButton": "button",
+        "robotTable": "table tbody tr",
+        "waitForElement": "table"
+      },
+      "columnMapping": {
+        "type": 1,
+        "name": 2,
+        "mac": 3,
+        "description": 4,
+        "registeredDate": 5
+      }
+    },
+    {
+      "id": "twcs.twinnyservice.com",
+      "loginUrl": "http://twcs.twinnyservice.com/login",
+      "robotsUrl": "http://twcs.twinnyservice.com/robots",
+      "language": "korean",
+      "selectors": {
+        "usernameInput": "input[type='text']",
+        "passwordInput": "input[type='password']",
+        "loginButton": "button",
+        "robotTable": "table tbody tr",
+        "waitForElement": "table"
+      },
+      "columnMapping": {
+        "type": 4,
+        "name": 1,
+        "mac": 3,
+        "description": 2,
+        "registeredDate": 5
+      }
+    },
+    {
+      "id": "in4in.twinnyservice.com",
+      "loginUrl": "http://in4in.twinnyservice.com/login",
+      "robotsUrl": "http://in4in.twinnyservice.com/robots",
+      "language": "korean",
+      "selectors": {
+        "usernameInput": "input[type='text']",
+        "passwordInput": "input[type='password']",
+        "loginButton": "button",
+        "robotTable": "table tbody tr",
+        "waitForElement": "table"
+      },
+      "columnMapping": {
+        "type": 4,
+        "name": 2,
+        "mac": 3,
+        "description": 1,
+        "registeredDate": 5
+      }
+    },
+    {
+      "id": "twinnyshow.twinnyservice.com",
+      "loginUrl": "http://twinnyshow.twinnyservice.com/login",
+      "robotsUrl": "http://twinnyshow.twinnyservice.com/robots",
+      "language": "korean",
+      "selectors": {
+        "usernameInput": "input[type='text']",
+        "passwordInput": "input[type='password']",
+        "loginButton": "button",
+        "robotTable": "table tbody tr",
+        "waitForElement": "table"
+      },
+      "columnMapping": {
+        "type": 4,
+        "name": 2,
+        "mac": 3,
+        "description": 1,
+        "registeredDate": 5
+      }
+    },
+    {
+      "id": "fine.twinnyservice.com",
+      "loginUrl": "http://fine.twinnyservice.com/login",
+      "robotsUrl": "http://fine.twinnyservice.com/robots",
+      "language": "korean",
+      "selectors": {
+        "usernameInput": "input[type='text']",
+        "passwordInput": "input[type='password']",
+        "loginButton": "button",
+        "robotTable": "table tbody tr",
+        "waitForElement": "table"
+      },
+      "columnMapping": {
+        "type": 4,
+        "name": 2,
+        "mac": 3,
+        "description": 1,
+        "registeredDate": 5
+      }
+    },
+    {
+      "id": "support.twinnyservice.com",
+      "loginUrl": "http://support.twinnyservice.com/login",
+      "robotsUrl": "http://support.twinnyservice.com/robot",
+      "language": "english",
+      "selectors": {
+        "usernameInput": "input[type='text']",
+        "passwordInput": "input[type='password']",
+        "loginButton": "button",
+        "robotTable": "table tbody tr",
+        "waitForElement": "table"
+      },
+      "columnMapping": {
+        "type": 1,
+        "name": 2,
+        "mac": 3,
+        "description": 4,
+        "registeredDate": 5
+      }
+    },
+    {
+      "id": "singlerobot118.twinnyservice.com",
+      "loginUrl": "http://singlerobot118.twinnyservice.com/login",
+      "robotsUrl": "http://singlerobot118.twinnyservice.com/robots",
+      "language": "korean",
+      "selectors": {
+        "usernameInput": "input[type='text']",
+        "passwordInput": "input[type='password']",
+        "loginButton": "button",
+        "robotTable": "table tbody tr",
+        "waitForElement": "table"
+      },
+      "columnMapping": {
+        "type": 4,
+        "name": 2,
+        "mac": 3,
+        "description": 1,
+        "registeredDate": 5
+      }
+    },
+    {
+      "id": "singlerobot.twinnyservice.com",
+      "loginUrl": "http://singlerobot.twinnyservice.com/login",
+      "robotsUrl": "http://singlerobot.twinnyservice.com/robots",
+      "language": "korean",
+      "selectors": {
+        "usernameInput": "input[type='text']",
+        "passwordInput": "input[type='password']",
+        "loginButton": "button",
+        "robotTable": "table tbody tr",
+        "waitForElement": "table"
+      },
+      "columnMapping": {
+        "type": 4,
+        "name": 2,
+        "mac": 3,
+        "description": 1,
+        "registeredDate": 5
+      }
+    },
+    {
+      "id": "sunbo118.twinnyservice.com",
+      "loginUrl": "http://sunbo118.twinnyservice.com/login",
+      "robotsUrl": "http://sunbo118.twinnyservice.com/robots",
+      "language": "korean",
+      "selectors": {
+        "usernameInput": "input[type='text']",
+        "passwordInput": "input[type='password']",
+        "loginButton": "button",
+        "robotTable": "table tbody tr",
+        "waitForElement": "table"
+      },
+      "columnMapping": {
+        "type": 1,
+        "name": 2,
+        "mac": 3,
+        "description": 4,
+        "registeredDate": 5
+      }
+    }
+  ]
+}
+

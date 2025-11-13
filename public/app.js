@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initializeCredentials();
   loadRobots();
   setupEventListeners();
+  updateDataInfo();
 });
 
 // Initialize master credentials
@@ -49,8 +50,8 @@ async function loadRobots() {
     allRobots = data.robots || [];
     filteredRobots = [...allRobots];
     
-    populateSiteDropdown();
     updateStats();
+    updateDataInfo(data);
     renderRobots();
   } catch (error) {
     console.error('Error loading robots:', error);
@@ -60,20 +61,51 @@ async function loadRobots() {
   }
 }
 
-// Populate site dropdown in add form
-function populateSiteDropdown() {
-  const select = document.getElementById('robot-site');
-  select.innerHTML = '<option value="">Select a website...</option>';
+// Update data freshness info
+function updateDataInfo(data) {
+  const dataSourceEl = document.getElementById('data-source');
+  const lastUpdatedEl = document.getElementById('last-updated');
   
-  allSites.forEach(site => {
-    const option = document.createElement('option');
-    option.value = site.id;
-    option.textContent = `${site.id} ${site.status === 'down' ? '(Currently Down)' : ''}`;
-    if (site.status === 'down') {
-      option.style.color = '#999';
+  if (!data) {
+    dataSourceEl.textContent = 'Unknown';
+    lastUpdatedEl.textContent = 'Unknown';
+    return;
+  }
+  
+  // Count sources
+  const liveCount = allRobots.filter(r => r.source === 'live').length;
+  const seedCount = allRobots.filter(r => r.source === 'seed').length;
+  
+  if (liveCount > 0 && seedCount > 0) {
+    dataSourceEl.textContent = `Mixed (${liveCount} live, ${seedCount} backup)`;
+  } else if (liveCount > 0) {
+    dataSourceEl.textContent = `Live Data (${liveCount} robots)`;
+  } else {
+    dataSourceEl.textContent = `Backup Data (${seedCount} robots)`;
+  }
+  
+  // Show last scrape time if available
+  if (data.scrapedAt) {
+    const scrapedDate = new Date(data.scrapedAt);
+    const now = new Date();
+    const diffMs = now - scrapedDate;
+    const diffMins = Math.floor(diffMs / 60000);
+    const diffHours = Math.floor(diffMins / 60);
+    
+    let timeAgo;
+    if (diffHours > 0) {
+      timeAgo = `${diffHours} hour${diffHours > 1 ? 's' : ''} ago`;
+    } else if (diffMins > 0) {
+      timeAgo = `${diffMins} minute${diffMins > 1 ? 's' : ''} ago`;
+    } else {
+      timeAgo = 'Just now';
     }
-    select.appendChild(option);
-  });
+    
+    lastUpdatedEl.textContent = timeAgo;
+    lastUpdatedEl.title = scrapedDate.toLocaleString();
+  } else {
+    lastUpdatedEl.textContent = 'Unknown';
+  }
 }
 
 // Update stats display
@@ -86,7 +118,7 @@ function updateStats() {
   if (filteredCount !== totalRobots) {
     statsText += ` of ${totalRobots} total`;
   }
-  statsText += ` across ${siteCount} active site${siteCount !== 1 ? 's' : ''}`;
+  statsText += ` across ${siteCount} active server${siteCount !== 1 ? 's' : ''}`;
   
   document.getElementById('stats').textContent = statsText;
 }
@@ -147,15 +179,65 @@ function toggleSortOrder() {
 
 // Sort robots with Korean support
 function sortRobots(robots) {
-  const collator = new Intl.Collator('ko', { sensitivity: 'base' });
-  
   return robots.sort((a, b) => {
-    let aVal = a[currentSort.field] || '';
-    let bVal = b[currentSort.field] || '';
+    let comparison = 0;
     
-    const comparison = collator.compare(aVal, bVal);
+    // Special handling for date sorting
+    if (currentSort.field === 'date') {
+      const dateA = parseDate(a.createdAt || a.registeredDate);
+      const dateB = parseDate(b.createdAt || b.registeredDate);
+      
+      // Handle invalid dates (put them at the end)
+      if (!dateA && !dateB) return 0;
+      if (!dateA) return 1;
+      if (!dateB) return -1;
+      
+      comparison = dateA.getTime() - dateB.getTime();
+    } else {
+      // Text sorting with Korean support
+      const collator = new Intl.Collator('ko', { sensitivity: 'base' });
+      let aVal = a[currentSort.field] || '';
+      let bVal = b[currentSort.field] || '';
+      comparison = collator.compare(aVal, bVal);
+    }
+    
     return currentSort.ascending ? comparison : -comparison;
   });
+}
+
+// Parse date from various formats
+function parseDate(dateStr) {
+  if (!dateStr) return null;
+  
+  try {
+    // Try parsing as ISO string first
+    const isoDate = new Date(dateStr);
+    if (!isNaN(isoDate.getTime())) {
+      return isoDate;
+    }
+    
+    // Try parsing common formats like "2/14/2025, 5:50:39 PM"
+    const parsed = new Date(dateStr);
+    if (!isNaN(parsed.getTime())) {
+      return parsed;
+    }
+    
+    return null;
+  } catch (e) {
+    return null;
+  }
+}
+
+// Format date for display
+function formatDate(dateStr) {
+  if (!dateStr) return 'Unknown';
+  
+  const date = parseDate(dateStr);
+  if (!date) return 'Unknown';
+  
+  // Format as "Jan 15, 2025"
+  const options = { year: 'numeric', month: 'short', day: 'numeric' };
+  return date.toLocaleDateString('en-US', options);
 }
 
 // Highlight search term in text
@@ -255,6 +337,7 @@ function renderRobotTable(robots, site) {
           <th>Name</th>
           <th>MAC Address</th>
           <th>Description</th>
+          <th>Date Registered</th>
           <th>Source</th>
           <th>Actions</th>
         </tr>
@@ -264,12 +347,15 @@ function renderRobotTable(robots, site) {
   
   robots.forEach(robot => {
     const siteInfo = site || allSites.find(s => s.id === robot.siteId);
+    const dateStr = formatDate(robot.createdAt || robot.registeredDate);
+    
     html += `
       <tr>
         <td class="robot-type">${highlightText(robot.type, searchQuery)}</td>
         <td class="robot-name">${highlightText(robot.name, searchQuery)}</td>
         <td class="mac-address" title="Raw: ${robot.rawMac}">${highlightText(robot.mac, searchQuery)}</td>
         <td>${highlightText(robot.description, searchQuery)}</td>
+        <td class="robot-date" title="${robot.createdAt || robot.registeredDate || 'Unknown'}">${dateStr}</td>
         <td><span class="source-badge ${robot.source}">${robot.source}</span></td>
         <td class="robot-actions">
           <button onclick="copyMac('${robot.mac}')" class="btn-icon" title="Copy MAC">📋</button>
@@ -338,106 +424,79 @@ function copyToClipboard(field) {
   });
 }
 
-// Toggle add robot form
-function toggleAddForm() {
-  const form = document.getElementById('add-robot-form');
-  const btn = document.getElementById('add-robot-btn');
-  
-  if (form.classList.contains('hidden')) {
-    form.classList.remove('hidden');
-    btn.textContent = '✕ Cancel';
-    form.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-  } else {
-    form.classList.add('hidden');
-    btn.textContent = '➕ Add New Robot';
-    clearAddForm();
-  }
-}
+// Functions removed: toggleAddForm, clearAddForm, submitRobot
+// User submissions removed - using live scraped data instead
 
-// Clear add robot form
-function clearAddForm() {
-  document.getElementById('robot-site').value = '';
-  document.getElementById('robot-type').value = '';
-  document.getElementById('robot-name').value = '';
-  document.getElementById('robot-mac').value = '';
-  document.getElementById('robot-description').value = '';
-  document.getElementById('robot-honeypot').value = '';
+// Trigger manual refresh from live TCS sites
+async function triggerManualRefresh() {
+  const btn = document.getElementById('manual-refresh-btn');
+  const originalText = '🔄 Resync Live Data';
   
-  const message = document.getElementById('form-message');
-  message.className = 'form-message';
-  message.textContent = '';
-}
-
-// Submit new robot
-async function submitRobot(event) {
-  event.preventDefault();
-  
-  const message = document.getElementById('form-message');
-  const submitBtn = document.getElementById('submit-robot-btn');
-  
-  // Get form data
-  const robotData = {
-    siteId: document.getElementById('robot-site').value,
-    type: document.getElementById('robot-type').value,
-    name: document.getElementById('robot-name').value,
-    mac: document.getElementById('robot-mac').value,
-    description: document.getElementById('robot-description').value,
-    honeypot: document.getElementById('robot-honeypot').value
-  };
-  
-  // Client-side validation
-  if (!robotData.siteId || !robotData.type || !robotData.name || !robotData.mac) {
-    message.className = 'form-message error';
-    message.textContent = 'Please fill in all required fields.';
-    return;
-  }
-  
-  // Validate MAC format
-  const macClean = robotData.mac.replace(/[^0-9a-fA-F]/g, '');
-  if (macClean.length !== 12) {
-    message.className = 'form-message error';
-    message.textContent = 'Invalid MAC address format. Must be 12 hex characters.';
-    return;
-  }
-  
-  // Disable submit button
-  submitBtn.disabled = true;
-  submitBtn.textContent = 'Adding...';
-  message.className = 'form-message';
-  message.textContent = '';
+  // Disable button
+  btn.disabled = true;
+  btn.textContent = '⏳ Starting refresh...';
   
   try {
-    const response = await fetch('/api/robots', {
+    const response = await fetch('/api/trigger-scrape', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(robotData)
+      }
     });
     
     const result = await response.json();
     
     if (!response.ok) {
-      throw new Error(result.error || 'Failed to add robot');
+      throw new Error(result.message || result.error || 'Failed to trigger refresh');
     }
     
-    // Success - add to local data and re-render
-    allRobots.push(result.robot);
-    filteredRobots = [...allRobots];
-    updateStats();
-    renderRobots();
+    // Success
+    showToast('✅ ' + result.message, 'success');
+    btn.textContent = '⏳ Refreshing (2-3 min)...';
     
-    showToast('Robot added successfully!', 'success');
-    toggleAddForm();
-    clearAddForm();
+    // Poll for updates every 30 seconds
+    let pollCount = 0;
+    const maxPolls = 10; // 5 minutes max
+    
+    const pollInterval = setInterval(async () => {
+      pollCount++;
+      
+      try {
+        const checkResponse = await fetch('/api/robots');
+        const data = await checkResponse.json();
+        
+        // Check if data was updated recently (within last 2 minutes)
+        if (data.scrapedAt) {
+          const scrapedDate = new Date(data.scrapedAt);
+          const now = new Date();
+          const diffMinutes = (now - scrapedDate) / 60000;
+          
+          if (diffMinutes < 2) {
+            // Data was just updated!
+            clearInterval(pollInterval);
+            showToast('🎉 Live data refreshed successfully!', 'success');
+            setTimeout(() => window.location.reload(), 2000);
+            return;
+          }
+        }
+      } catch (e) {
+        console.log('Poll check failed:', e);
+      }
+      
+      // Stop polling after max attempts
+      if (pollCount >= maxPolls) {
+        clearInterval(pollInterval);
+        btn.disabled = false;
+        btn.textContent = originalText;
+        showToast('⏱️ Refresh is taking longer than expected. Please check back in a few minutes.', 'error');
+      }
+    }, 30000); // Poll every 30 seconds
     
   } catch (error) {
-    message.className = 'form-message error';
-    message.textContent = error.message;
-    showToast('Failed to add robot: ' + error.message, 'error');
-  } finally {
-    submitBtn.disabled = false;
-    submitBtn.textContent = 'Add Robot';
+    console.error('Error triggering manual refresh:', error);
+    showToast('❌ ' + error.message, 'error');
+    btn.disabled = false;
+    btn.textContent = originalText;
   }
 }
 
@@ -454,5 +513,34 @@ function showToast(message, type = 'success') {
   setTimeout(() => {
     toast.classList.remove('show');
   }, 3000);
+}
+
+// Toggle all sections (collapse/expand)
+function toggleAllSections() {
+  const btn = document.getElementById('collapse-expand-btn');
+  const allTables = document.querySelectorAll('.robot-table');
+  const allHeaders = document.querySelectorAll('.site-header');
+  
+  // Check if any table is currently visible
+  const anyVisible = Array.from(allTables).some(table => 
+    table.style.display !== 'none' && !table.closest('.site-group.collapsed')
+  );
+  
+  // Toggle all sections
+  allHeaders.forEach(header => {
+    const siteGroup = header.closest('.site-group');
+    if (anyVisible) {
+      siteGroup.classList.add('collapsed');
+    } else {
+      siteGroup.classList.remove('collapsed');
+    }
+  });
+  
+  // Update button text
+  if (anyVisible) {
+    btn.textContent = '▶ Expand All';
+  } else {
+    btn.textContent = '▼ Close All';
+  }
 }
 

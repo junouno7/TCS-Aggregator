@@ -52,6 +52,33 @@ function parseWebsites(content) {
   return sites;
 }
 
+// Sort sites according to desired order
+function sortSites(sites) {
+  const desiredOrder = [
+    'cs.twinnyservice.com',
+    'twcs.twinnyservice.com',
+    'in4in.twinnyservice.com',
+    'twinnyshow.twinnyservice.com',
+    'fine.twinnyservice.com'
+  ];
+  
+  return sites.sort((a, b) => {
+    const indexA = desiredOrder.indexOf(a.id);
+    const indexB = desiredOrder.indexOf(b.id);
+    
+    // If both are in the desired order list, sort by that order
+    if (indexA !== -1 && indexB !== -1) {
+      return indexA - indexB;
+    }
+    // If only A is in the list, it comes first
+    if (indexA !== -1) return -1;
+    // If only B is in the list, it comes first
+    if (indexB !== -1) return 1;
+    // Otherwise, maintain alphabetical order for remaining sites
+    return a.id.localeCompare(b.id);
+  });
+}
+
 // Parse robot list
 function parseRobots(content, sites) {
   const lines = content.split('\n');
@@ -123,9 +150,12 @@ function main() {
     // Filter out unused sites from the active list
     const activeSites = sites.filter(s => s.status !== 'unused');
     
+    // Sort sites in desired order
+    const sortedSites = sortSites(activeSites);
+    
     // Create output data
     const output = {
-      sites: activeSites,
+      sites: sortedSites,
       robots: robots
     };
     
@@ -140,7 +170,7 @@ function main() {
     fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
     
     console.log(`✓ Generated ${outputPath}`);
-    console.log(`  - ${activeSites.length} sites (${sites.filter(s => s.status === 'active').length} active, ${sites.filter(s => s.status === 'down').length} down)`);
+    console.log(`  - ${sortedSites.length} sites (${sites.filter(s => s.status === 'active').length} active, ${sites.filter(s => s.status === 'down').length} down)`);
     console.log(`  - ${robots.length} robots`);
     
   } catch (error) {

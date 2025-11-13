@@ -1,9 +1,12 @@
 node_modules/
 .netlify/
 public/data.json
+public/scraped-robots.json
+public/merged-robots.json
 *.log
 .DS_Store
 .env
 .env.local
 package-lock.json
 masterpassword.txt
+scraper/test-output/

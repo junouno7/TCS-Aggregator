@@ -20,8 +20,7 @@ const requiredFiles = [
   'public/app.js',
   'public/data.json',
   'README.md',
-  'DEPLOYMENT.md',
-  'QUICKSTART.md'
+  'DEPLOYMENT.md'
 ];
 
 console.log('📁 Checking required files...');

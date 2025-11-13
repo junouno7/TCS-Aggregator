@@ -86,37 +86,58 @@ function validateRobotData(data) {
 // GET handler
 async function handleGet() {
   try {
-    // Load seed data from public/data.json
+    // Try to load merged data first (combines live + seed)
+    const mergedDataPath = path.join(__dirname, '../../public/merged-robots.json');
+    
+    if (fs.existsSync(mergedDataPath)) {
+      const mergedData = JSON.parse(fs.readFileSync(mergedDataPath, 'utf8'));
+      console.log(`Serving merged data: ${mergedData.robots.length} robots (${mergedData.stats.live} live, ${mergedData.stats.seed} backup)`);
+      
+      return {
+        statusCode: 200,
+        headers,
+        body: JSON.stringify({
+          sites: mergedData.sites,
+          robots: mergedData.robots,
+          scrapedAt: mergedData.scrapedAt,
+          mergedAt: mergedData.mergedAt,
+          stats: mergedData.stats
+        })
+      };
+    }
+
+    // Fallback to seed data if merged data doesn't exist
+    console.log('No merged data found, falling back to seed data');
     const seedDataPath = path.join(__dirname, '../../public/data.json');
-    let seedData = { sites: [], robots: [] };
     
     if (fs.existsSync(seedDataPath)) {
-      seedData = JSON.parse(fs.readFileSync(seedDataPath, 'utf8'));
+      const seedData = JSON.parse(fs.readFileSync(seedDataPath, 'utf8'));
+      console.log(`Serving seed data: ${seedData.robots.length} robots`);
+      
+      return {
+        statusCode: 200,
+        headers,
+        body: JSON.stringify({
+          sites: seedData.sites,
+          robots: seedData.robots,
+          scrapedAt: null,
+          mergedAt: null,
+          stats: {
+            total: seedData.robots.length,
+            live: 0,
+            seed: seedData.robots.length
+          }
+        })
+      };
     }
 
-    // Load user-added robots from Netlify Blobs (if available)
-    let userRobots = [];
-    
-    try {
-      const store = getStore('robots');
-      const blob = await store.get('robots', { type: 'json' });
-      if (blob) {
-        userRobots = blob;
-      }
-    } catch (error) {
-      // Blobs not available (local dev) or blob doesn't exist yet - that's okay
-      console.log('Blobs not available or no user robots yet:', error.message);
-    }
-
-    // Merge and return
-    const allRobots = [...seedData.robots, ...userRobots];
-    
+    // No data available at all
     return {
-      statusCode: 200,
+      statusCode: 500,
       headers,
-      body: JSON.stringify({
-        sites: seedData.sites,
-        robots: allRobots
+      body: JSON.stringify({ 
+        error: 'No robot data available',
+        message: 'Run npm run build:data and npm run scrape'
       })
     };
 
@@ -254,16 +275,17 @@ exports.handler = async (event, context) => {
     return { statusCode: 200, headers, body: '' };
   }
 
-  // Route to appropriate handler
+  // Only GET is supported now (no user submissions)
   if (event.httpMethod === 'GET') {
     return handleGet();
-  } else if (event.httpMethod === 'POST') {
-    return handlePost(event);
   } else {
     return {
       statusCode: 405,
       headers,
-      body: JSON.stringify({ error: 'Method not allowed' })
+      body: JSON.stringify({ 
+        error: 'Method not allowed',
+        message: 'Only GET requests are supported. User submissions have been removed - data is synced from live TCS sites.'
+      })
     };
   }
 };

@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TCS Robot Registry</title>
+  <title>TCS Master Master</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
     <header>
-      <h1>🤖 TCS Robot Registry</h1>
+      <h1>TCS Master Master</h1>
       <p class="subtitle">Aggregated view of robots across all TCS MASTER sites</p>
     </header>
 
     <!-- Master Key Panel -->
     <section class="master-key-panel">
-      <h2>Master Access Credentials</h2>
+      <h2>Master Key</h2>
       <div class="credentials">
         <div class="credential-row">
           <label>Username:</label>
@@ -58,6 +58,7 @@
             <option value="type">Robot Type</option>
             <option value="mac">MAC Address</option>
             <option value="description">Description</option>
+            <option value="date">Date Registered</option>
           </select>
           <button onclick="toggleSortOrder()" class="btn-icon" id="sort-order" title="Toggle sort order">↑</button>
         </div>
@@ -68,52 +69,23 @@
       </div>
     </section>
 
-    <!-- Add Robot Section -->
-    <section class="add-robot-section">
-      <button onclick="toggleAddForm()" class="btn-primary" id="add-robot-btn">
-        ➕ Add New Robot
-      </button>
-      
-      <div id="add-robot-form" class="add-form hidden">
-        <h3>Add New Robot</h3>
-        <form onsubmit="submitRobot(event)">
-          <div class="form-group">
-            <label for="robot-site">Website/Server *</label>
-            <select id="robot-site" required>
-              <option value="">Select a website...</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label for="robot-type">Robot Type *</label>
-            <input type="text" id="robot-type" required maxlength="100" placeholder="e.g., Nargo60-3rd">
-          </div>
-
-          <div class="form-group">
-            <label for="robot-name">Robot Name *</label>
-            <input type="text" id="robot-name" required maxlength="200" placeholder="e.g., TW0060N0036">
-          </div>
-
-          <div class="form-group">
-            <label for="robot-mac">MAC Address *</label>
-            <input type="text" id="robot-mac" required maxlength="17" placeholder="e.g., cc827f6b080a or CC:82:7F:6B:08:0A">
-          </div>
-
-          <div class="form-group">
-            <label for="robot-description">Description</label>
-            <input type="text" id="robot-description" maxlength="500" placeholder="Optional description">
-          </div>
-
-          <!-- Honeypot field (hidden from users) -->
-          <input type="text" id="robot-honeypot" name="honeypot" style="display:none" tabindex="-1" autocomplete="off">
-
-          <div class="form-actions">
-            <button type="submit" class="btn-primary" id="submit-robot-btn">Add Robot</button>
-            <button type="button" onclick="toggleAddForm()" class="btn-secondary">Cancel</button>
-          </div>
-          
-          <div id="form-message" class="form-message"></div>
-        </form>
+    <!-- Data Freshness Info -->
+    <section class="data-info">
+      <div class="info-card">
+        <span class="info-label">📡 Data Source:</span>
+        <span id="data-source">Loading...</span>
+      </div>
+      <div class="info-card">
+        <span class="info-label">🕐 Last Updated:</span>
+        <span id="last-updated">Loading...</span>
+        <button onclick="triggerManualRefresh()" class="btn-primary btn-small" id="manual-refresh-btn" title="Scrape live data from TCS sites">
+          🔄 Resync Live Data
+        </button>
+      </div>
+      <div class="collapse-expand-wrapper">
+        <button onclick="toggleAllSections()" class="btn-secondary btn-small" id="collapse-expand-btn" title="Collapse/Expand all sections">
+          ▼ Close All
+        </button>
       </div>
     </section>
 

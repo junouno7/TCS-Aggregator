@@ -4,12 +4,19 @@
   "description": "Aggregates robots from multiple TCS MASTER sites with search and user submissions",
   "scripts": {
     "build:data": "node scripts/parse_data.js",
+    "merge:data": "node scripts/merge-data.js",
+    "build:all": "npm run build:data && npm run scrape && npm run merge:data",
     "dev": "npm run build:data && netlify dev",
     "deploy": "npm run build:data && netlify deploy --prod",
-    "verify": "node verify-setup.js"
+    "deploy:live": "npm run build:all && netlify deploy --prod",
+    "verify": "node verify-setup.js",
+    "scrape": "node scraper/live-scraper.js",
+    "scrape:visible": "node scraper/live-scraper.js --visible",
+    "scrape:test": "node scraper/test-scraper.js"
   },
   "dependencies": {
-    "@netlify/blobs": "^7.2.0"
+    "@netlify/blobs": "^7.2.0",
+    "puppeteer": "^21.0.0"
   },
   "devDependencies": {
     "netlify-cli": "^17.10.1"
