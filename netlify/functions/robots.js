@@ -1,6 +1,7 @@
 const { getStore } = require('@netlify/blobs');
 const fs = require('fs');
 const path = require('path');
+const https = require('https');
 
 // CORS headers
 const headers = {
@@ -83,14 +84,67 @@ function validateRobotData(data) {
   return { valid: errors.length === 0, errors, macResult };
 }
 
+// Attempt to read JSON from a local file (various possible locations in Netlify runtime)
+function readJsonIfExists(...parts) {
+  try {
+    const filePath = path.join(...parts);
+    if (!fs.existsSync(filePath)) return null;
+    const parsed = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    return parsed;
+  } catch (e) {
+    return null;
+  }
+}
+
+// Fetch JSON from a URL (used to read published static assets when not available on filesystem)
+function fetchJson(url) {
+  return new Promise((resolve) => {
+    try {
+      https.get(url, { headers: { 'User-Agent': 'TCS-Robot-Registry' } }, (res) => {
+        if (res.statusCode !== 200) {
+          res.resume(); // drain
+          return resolve(null);
+        }
+        let data = '';
+        res.on('data', chunk => (data += chunk));
+        res.on('end', () => {
+          try {
+            resolve(JSON.parse(data));
+          } catch {
+            resolve(null);
+          }
+        });
+      }).on('error', () => resolve(null));
+    } catch {
+      resolve(null);
+    }
+  });
+}
+
 // GET handler
-async function handleGet() {
+async function handleGet(event) {
   try {
     // Try to load merged data first (combines live + seed)
-    const mergedDataPath = path.join(__dirname, '../../public/merged-robots.json');
+    // Try multiple locations that can work in Netlify function runtime
+    let mergedData =
+      readJsonIfExists(__dirname, '../../public/merged-robots.json') ||
+      readJsonIfExists(process.cwd(), 'public/merged-robots.json');
+
+    // If not found on filesystem, try fetching from the deployed site URL
+    if (!mergedData) {
+      // Prefer Netlify-provided URLs; fallback to request Host header
+      const reqProtocol = (event && event.headers && (event.headers['x-forwarded-proto'] || event.headers['x-forwarded-protocol'])) || 'https';
+      const reqHost = (event && event.headers && (event.headers['x-forwarded-host'] || event.headers['host'])) || '';
+      const derivedUrl = reqHost ? `${reqProtocol}://${reqHost}` : '';
+      const baseUrl =
+        process.env.DEPLOY_URL || process.env.URL || process.env.SITE_URL || process.env.DEPLOY_PRIME_URL || derivedUrl || '';
+      if (baseUrl) {
+        mergedData =
+          (await fetchJson(`${baseUrl.replace(/\/$/, '')}/merged-robots.json`)) || null;
+      }
+    }
     
-    if (fs.existsSync(mergedDataPath)) {
-      const mergedData = JSON.parse(fs.readFileSync(mergedDataPath, 'utf8'));
+    if (mergedData && mergedData.robots) {
       console.log(`Serving merged data: ${mergedData.robots.length} robots (${mergedData.stats.live} live, ${mergedData.stats.seed} backup)`);
       
       return {
@@ -108,10 +162,24 @@ async function handleGet() {
 
     // Fallback to seed data if merged data doesn't exist
     console.log('No merged data found, falling back to seed data');
-    const seedDataPath = path.join(__dirname, '../../public/data.json');
+    // Attempt to read seed data from multiple locations or via URL
+    let seedData =
+      readJsonIfExists(__dirname, '../../public/data.json') ||
+      readJsonIfExists(process.cwd(), 'public/data.json');
+
+    if (!seedData) {
+      const reqProtocol = (event && event.headers && (event.headers['x-forwarded-proto'] || event.headers['x-forwarded-protocol'])) || 'https';
+      const reqHost = (event && event.headers && (event.headers['x-forwarded-host'] || event.headers['host'])) || '';
+      const derivedUrl = reqHost ? `${reqProtocol}://${reqHost}` : '';
+      const baseUrl =
+        process.env.DEPLOY_URL || process.env.URL || process.env.SITE_URL || process.env.DEPLOY_PRIME_URL || derivedUrl || '';
+      if (baseUrl) {
+        seedData =
+          (await fetchJson(`${baseUrl.replace(/\/$/, '')}/data.json`)) || null;
+      }
+    }
     
-    if (fs.existsSync(seedDataPath)) {
-      const seedData = JSON.parse(fs.readFileSync(seedDataPath, 'utf8'));
+    if (seedData && Array.isArray(seedData.robots)) {
       console.log(`Serving seed data: ${seedData.robots.length} robots`);
       
       return {
@@ -137,7 +205,14 @@ async function handleGet() {
       headers,
       body: JSON.stringify({ 
         error: 'No robot data available',
-        message: 'Run npm run build:data and npm run scrape'
+        message: 'Run npm run build:data and npm run scrape',
+        hint: 'Ensure public/data.json exists in the published site and that build command generates it.',
+        triedFiles: [
+          path.join(__dirname, '../../public/merged-robots.json'),
+          path.join(process.cwd(), 'public/merged-robots.json'),
+          path.join(__dirname, '../../public/data.json'),
+          path.join(process.cwd(), 'public/data.json')
+        ]
       })
     };
 
@@ -277,7 +352,7 @@ exports.handler = async (event, context) => {
 
   // Only GET is supported now (no user submissions)
   if (event.httpMethod === 'GET') {
-    return handleGet();
+    return handleGet(event);
   } else {
     return {
       statusCode: 405,
