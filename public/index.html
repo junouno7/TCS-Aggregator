@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TCS Robot Registry</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🤖 TCS Robot Registry</h1>
+      <p class="subtitle">Aggregated view of robots across all TCS MASTER sites</p>
+    </header>
+
+    <!-- Master Key Panel -->
+    <section class="master-key-panel">
+      <h2>Master Access Credentials</h2>
+      <div class="credentials">
+        <div class="credential-row">
+          <label>Username:</label>
+          <span id="username" class="masked">••••••</span>
+          <button onclick="copyToClipboard('username')" class="btn-icon" title="Copy">📋</button>
+        </div>
+        <div class="credential-row">
+          <label>Password:</label>
+          <span id="password" class="masked">••••••••••</span>
+          <button onclick="copyToClipboard('password')" class="btn-icon" title="Copy">📋</button>
+        </div>
+        <button onclick="toggleCredentials()" class="btn-secondary" id="reveal-btn">👁️ Reveal</button>
+      </div>
+    </section>
+
+    <!-- Controls -->
+    <section class="controls">
+      <div class="search-bar">
+        <input 
+          type="text" 
+          id="search-input" 
+          placeholder="🔍 Search by robot type, name, description, or MAC address..."
+          autocomplete="off"
+        >
+        <button onclick="clearSearch()" class="btn-icon" id="clear-search">✕</button>
+      </div>
+
+      <div class="control-row">
+        <div class="group-toggle">
+          <label>
+            <input type="checkbox" id="group-by-site" checked>
+            Group by Website
+          </label>
+        </div>
+
+        <div class="sort-controls">
+          <label for="sort-field">Sort by:</label>
+          <select id="sort-field">
+            <option value="name">Robot Name</option>
+            <option value="type">Robot Type</option>
+            <option value="mac">MAC Address</option>
+            <option value="description">Description</option>
+          </select>
+          <button onclick="toggleSortOrder()" class="btn-icon" id="sort-order" title="Toggle sort order">↑</button>
+        </div>
+      </div>
+
+      <div class="stats" id="stats">
+        Loading...
+      </div>
+    </section>
+
+    <!-- Add Robot Section -->
+    <section class="add-robot-section">
+      <button onclick="toggleAddForm()" class="btn-primary" id="add-robot-btn">
+        ➕ Add New Robot
+      </button>
+      
+      <div id="add-robot-form" class="add-form hidden">
+        <h3>Add New Robot</h3>
+        <form onsubmit="submitRobot(event)">
+          <div class="form-group">
+            <label for="robot-site">Website/Server *</label>
+            <select id="robot-site" required>
+              <option value="">Select a website...</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="robot-type">Robot Type *</label>
+            <input type="text" id="robot-type" required maxlength="100" placeholder="e.g., Nargo60-3rd">
+          </div>
+
+          <div class="form-group">
+            <label for="robot-name">Robot Name *</label>
+            <input type="text" id="robot-name" required maxlength="200" placeholder="e.g., TW0060N0036">
+          </div>
+
+          <div class="form-group">
+            <label for="robot-mac">MAC Address *</label>
+            <input type="text" id="robot-mac" required maxlength="17" placeholder="e.g., cc827f6b080a or CC:82:7F:6B:08:0A">
+          </div>
+
+          <div class="form-group">
+            <label for="robot-description">Description</label>
+            <input type="text" id="robot-description" maxlength="500" placeholder="Optional description">
+          </div>
+
+          <!-- Honeypot field (hidden from users) -->
+          <input type="text" id="robot-honeypot" name="honeypot" style="display:none" tabindex="-1" autocomplete="off">
+
+          <div class="form-actions">
+            <button type="submit" class="btn-primary" id="submit-robot-btn">Add Robot</button>
+            <button type="button" onclick="toggleAddForm()" class="btn-secondary">Cancel</button>
+          </div>
+          
+          <div id="form-message" class="form-message"></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Robots Display -->
+    <section id="robots-container" class="robots-container">
+      <div class="loading">Loading robots...</div>
+    </section>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,153 @@
+ROBOTS REGISTERED TO EACH WEBSITE. 
+
+
+
+support.twinnyservice.com robots:
+
+| Robot Type         | Robot Name              | Mac Address  | Robot Description   |
+| ------------------ | ----------------------- | ------------ | ------------------- |
+| Nargo60-3rd        | 전시회나갈로봇                 | ec2e98a18bf7 | 2025.02.14          |
+| LP1-PV3            | M-LP-100-A02-01-H1-0001 | b047e9e8eacc | 추가 문제 식별을 위한 반복 주행  |
+| Nargo60            | M-AR-060-A01-B01-0007   | 705dccf2bf38 | 경덕산업테스트             |
+| NargoF300          | M-NL-300-A01-B02-0001   | cc827f368a0b | 카지노                 |
+| 정부과제 안내로봇(김태형)     | 정부과제 안내로봇               | c400add7a284 |                     |
+| NargoF300          | TW0300F0001             | cc827f380239 | 리프트                 |
+| simulator          | 시뮬레이터_남기욱               | 581122d181b4 | 시뮬레이터_남기욱           |
+| LP1                | TW0100P0000             | c400adce99f2 | LP1엔진테스트/TCT미국TEST  |
+| Nargo60-4th        | M-AR-060-A04-B02-0002   | c400adcea050 | 산림청 로봇              |
+| Nargo60-4th        | M-AR-060-A04-B02-0001   | c400adce9849 | 산림청 로봇              |
+| Nargo60-3rd        | M-AR-060-A03-B03-0007   | c400ad87ddfe | 시연로봇                |
+| LP1-PV3            | M-LP-100-A02-01-0002    | 74fe4896e963 | LP1-PV3 성능테스트       |
+| LP1                | TW0100P0009             | c400add7a450 | LP1 16GB test       |
+| Nargo60-3rd        | 나르고 60 연습               | c400ad7cbed8 | 나르고 60 연습용          |
+| Nargo100-3rd       | M-AR-100-A03-B02-0002   | c400ad7a3477 | N/A                 |
+| TS1                | M-TS-060-A01-B04-0001   | cc827f6b07ad | N/A                 |
+| TS1                | M-TS-060-A01-B04-0002   | c400add7a3f4 | N/A                 |
+| FieldRo_robot      | FieldRo_robot_01        | cc827f6b098a | 필드로 로봇              |
+| FieldRo_robot      | FieldRo_robot_02        | cc827f6b0753 | 필드로 로봇              |
+| FieldRo_robot      | FieldRo_robot_03        | cc827f6cb9d3 | 필드로 로봇              |
+| twinny_simulator   | tiwnny_simulator_01     | f02f74b200a1 | tiwnny_simulator_01 |
+| LP1                | TW0100P0041             | c400add7a530 | 컬리 적재함 테스트          |
+| Nargp60-3rd-korail | M-AR-060-A03-B08-0002   | cc827f220550 | GIST 테스트로봇          |
+| LP1                | TW0100P0102             | c400adcea104 | 용마로지스로봇             |
+
+
+http://twinnyshow.twinnyservice.com robots:
+
+| Robot Type          | Robot Name     | Mac Address  | Robot Description     |
+| ------------------- | -------------- | ------------ | --------------------- |
+| Nargo100            | 하이록코리아         | c400ad7a34d5 | 하이록코리아                |
+| Nargo100-3rd        | 희성촉매_나르고100_01 | c400ad7a347b | M-AR-100-A03-B02-0003 |
+| Nargo60-3rd(Gazebo) | Sim_SD         | f02f74b200a1 | 수돈레이션                 |
+
+
+
+cs.twinnyservice.com robots:
+
+| Robot Type      | Robot Name                    | Mac Address  | Robot Description     |
+| --------------- | ----------------------------- | ------------ | --------------------- |
+| 대화형인공지능로봇       | 코레일_광명역_LLM_1호기               | cc827f49d105 | 코레일_광명역_LLM_1호기       |
+| 나르고500          | 나르고500ft 리드앤                  | c400adcea0d0 | 나르고500ft 리드앤          |
+| 오더피킹PV3_테스트     | M_LP_A0333                    | 74fe4896e983 | sddd                  |
+| Nargo300        | 강원랜드_1호기                      | c400add7a28c | TW0300N0001           |
+| Nargo300        | 강원랜드_2호기                      | c400add7a45c | TW0300N0002           |
+| 오더피킹PV3_battery | M_LP_100_A02_01-0001          | b047e9e8ea86 |                       |
+| Nargo60         | 경덕산업                          | 705dccf2bf38 | 경덕산업 TCT전환            |
+| Nargo60         | 대전TP                          | c400ad7a344e | 대전TP                  |
+| LP1             | TW0100P0032                   | cc827f21f9db | test                  |
+| 나르고60           | 정부과제_안내로봇                     | c400add7a284 | LLM 정부과제 안내 로봇        |
+| TS1             | 세종시청 2호기                      | c400add7a3f4 | M-TS-060-A01-B04-0002 |
+|                 | Exhibition_Nargo_OrderPicking | c400adce9a08 |                       |
+| Nargo-3rd       | Sim                           | 1c697a0b9754 | 병호_시뮬레이션              |
+| Nargo-3rd       | Sim2                          | 04421a2b38ce | 시뮬레이션 로봇              |
+
+
+twcs.twinnyservice.com robots:
+
+| Robot Type          | Robot Name          | Mac Address  | Robot Description |
+| ------------------- | ------------------- | ------------ | ----------------- |
+| sim                 | jthan               | 7c10c99f4354 | sim               |
+| LP1                 | TW0100P0010-CS      | c400addf1eb1 | 3층 TCS 테스트용 LP    |
+| Nargo60-4th         | M_AR_060_A04_B02-2  | c400adcea050 | 산림청로봇 2           |
+| Nargo60-4th         | M-AR-060-A04-B02-01 | c400adce9849 | 산림청로봇1            |
+| Nargo60-3rd         | TW0060N0019         | c400adce9c71 | 2층별관 인포인          |
+| Nargo60-3rd         | TW0060N0020         | c400ad974363 | 2층별관 인포인          |
+| Nargo60-3rd         | DCC 로봇 17           | c400adcea0c8 | DCC용 셋업           |
+| Nargo60-4th         | 00032               | cc827f6b084e | asdasd            |
+| Nargo60-4th         | 00033               | cc827f6cb9af | 30                |
+| Nargo60-4th         | 00034               | cc827f6b07ff | 29                |
+| Nargo60-3rd         | farleft(33hogi)     | cc827f6b0745 | farleft           |
+| Nargo60-3rd         | left(31hogi)        | cc827f6cb9a5 | left              |
+| Nargo60-3rd         | farright(34hogi)    | cc827f6cb9e3 | right             |
+| Nargo60-3rd         | sim2                | 04421a2b38ce |                   |
+| Nargo60-3rd(Gazebo) | Sim_CS              | f02f74b1ff62 | CS_Simulator      |
+| NargoF300           | 진희님로봇               | cc827f4b2994 | 4층 테스트용           |
+
+
+
+singlerobot118.twinnyservice.com robots:
+
+| Robot Type       | Robot Name           | Mac Address  | Robot Description |
+| ---------------- | -------------------- | ------------ | ----------------- |
+| simulator        | jthan 시뮬레이터로봇        | 7c10c99f4354 | jthan             |
+| Nargo60-3rd      | 카이스트_나르고             | c400ad97436d | 카이스트_납품한_나르고60    |
+| tetra_ds5        | tetra_ds5_for_twinny | c0fbf9cb1fc7 | 휴림로봇01            |
+| M-AR-060-A03-B03 | TW0060N0036          | cc827f6b080a | 미국수출로봇36          |
+| M-AR-060-A03-B03 | TW0060N0035          | cc827f6b0749 | 미국수출로봇35          |
+| M-AR-060-A03-B03 | TW0060N0037          | cc827f6b087f | 미국수출로봇37          |
+| M-LP-100-A01-B01 | TW0100P0009          | c400add7a450 | 엔진_2.11.6_테스트     |
+| M-AR-060-A03-B03 | TW0060N0028          | cc827f6b0769 | 미국수출로봇28          |
+| LP1-PV3          | MLP100A0201H10001    | b047e9e8eacc | 4층 실험실테스트 04      |
+| Nargo60-3rd      | MAR060A03B030007     | c400ad87ddfe | ML-X센서테스트         |
+
+
+
+singlerobot.twinnyservice.com robots:
+
+| Robot Type           | Robot Name           | Mac Address       | Robot Description     |
+| -------------------- | -------------------- | ----------------- | --------------------- |
+| LP1                  | TW0100P0015          | C4:00:AD:CE:9A:08 | DCC Exhivitor         |
+| Nargo Factory 300    | 나르고 팩토리 컨베이어         | CC:82:7F:4B:29:94 | 휴림 로봇 데모              |
+| Nargo Factory + Lift | KoreaSoft robot      | CC:82:7F:36:8A:0B | korea soft test robot |
+| Nargo Factory 300    | Kerri                | C4:00:AD:D7:A4:20 | Kerri                 |
+| LP1                  | TW0100P0013          | C4:00:AD:CE:A1:10 | SCM FAIR 2025         |
+| LP1                  | TW0100P0019          | C4:00:AD:97:43:6B | SCM FAIR 2025         |
+| LP1                  | TW0100P0009          | C4:00:AD:D7:A4:50 | 4층 실험실 테스트 01         |
+| Nargo60-3rd-korail   | MAR060A03B080002     | C4:00:AD:87:DD:DE | 4층 실험실테스트 02          |
+| LP1-PV3              | MLP100A0201H10001    | B0:47:E9:E8:EA:CC | 4층 실험실테스트 04          |
+| lp1                  | tw0100p0030          | CC:82:7F:22:05:7D | test                  |
+| Nargo60-3rd          | MAR060A03B030008     | C4:00:AD:7C:BE:D8 | 4츨 실험실테스트 03          |
+| LP1                  | TW0100P0036          | C4:00:AD:CE:9B:14 | 3D LiDAR 교체 후 안정성 검증  |
+| factory keri         | factory keri         | CC:82:7F:4B:28:C1 | factory keri          |
+| tetra_ds5            | tetra_ds5_for_twinny | C0:FB:F9:CB:1F:C7 | 휴림로봇01                |
+| Nargo 60 3rd         | Sim2                 | 04:42:1A:2B:38:CE | 시뮬레이터                 |
+
+
+
+in4in.twinnyservice.com robots: 
+
+| Robot Type  | Robot Name   | Mac Address       | Robot Description |
+| ----------- | ------------ | ----------------- | ----------------- |
+| TS1         | 나르고 딜리버리 2호기 | C4:00:AD:D7:A3:F4 | 세종시청 2호기          |
+| TS1         | 나르고 딜리버리 1호기 | CC:82:7F:6B:07:AD | 세종시청 1호기          |
+| Nargo60_3rd | 나르고 60 3호기   | C4:00:AD:7A:34:9C | 세종시청 3호기          |
+
+
+
+fine.twinnyservice.com robots: 
+
+| Robot Type          | Robot Name  | Mac Address       | Robot Description |
+| ------------------- | ----------- | ----------------- | ----------------- |
+| nargo60_patrol      | TW0060N0018 | C4:00:AD:CE:A0:40 | 화인베스틸 in4in       |
+| nargo60_air_cleaner | TW0060N0021 | C4:00:AD:D7:A4:FE | 화인베스틸 in4in       |
+| nargo60_air_cleaner | TW0060N0022 | C4:00:AD:CE:9C:77 | 화인베스틸 in4in       |
+| nargo60_air_cleaner | TW0060N0023 | C4:00:AD:CE:9D:B9 | 화인베스틸 in4in       |
+| nargo60_patrol      | TW0060N0024 | C4:00:AD:CE:A0:B2 | 화인베스틸 in4in       |
+
+
+
+sunbo118.twinnyservice.com robots:
+
+| Robot Type  | Robot Name          | Mac Address  | Robot Description |
+| ----------- | ------------------- | ------------ | ----------------- |
+| Nargo60-3rd | SUNBO CAFE DELIVERY | c400ad97424e | M_AR_060_A03_B03  |
