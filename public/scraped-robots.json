@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2025-11-16T00:49:08.329Z",
+  "scrapedAt": "2025-11-19T00:46:39.681Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -103,7 +103,7 @@
           "registeredDate": "10/29/2025, 6:42:52 AM"
         }
       ],
-      "scrapedAt": "2025-11-16T00:49:16.531Z",
+      "scrapedAt": "2025-11-19T00:46:47.687Z",
       "success": true
     },
     {
@@ -216,13 +216,13 @@
         },
         {
           "type": "NargoF300",
-          "name": "진희님로봇",
-          "mac": "cc827f4b2994",
-          "description": "4층 테스트용",
-          "registeredDate": "2025-11-07 03:10:44"
+          "name": "스마트전자_TEST",
+          "mac": "cc827f6b08a5",
+          "description": "",
+          "registeredDate": "2025-11-18 07:00:47"
         }
       ],
-      "scrapedAt": "2025-11-16T00:49:26.696Z",
+      "scrapedAt": "2025-11-19T00:46:59.138Z",
       "success": true
     },
     {
@@ -250,7 +250,7 @@
           "registeredDate": "2025-09-30 04:16:49"
         }
       ],
-      "scrapedAt": "2025-11-16T00:49:36.897Z",
+      "scrapedAt": "2025-11-19T00:47:10.947Z",
       "success": true
     },
     {
@@ -278,7 +278,7 @@
           "registeredDate": "2025-10-31 00:34:59"
         }
       ],
-      "scrapedAt": "2025-11-16T00:49:46.912Z",
+      "scrapedAt": "2025-11-19T00:47:22.325Z",
       "success": true
     },
     {
@@ -320,7 +320,7 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2025-11-16T00:49:57.080Z",
+      "scrapedAt": "2025-11-19T00:47:33.823Z",
       "success": true
     },
     {
@@ -495,7 +495,7 @@
           "registeredDate": "10/16/2025, 5:52:28 AM"
         }
       ],
-      "scrapedAt": "2025-11-16T00:50:07.280Z",
+      "scrapedAt": "2025-11-19T00:47:44.001Z",
       "success": true
     },
     {
@@ -570,9 +570,16 @@
           "mac": "c400ad87ddfe",
           "description": "MAR060A03B030007",
           "registeredDate": "2025-11-06 05:49:24"
+        },
+        {
+          "type": "M-AR-060-A03-B04",
+          "name": "모터드라이버 교체로봇",
+          "mac": "c400ad9742d3",
+          "description": "TW0060N0015",
+          "registeredDate": "2025-11-17 07:35:08"
         }
       ],
-      "scrapedAt": "2025-11-16T00:50:17.395Z",
+      "scrapedAt": "2025-11-19T00:47:55.557Z",
       "success": true
     },
     {
@@ -684,7 +691,7 @@
           "registeredDate": "2025-10-29 07:50:16"
         }
       ],
-      "scrapedAt": "2025-11-16T00:50:27.545Z",
+      "scrapedAt": "2025-11-19T00:48:07.024Z",
       "success": true
     },
     {
@@ -698,9 +705,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2025-11-16T00:50:37.718Z",
+      "scrapedAt": "2025-11-19T00:48:18.519Z",
       "success": true
     }
   ],
-  "totalRobots": 91
+  "totalRobots": 92
 }
