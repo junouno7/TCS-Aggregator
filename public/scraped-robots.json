@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2025-11-19T00:46:39.681Z",
+  "scrapedAt": "2025-11-22T00:44:07.710Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -103,7 +103,7 @@
           "registeredDate": "10/29/2025, 6:42:52 AM"
         }
       ],
-      "scrapedAt": "2025-11-19T00:46:47.687Z",
+      "scrapedAt": "2025-11-22T00:44:16.030Z",
       "success": true
     },
     {
@@ -215,14 +215,14 @@
           "registeredDate": "2025-10-31 00:08:34"
         },
         {
-          "type": "NargoF300",
-          "name": "스마트전자_TEST",
-          "mac": "cc827f6b08a5",
-          "description": "",
-          "registeredDate": "2025-11-18 07:00:47"
+          "type": "Nargo100-3rd",
+          "name": "TW0100N0008",
+          "mac": "c400ad97422c",
+          "description": "코엠에스",
+          "registeredDate": "2025-11-19 08:30:10"
         }
       ],
-      "scrapedAt": "2025-11-19T00:46:59.138Z",
+      "scrapedAt": "2025-11-22T00:44:26.330Z",
       "success": true
     },
     {
@@ -250,7 +250,7 @@
           "registeredDate": "2025-09-30 04:16:49"
         }
       ],
-      "scrapedAt": "2025-11-19T00:47:10.947Z",
+      "scrapedAt": "2025-11-22T00:44:36.563Z",
       "success": true
     },
     {
@@ -276,9 +276,16 @@
           "mac": "f02f74b200a1",
           "description": "Sim_SD",
           "registeredDate": "2025-10-31 00:34:59"
+        },
+        {
+          "type": "Nargo60-4th",
+          "name": "사내",
+          "mac": "c400adce9999",
+          "description": "남색이",
+          "registeredDate": "2025-11-20 08:29:08"
         }
       ],
-      "scrapedAt": "2025-11-19T00:47:22.325Z",
+      "scrapedAt": "2025-11-22T00:44:47.556Z",
       "success": true
     },
     {
@@ -320,7 +327,7 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2025-11-19T00:47:33.823Z",
+      "scrapedAt": "2025-11-22T00:44:57.896Z",
       "success": true
     },
     {
@@ -495,7 +502,7 @@
           "registeredDate": "10/16/2025, 5:52:28 AM"
         }
       ],
-      "scrapedAt": "2025-11-19T00:47:44.001Z",
+      "scrapedAt": "2025-11-22T00:45:07.717Z",
       "success": true
     },
     {
@@ -577,9 +584,58 @@
           "mac": "c400ad9742d3",
           "description": "TW0060N0015",
           "registeredDate": "2025-11-17 07:35:08"
+        },
+        {
+          "type": "NargoF600",
+          "name": "스마트전자 납품 팩토리 600",
+          "mac": "cc827f6b08a5",
+          "description": "스마트전자",
+          "registeredDate": "2025-11-19 01:54:36"
+        },
+        {
+          "type": "Nargo60",
+          "name": "USA",
+          "mac": "cc827f6cb9a5",
+          "description": "TW0060N0031",
+          "registeredDate": "2025-11-21 08:10:47"
+        },
+        {
+          "type": "Nargo60",
+          "name": "USA",
+          "mac": "cc827f6cb9af",
+          "description": "TW0060N0030",
+          "registeredDate": "2025-11-21 08:20:12"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "USA32",
+          "mac": "cc827f6b084e",
+          "description": "TW0060N0032",
+          "registeredDate": "2025-11-21 08:26:37"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "USA34",
+          "mac": "cc827f6cb9e3",
+          "description": "TW0060N0034",
+          "registeredDate": "2025-11-21 08:27:20"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "USA33",
+          "mac": "cc827f6b0745",
+          "description": "TW0060N0033",
+          "registeredDate": "2025-11-21 08:28:00"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "USA29",
+          "mac": "cc827f6b07ff",
+          "description": "TW0060N0029",
+          "registeredDate": "2025-11-21 08:30:23"
         }
       ],
-      "scrapedAt": "2025-11-19T00:47:55.557Z",
+      "scrapedAt": "2025-11-22T00:45:18.806Z",
       "success": true
     },
     {
@@ -691,7 +747,7 @@
           "registeredDate": "2025-10-29 07:50:16"
         }
       ],
-      "scrapedAt": "2025-11-19T00:48:07.024Z",
+      "scrapedAt": "2025-11-22T00:45:29.912Z",
       "success": true
     },
     {
@@ -705,9 +761,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2025-11-19T00:48:18.519Z",
+      "scrapedAt": "2025-11-22T00:45:40.980Z",
       "success": true
     }
   ],
-  "totalRobots": 92
+  "totalRobots": 100
 }
