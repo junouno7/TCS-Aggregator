@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2025-11-22T00:44:07.710Z",
+  "scrapedAt": "2025-11-25T00:44:55.758Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -103,7 +103,7 @@
           "registeredDate": "10/29/2025, 6:42:52 AM"
         }
       ],
-      "scrapedAt": "2025-11-22T00:44:16.030Z",
+      "scrapedAt": "2025-11-25T00:45:04.393Z",
       "success": true
     },
     {
@@ -222,7 +222,7 @@
           "registeredDate": "2025-11-19 08:30:10"
         }
       ],
-      "scrapedAt": "2025-11-22T00:44:26.330Z",
+      "scrapedAt": "2025-11-25T00:45:15.683Z",
       "success": true
     },
     {
@@ -250,7 +250,7 @@
           "registeredDate": "2025-09-30 04:16:49"
         }
       ],
-      "scrapedAt": "2025-11-22T00:44:36.563Z",
+      "scrapedAt": "2025-11-25T00:45:26.927Z",
       "success": true
     },
     {
@@ -285,7 +285,7 @@
           "registeredDate": "2025-11-20 08:29:08"
         }
       ],
-      "scrapedAt": "2025-11-22T00:44:47.556Z",
+      "scrapedAt": "2025-11-25T00:45:38.026Z",
       "success": true
     },
     {
@@ -327,7 +327,7 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2025-11-22T00:44:57.896Z",
+      "scrapedAt": "2025-11-25T00:45:49.314Z",
       "success": true
     },
     {
@@ -502,7 +502,7 @@
           "registeredDate": "10/16/2025, 5:52:28 AM"
         }
       ],
-      "scrapedAt": "2025-11-22T00:45:07.717Z",
+      "scrapedAt": "2025-11-25T00:45:59.304Z",
       "success": true
     },
     {
@@ -633,9 +633,16 @@
           "mac": "cc827f6b07ff",
           "description": "TW0060N0029",
           "registeredDate": "2025-11-21 08:30:23"
+        },
+        {
+          "type": "NGU_PC",
+          "name": "남기욱PC",
+          "mac": "581122d181b4",
+          "description": "NGU_PC",
+          "registeredDate": "2025-11-24 02:20:50"
         }
       ],
-      "scrapedAt": "2025-11-22T00:45:18.806Z",
+      "scrapedAt": "2025-11-25T00:46:10.542Z",
       "success": true
     },
     {
@@ -747,7 +754,7 @@
           "registeredDate": "2025-10-29 07:50:16"
         }
       ],
-      "scrapedAt": "2025-11-22T00:45:29.912Z",
+      "scrapedAt": "2025-11-25T00:46:21.767Z",
       "success": true
     },
     {
@@ -761,9 +768,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2025-11-22T00:45:40.980Z",
+      "scrapedAt": "2025-11-25T00:46:33.027Z",
       "success": true
     }
   ],
-  "totalRobots": 100
+  "totalRobots": 101
 }
