@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2025-11-28T00:45:00.397Z",
+  "scrapedAt": "2025-12-01T00:57:10.115Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -103,7 +103,7 @@
           "registeredDate": "10/29/2025, 6:42:52 AM"
         }
       ],
-      "scrapedAt": "2025-11-28T00:45:08.610Z",
+      "scrapedAt": "2025-12-01T00:57:18.020Z",
       "success": true
     },
     {
@@ -222,7 +222,7 @@
           "registeredDate": "2025-11-19 08:30:10"
         }
       ],
-      "scrapedAt": "2025-11-28T00:45:18.794Z",
+      "scrapedAt": "2025-12-01T00:57:29.273Z",
       "success": true
     },
     {
@@ -250,7 +250,7 @@
           "registeredDate": "2025-09-30 04:16:49"
         }
       ],
-      "scrapedAt": "2025-11-28T00:45:29.075Z",
+      "scrapedAt": "2025-12-01T00:57:40.559Z",
       "success": true
     },
     {
@@ -285,7 +285,7 @@
           "registeredDate": "2025-11-20 08:29:08"
         }
       ],
-      "scrapedAt": "2025-11-28T00:45:39.126Z",
+      "scrapedAt": "2025-12-01T00:57:51.683Z",
       "success": true
     },
     {
@@ -294,40 +294,40 @@
         {
           "type": "nargo60_patrol",
           "name": "화인베스틸 in4in",
-          "mac": "C4:00:AD:CE:A0:40",
+          "mac": "c400adcea040",
           "description": "TW0060N0018",
           "registeredDate": "2025-09-25 10:56:43"
         },
         {
           "type": "nargo60_air_cleaner",
           "name": "화인베스틸 in4in",
-          "mac": "C4:00:AD:D7:A4:FE",
+          "mac": "c400add7a4fe",
           "description": "TW0060N0021",
           "registeredDate": "2025-09-25 10:58:38"
         },
         {
           "type": "nargo60_air_cleaner",
           "name": "화인베스틸 in4in",
-          "mac": "C4:00:AD:CE:9C:77",
+          "mac": "c400adce9c77",
           "description": "TW0060N0022",
           "registeredDate": "2025-09-26 13:21:07"
         },
         {
           "type": "nargo60_air_cleaner",
           "name": "화인베스틸 in4in",
-          "mac": "C4:00:AD:CE:9D:B9",
+          "mac": "c400adce9db9",
           "description": "TW0060N0023",
           "registeredDate": "2025-09-26 13:53:56"
         },
         {
           "type": "nargo60_patrol",
           "name": "화인베스틸 in4in",
-          "mac": "C4:00:AD:CE:A0:B2",
+          "mac": "c400adcea0b2",
           "description": "TW0060N0024",
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2025-11-28T00:45:49.309Z",
+      "scrapedAt": "2025-12-01T00:58:03.050Z",
       "success": true
     },
     {
@@ -502,7 +502,7 @@
           "registeredDate": "10/16/2025, 5:52:28 AM"
         }
       ],
-      "scrapedAt": "2025-11-28T00:45:59.059Z",
+      "scrapedAt": "2025-12-01T00:58:13.146Z",
       "success": true
     },
     {
@@ -642,7 +642,7 @@
           "registeredDate": "2025-11-24 02:20:50"
         }
       ],
-      "scrapedAt": "2025-11-28T00:46:09.159Z",
+      "scrapedAt": "2025-12-01T00:58:24.368Z",
       "success": true
     },
     {
@@ -754,7 +754,7 @@
           "registeredDate": "2025-10-29 07:50:16"
         }
       ],
-      "scrapedAt": "2025-11-28T00:46:19.242Z",
+      "scrapedAt": "2025-12-01T00:58:35.610Z",
       "success": true
     },
     {
@@ -768,7 +768,7 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2025-11-28T00:46:29.341Z",
+      "scrapedAt": "2025-12-01T00:58:46.908Z",
       "success": true
     }
   ],
