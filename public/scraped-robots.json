@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2025-12-04T00:46:59.557Z",
+  "scrapedAt": "2025-12-07T00:51:53.224Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -103,7 +103,7 @@
           "registeredDate": "10/29/2025, 6:42:52 AM"
         }
       ],
-      "scrapedAt": "2025-12-04T00:47:07.692Z",
+      "scrapedAt": "2025-12-07T00:52:01.434Z",
       "success": true
     },
     {
@@ -223,27 +223,48 @@
         },
         {
           "type": "nargo 60",
-          "name": "TW0060N0040",
+          "name": "국립세종도서관 2F",
           "mac": "cc827f6cb9ff",
-          "description": "",
+          "description": "TW0060N0040",
           "registeredDate": "2025-12-02 04:39:41"
         },
         {
           "type": "nargo 60",
-          "name": "TW0060N0039",
+          "name": "국립세종도서관 1F",
           "mac": "cc827f6b07e4",
-          "description": "",
+          "description": "TW0060N0039",
           "registeredDate": "2025-12-02 04:48:23"
         },
         {
           "type": "nargo 60",
-          "name": "TW0060N0045",
+          "name": "성남 중원도서관 2F",
           "mac": "cc827f6cb99f",
-          "description": "",
+          "description": "TW0060N0045",
           "registeredDate": "2025-12-02 04:55:13"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "(예정) 성남 중원도서관 1F",
+          "mac": "cc827f6cba43",
+          "description": "TW0060N0046",
+          "registeredDate": "2025-12-04 08:05:53"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "(예정) 세종 진로교육원 2F",
+          "mac": "cc827f6cba5f",
+          "description": "TW0060N0044",
+          "registeredDate": "2025-12-04 08:16:25"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "(예정) 세종 진로교육원_1F",
+          "mac": "cc827f6cb9d9",
+          "description": "TW0060N0038",
+          "registeredDate": "2025-12-04 08:28:11"
         }
       ],
-      "scrapedAt": "2025-12-04T00:47:17.724Z",
+      "scrapedAt": "2025-12-07T00:52:12.736Z",
       "success": true
     },
     {
@@ -271,7 +292,7 @@
           "registeredDate": "2025-09-30 04:16:49"
         }
       ],
-      "scrapedAt": "2025-12-04T00:47:27.724Z",
+      "scrapedAt": "2025-12-07T00:52:24.075Z",
       "success": true
     },
     {
@@ -304,9 +325,16 @@
           "mac": "c400adce9999",
           "description": "남색이",
           "registeredDate": "2025-11-20 08:29:08"
+        },
+        {
+          "type": "sim",
+          "name": "11",
+          "mac": "7c10c99f4354",
+          "description": "jthan",
+          "registeredDate": "2025-12-05 02:55:39"
         }
       ],
-      "scrapedAt": "2025-12-04T00:47:37.657Z",
+      "scrapedAt": "2025-12-07T00:52:35.132Z",
       "success": true
     },
     {
@@ -348,15 +376,15 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2025-12-04T00:47:47.773Z",
+      "scrapedAt": "2025-12-07T00:52:46.366Z",
       "success": true
     },
     {
       "siteId": "support.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2025-12-04T00:48:23.195Z",
+      "scrapedAt": "2025-12-07T00:53:18.466Z",
       "success": false,
-      "error": "Waiting for selector `input[type='text']` failed: Waiting failed: 30000ms exceeded"
+      "error": "Navigation timeout of 30000 ms exceeded"
     },
     {
       "siteId": "singlerobot118.twinnyservice.com",
@@ -502,13 +530,13 @@
           "registeredDate": "2025-12-02 01:44:37"
         }
       ],
-      "scrapedAt": "2025-12-04T00:48:33.205Z",
+      "scrapedAt": "2025-12-07T00:53:29.683Z",
       "success": true
     },
     {
       "siteId": "singlerobot.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2025-12-04T00:49:05.301Z",
+      "scrapedAt": "2025-12-07T00:54:01.783Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -523,9 +551,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2025-12-04T00:49:15.320Z",
+      "scrapedAt": "2025-12-07T00:54:13.042Z",
       "success": true
     }
   ],
-  "totalRobots": 66
+  "totalRobots": 70
 }
