@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2025-12-07T00:51:53.224Z",
+  "scrapedAt": "2025-12-10T00:48:40.354Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -103,7 +103,7 @@
           "registeredDate": "10/29/2025, 6:42:52 AM"
         }
       ],
-      "scrapedAt": "2025-12-07T00:52:01.434Z",
+      "scrapedAt": "2025-12-10T00:48:48.694Z",
       "success": true
     },
     {
@@ -223,20 +223,6 @@
         },
         {
           "type": "nargo 60",
-          "name": "국립세종도서관 2F",
-          "mac": "cc827f6cb9ff",
-          "description": "TW0060N0040",
-          "registeredDate": "2025-12-02 04:39:41"
-        },
-        {
-          "type": "nargo 60",
-          "name": "국립세종도서관 1F",
-          "mac": "cc827f6b07e4",
-          "description": "TW0060N0039",
-          "registeredDate": "2025-12-02 04:48:23"
-        },
-        {
-          "type": "nargo 60",
           "name": "성남 중원도서관 2F",
           "mac": "cc827f6cb99f",
           "description": "TW0060N0045",
@@ -244,27 +230,20 @@
         },
         {
           "type": "Nargo60-3rd",
-          "name": "(예정) 성남 중원도서관 1F",
+          "name": "성남 중원도서관 1F",
           "mac": "cc827f6cba43",
           "description": "TW0060N0046",
           "registeredDate": "2025-12-04 08:05:53"
         },
         {
-          "type": "Nargo60-3rd",
-          "name": "(예정) 세종 진로교육원 2F",
-          "mac": "cc827f6cba5f",
-          "description": "TW0060N0044",
-          "registeredDate": "2025-12-04 08:16:25"
-        },
-        {
-          "type": "Nargo60-3rd",
-          "name": "(예정) 세종 진로교육원_1F",
-          "mac": "cc827f6cb9d9",
-          "description": "TW0060N0038",
-          "registeredDate": "2025-12-04 08:28:11"
+          "type": "Nargo60",
+          "name": "TW0060N0047",
+          "mac": "cc827f6cb9cd",
+          "description": "",
+          "registeredDate": "2025-12-09 03:21:13"
         }
       ],
-      "scrapedAt": "2025-12-07T00:52:12.736Z",
+      "scrapedAt": "2025-12-10T00:48:59.843Z",
       "success": true
     },
     {
@@ -292,7 +271,7 @@
           "registeredDate": "2025-09-30 04:16:49"
         }
       ],
-      "scrapedAt": "2025-12-07T00:52:24.075Z",
+      "scrapedAt": "2025-12-10T00:49:10.951Z",
       "success": true
     },
     {
@@ -334,7 +313,7 @@
           "registeredDate": "2025-12-05 02:55:39"
         }
       ],
-      "scrapedAt": "2025-12-07T00:52:35.132Z",
+      "scrapedAt": "2025-12-10T00:49:21.905Z",
       "success": true
     },
     {
@@ -376,13 +355,13 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2025-12-07T00:52:46.366Z",
+      "scrapedAt": "2025-12-10T00:49:33.020Z",
       "success": true
     },
     {
       "siteId": "support.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2025-12-07T00:53:18.466Z",
+      "scrapedAt": "2025-12-10T00:50:05.113Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -528,15 +507,50 @@
           "mac": "c400ad97422c",
           "description": "TW0100N0008",
           "registeredDate": "2025-12-02 01:44:37"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "TW0060N0040",
+          "mac": "cc827f6cb9ff",
+          "description": "국립세종도서관 2F",
+          "registeredDate": "2025-12-08 02:17:24"
+        },
+        {
+          "type": "기계연 로봇 2호기",
+          "name": "기계연 로봇 2호기",
+          "mac": "c400ad87dde1",
+          "description": "기계연 로봇 2호기",
+          "registeredDate": "2025-12-08 06:44:13"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "TW0060N0038",
+          "mac": "cc827f6cb9d9",
+          "description": "세종 진로교육원_1F",
+          "registeredDate": "2025-12-09 02:26:13"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "TW0060N0039",
+          "mac": "cc827f6b07e4",
+          "description": "국립세종도서관 1F",
+          "registeredDate": "2025-12-09 05:32:02"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "TW0060N0044",
+          "mac": "cc827f6cba5f",
+          "description": "세종 진로교육원 2F",
+          "registeredDate": "2025-12-09 05:33:21"
         }
       ],
-      "scrapedAt": "2025-12-07T00:53:29.683Z",
+      "scrapedAt": "2025-12-10T00:50:16.218Z",
       "success": true
     },
     {
       "siteId": "singlerobot.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2025-12-07T00:54:01.783Z",
+      "scrapedAt": "2025-12-10T00:50:48.313Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -551,9 +565,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2025-12-07T00:54:13.042Z",
+      "scrapedAt": "2025-12-10T00:50:58.537Z",
       "success": true
     }
   ],
-  "totalRobots": 70
+  "totalRobots": 72
 }
