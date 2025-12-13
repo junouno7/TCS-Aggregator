@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2025-12-10T00:48:40.354Z",
+  "scrapedAt": "2025-12-13T00:45:50.750Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -103,7 +103,7 @@
           "registeredDate": "10/29/2025, 6:42:52 AM"
         }
       ],
-      "scrapedAt": "2025-12-10T00:48:48.694Z",
+      "scrapedAt": "2025-12-13T00:45:58.582Z",
       "success": true
     },
     {
@@ -222,20 +222,6 @@
           "registeredDate": "2025-11-19 08:30:10"
         },
         {
-          "type": "nargo 60",
-          "name": "성남 중원도서관 2F",
-          "mac": "cc827f6cb99f",
-          "description": "TW0060N0045",
-          "registeredDate": "2025-12-02 04:55:13"
-        },
-        {
-          "type": "Nargo60-3rd",
-          "name": "성남 중원도서관 1F",
-          "mac": "cc827f6cba43",
-          "description": "TW0060N0046",
-          "registeredDate": "2025-12-04 08:05:53"
-        },
-        {
           "type": "Nargo60",
           "name": "TW0060N0047",
           "mac": "cc827f6cb9cd",
@@ -243,7 +229,7 @@
           "registeredDate": "2025-12-09 03:21:13"
         }
       ],
-      "scrapedAt": "2025-12-10T00:48:59.843Z",
+      "scrapedAt": "2025-12-13T00:46:08.662Z",
       "success": true
     },
     {
@@ -271,7 +257,7 @@
           "registeredDate": "2025-09-30 04:16:49"
         }
       ],
-      "scrapedAt": "2025-12-10T00:49:10.951Z",
+      "scrapedAt": "2025-12-13T00:46:18.746Z",
       "success": true
     },
     {
@@ -313,7 +299,7 @@
           "registeredDate": "2025-12-05 02:55:39"
         }
       ],
-      "scrapedAt": "2025-12-10T00:49:21.905Z",
+      "scrapedAt": "2025-12-13T00:46:28.662Z",
       "success": true
     },
     {
@@ -355,13 +341,13 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2025-12-10T00:49:33.020Z",
+      "scrapedAt": "2025-12-13T00:46:38.678Z",
       "success": true
     },
     {
       "siteId": "support.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2025-12-10T00:50:05.113Z",
+      "scrapedAt": "2025-12-13T00:47:10.770Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -542,15 +528,29 @@
           "mac": "cc827f6cba5f",
           "description": "세종 진로교육원 2F",
           "registeredDate": "2025-12-09 05:33:21"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "TW0060N0046",
+          "mac": "cc827f6cba43",
+          "description": "성남 중원도서관 1F",
+          "registeredDate": "2025-12-12 01:09:37"
+        },
+        {
+          "type": "nargo 60",
+          "name": "TW0060N0045",
+          "mac": "cc827f6cb99f",
+          "description": "성남 중원도서관 2F",
+          "registeredDate": "2025-12-12 01:23:46"
         }
       ],
-      "scrapedAt": "2025-12-10T00:50:16.218Z",
+      "scrapedAt": "2025-12-13T00:47:20.909Z",
       "success": true
     },
     {
       "siteId": "singlerobot.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2025-12-10T00:50:48.313Z",
+      "scrapedAt": "2025-12-13T00:47:53.005Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -565,7 +565,7 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2025-12-10T00:50:58.537Z",
+      "scrapedAt": "2025-12-13T00:48:03.090Z",
       "success": true
     }
   ],
