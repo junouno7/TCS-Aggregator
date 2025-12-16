@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2025-12-13T00:45:50.750Z",
+  "scrapedAt": "2025-12-16T00:48:58.449Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -103,134 +103,15 @@
           "registeredDate": "10/29/2025, 6:42:52 AM"
         }
       ],
-      "scrapedAt": "2025-12-13T00:45:58.582Z",
+      "scrapedAt": "2025-12-16T00:49:06.416Z",
       "success": true
     },
     {
       "siteId": "twcs.twinnyservice.com",
-      "robots": [
-        {
-          "type": "sim",
-          "name": "jthan",
-          "mac": "7c10c99f4354",
-          "description": "sim",
-          "registeredDate": "2025-10-14 08:06:11"
-        },
-        {
-          "type": "LP1",
-          "name": "TW0100P0010-CS",
-          "mac": "c400addf1eb1",
-          "description": "3층 TCS 테스트용 LP",
-          "registeredDate": "2025-10-16 01:12:58"
-        },
-        {
-          "type": "Nargo60-4th",
-          "name": "M_AR_060_A04_B02-2",
-          "mac": "c400adcea050",
-          "description": "산림청로봇 2",
-          "registeredDate": "2025-10-16 03:10:55"
-        },
-        {
-          "type": "Nargo60-4th",
-          "name": "M-AR-060-A04-B02-01",
-          "mac": "c400adce9849",
-          "description": "산림청로봇1",
-          "registeredDate": "2025-10-16 03:13:02"
-        },
-        {
-          "type": "Nargo60-3rd",
-          "name": "TW0060N0019",
-          "mac": "c400adce9c71",
-          "description": "2층별관 인포인",
-          "registeredDate": "2025-10-16 04:53:50"
-        },
-        {
-          "type": "Nargo60-3rd",
-          "name": "TW0060N0020",
-          "mac": "c400ad974363",
-          "description": "2층별관 인포인",
-          "registeredDate": "2025-10-16 05:01:48"
-        },
-        {
-          "type": "Nargo60-3rd",
-          "name": "DCC 로봇 17",
-          "mac": "c400adcea0c8",
-          "description": "DCC용 셋업",
-          "registeredDate": "2025-10-16 05:48:35"
-        },
-        {
-          "type": "Nargo60-4th",
-          "name": "00032",
-          "mac": "cc827f6b084e",
-          "description": "asdasd",
-          "registeredDate": "2025-10-20 07:57:57"
-        },
-        {
-          "type": "Nargo60-4th",
-          "name": "00033",
-          "mac": "cc827f6cb9af",
-          "description": "30",
-          "registeredDate": "2025-10-20 09:19:12"
-        },
-        {
-          "type": "Nargo60-4th",
-          "name": "00034",
-          "mac": "cc827f6b07ff",
-          "description": "29",
-          "registeredDate": "2025-10-20 09:44:21"
-        },
-        {
-          "type": "Nargo60-3rd",
-          "name": "farleft(33hogi)",
-          "mac": "cc827f6b0745",
-          "description": "farleft",
-          "registeredDate": "2025-10-22 06:07:10"
-        },
-        {
-          "type": "Nargo60-3rd",
-          "name": "left(31hogi)",
-          "mac": "cc827f6cb9a5",
-          "description": "left",
-          "registeredDate": "2025-10-22 06:13:29"
-        },
-        {
-          "type": "Nargo60-3rd",
-          "name": "farright(34hogi)",
-          "mac": "cc827f6cb9e3",
-          "description": "right",
-          "registeredDate": "2025-10-22 06:24:18"
-        },
-        {
-          "type": "Nargo60-3rd",
-          "name": "sim2",
-          "mac": "04421a2b38ce",
-          "description": "",
-          "registeredDate": "2025-10-29 05:42:46"
-        },
-        {
-          "type": "Nargo60-3rd(Gazebo)",
-          "name": "Sim_CS",
-          "mac": "f02f74b1ff62",
-          "description": "CS_Simulator",
-          "registeredDate": "2025-10-31 00:08:34"
-        },
-        {
-          "type": "Nargo100-3rd",
-          "name": "TW0100N0008",
-          "mac": "c400ad97422c",
-          "description": "코엠에스",
-          "registeredDate": "2025-11-19 08:30:10"
-        },
-        {
-          "type": "Nargo60",
-          "name": "TW0060N0047",
-          "mac": "cc827f6cb9cd",
-          "description": "",
-          "registeredDate": "2025-12-09 03:21:13"
-        }
-      ],
-      "scrapedAt": "2025-12-13T00:46:08.662Z",
-      "success": true
+      "robots": [],
+      "scrapedAt": "2025-12-16T00:49:38.517Z",
+      "success": false,
+      "error": "Navigation timeout of 30000 ms exceeded"
     },
     {
       "siteId": "in4in.twinnyservice.com",
@@ -257,7 +138,7 @@
           "registeredDate": "2025-09-30 04:16:49"
         }
       ],
-      "scrapedAt": "2025-12-13T00:46:18.746Z",
+      "scrapedAt": "2025-12-16T00:49:48.547Z",
       "success": true
     },
     {
@@ -299,7 +180,7 @@
           "registeredDate": "2025-12-05 02:55:39"
         }
       ],
-      "scrapedAt": "2025-12-13T00:46:28.662Z",
+      "scrapedAt": "2025-12-16T00:49:58.595Z",
       "success": true
     },
     {
@@ -341,13 +222,13 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2025-12-13T00:46:38.678Z",
+      "scrapedAt": "2025-12-16T00:50:08.629Z",
       "success": true
     },
     {
       "siteId": "support.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2025-12-13T00:47:10.770Z",
+      "scrapedAt": "2025-12-16T00:50:40.721Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -544,13 +425,13 @@
           "registeredDate": "2025-12-12 01:23:46"
         }
       ],
-      "scrapedAt": "2025-12-13T00:47:20.909Z",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
       "success": true
     },
     {
       "siteId": "singlerobot.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2025-12-13T00:47:53.005Z",
+      "scrapedAt": "2025-12-16T00:51:22.883Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -565,9 +446,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2025-12-13T00:48:03.090Z",
+      "scrapedAt": "2025-12-16T00:51:32.940Z",
       "success": true
     }
   ],
-  "totalRobots": 72
+  "totalRobots": 55
 }
