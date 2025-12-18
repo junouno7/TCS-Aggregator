@@ -53,280 +53,257 @@
   ],
   "robots": [
     {
-      "id": "live-support.twinnyservice.com-EC:2E:98:A1:8B:F7",
+      "id": "seed-0",
       "siteId": "support.twinnyservice.com",
       "type": "Nargo60-3rd",
       "name": "전시회나갈로봇",
       "description": "2025.02.14",
       "mac": "EC:2E:98:A1:8B:F7",
       "rawMac": "ec2e98a18bf7",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "2/14/2025, 8:50:39 AM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.996Z"
     },
     {
-      "id": "live-support.twinnyservice.com-B0:47:E9:E8:EA:CC",
+      "id": "seed-1",
       "siteId": "support.twinnyservice.com",
       "type": "LP1-PV3",
       "name": "M-LP-100-A02-01-H1-0001",
       "description": "추가 문제 식별을 위한 반복 주행",
       "mac": "B0:47:E9:E8:EA:CC",
       "rawMac": "b047e9e8eacc",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "2/17/2025, 12:29:57 PM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.996Z"
     },
     {
-      "id": "live-support.twinnyservice.com-70:5D:CC:F2:BF:38",
+      "id": "seed-2",
       "siteId": "support.twinnyservice.com",
       "type": "Nargo60",
       "name": "M-AR-060-A01-B01-0007",
       "description": "경덕산업테스트",
       "mac": "70:5D:CC:F2:BF:38",
       "rawMac": "705dccf2bf38",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "2/18/2025, 11:01:46 AM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.996Z"
     },
     {
-      "id": "live-support.twinnyservice.com-CC:82:7F:36:8A:0B",
+      "id": "seed-3",
       "siteId": "support.twinnyservice.com",
       "type": "NargoF300",
       "name": "M-NL-300-A01-B02-0001",
       "description": "카지노",
       "mac": "CC:82:7F:36:8A:0B",
       "rawMac": "cc827f368a0b",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "2/24/2025, 2:41:18 PM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.996Z"
     },
     {
-      "id": "live-support.twinnyservice.com-CC:82:7F:38:02:39",
+      "id": "seed-4",
       "siteId": "support.twinnyservice.com",
       "type": "NargoF300",
       "name": "TW0300F0001",
       "description": "리프트",
       "mac": "CC:82:7F:38:02:39",
       "rawMac": "cc827f380239",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "2/25/2025, 9:49:00 AM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.996Z"
     },
     {
-      "id": "live-support.twinnyservice.com-58:11:22:D1:81:B4",
+      "id": "seed-5",
       "siteId": "support.twinnyservice.com",
       "type": "simulator",
       "name": "시뮬레이터_남기욱",
       "description": "시뮬레이터_남기욱",
       "mac": "58:11:22:D1:81:B4",
       "rawMac": "581122d181b4",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "2/26/2025, 3:06:21 PM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.996Z"
     },
     {
-      "id": "live-support.twinnyservice.com-C4:00:AD:CE:99:F2",
+      "id": "seed-6",
       "siteId": "support.twinnyservice.com",
       "type": "LP1",
       "name": "TW0100P0000",
       "description": "LP1엔진테스트/TCT미국TEST",
       "mac": "C4:00:AD:CE:99:F2",
       "rawMac": "c400adce99f2",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "3/13/2025, 5:35:35 PM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.996Z"
     },
     {
-      "id": "live-support.twinnyservice.com-C4:00:AD:CE:A0:50",
+      "id": "seed-7",
       "siteId": "support.twinnyservice.com",
       "type": "Nargo60-4th",
       "name": "M-AR-060-A04-B02-0002",
       "description": "산림청 로봇",
       "mac": "C4:00:AD:CE:A0:50",
       "rawMac": "c400adcea050",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "4/1/2025, 11:51:54 AM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.996Z"
     },
     {
-      "id": "live-support.twinnyservice.com-C4:00:AD:CE:98:49",
+      "id": "seed-8",
       "siteId": "support.twinnyservice.com",
       "type": "Nargo60-4th",
       "name": "M-AR-060-A04-B02-0001",
       "description": "산림청 로봇",
       "mac": "C4:00:AD:CE:98:49",
       "rawMac": "c400adce9849",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "4/2/2025, 10:21:56 AM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.996Z"
     },
     {
-      "id": "live-support.twinnyservice.com-C4:00:AD:87:DD:FE",
+      "id": "seed-9",
       "siteId": "support.twinnyservice.com",
       "type": "Nargo60-3rd",
       "name": "M-AR-060-A03-B03-0007",
       "description": "시연로봇",
       "mac": "C4:00:AD:87:DD:FE",
       "rawMac": "c400ad87ddfe",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "4/2/2025, 2:38:48 PM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.996Z"
     },
     {
-      "id": "live-support.twinnyservice.com-74:FE:48:96:E9:63",
+      "id": "seed-10",
       "siteId": "support.twinnyservice.com",
       "type": "LP1-PV3",
       "name": "M-LP-100-A02-01-0002",
       "description": "LP1-PV3 성능테스트",
       "mac": "74:FE:48:96:E9:63",
       "rawMac": "74fe4896e963",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "4/9/2025, 9:34:16 AM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-support.twinnyservice.com-C4:00:AD:D7:A4:50",
+      "id": "seed-11",
       "siteId": "support.twinnyservice.com",
       "type": "LP1",
       "name": "TW0100P0009",
       "description": "LP1 16GB test",
       "mac": "C4:00:AD:D7:A4:50",
       "rawMac": "c400add7a450",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "6/2/2025, 5:35:33 AM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-support.twinnyservice.com-C4:00:AD:7C:BE:D8",
+      "id": "seed-12",
       "siteId": "support.twinnyservice.com",
       "type": "Nargo60-3rd",
       "name": "나르고 60 연습",
       "description": "나르고 60 연습용",
       "mac": "C4:00:AD:7C:BE:D8",
       "rawMac": "c400ad7cbed8",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "6/19/2025, 7:54:02 AM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-support.twinnyservice.com-C4:00:AD:7A:34:77",
+      "id": "seed-13",
       "siteId": "support.twinnyservice.com",
       "type": "Nargo100-3rd",
       "name": "M-AR-100-A03-B02-0002",
       "description": "N/A",
       "mac": "C4:00:AD:7A:34:77",
       "rawMac": "c400ad7a3477",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "7/1/2025, 3:28:47 AM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-support.twinnyservice.com-CC:82:7F:6B:07:AD",
+      "id": "seed-14",
       "siteId": "support.twinnyservice.com",
       "type": "TS1",
       "name": "M-TS-060-A01-B04-0001",
       "description": "N/A",
       "mac": "CC:82:7F:6B:07:AD",
       "rawMac": "cc827f6b07ad",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "7/3/2025, 5:18:45 AM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-support.twinnyservice.com-C4:00:AD:D7:A3:F4",
+      "id": "seed-15",
       "siteId": "support.twinnyservice.com",
       "type": "TS1",
       "name": "M-TS-060-A01-B04-0002",
       "description": "N/A",
       "mac": "C4:00:AD:D7:A3:F4",
       "rawMac": "c400add7a3f4",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "7/3/2025, 7:13:53 AM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-support.twinnyservice.com-CC:82:7F:6B:09:8A",
+      "id": "seed-16",
       "siteId": "support.twinnyservice.com",
       "type": "FieldRo_robot",
       "name": "FieldRo_robot_01",
       "description": "필드로 로봇",
       "mac": "CC:82:7F:6B:09:8A",
       "rawMac": "cc827f6b098a",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "7/7/2025, 9:52:47 AM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-support.twinnyservice.com-CC:82:7F:6B:07:53",
+      "id": "seed-17",
       "siteId": "support.twinnyservice.com",
       "type": "FieldRo_robot",
       "name": "FieldRo_robot_02",
       "description": "필드로 로봇",
       "mac": "CC:82:7F:6B:07:53",
       "rawMac": "cc827f6b0753",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "7/8/2025, 2:56:48 AM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-support.twinnyservice.com-CC:82:7F:6C:B9:D3",
+      "id": "seed-18",
       "siteId": "support.twinnyservice.com",
       "type": "FieldRo_robot",
       "name": "FieldRo_robot_03",
       "description": "필드로 로봇",
       "mac": "CC:82:7F:6C:B9:D3",
       "rawMac": "cc827f6cb9d3",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "7/8/2025, 5:35:08 AM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-support.twinnyservice.com-F0:2F:74:B2:00:A1",
+      "id": "seed-19",
       "siteId": "support.twinnyservice.com",
       "type": "twinny_simulator",
       "name": "tiwnny_simulator_01",
       "description": "tiwnny_simulator_01",
       "mac": "F0:2F:74:B2:00:A1",
       "rawMac": "f02f74b200a1",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "7/25/2025, 4:34:19 AM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-support.twinnyservice.com-C4:00:AD:D7:A5:30",
+      "id": "seed-20",
       "siteId": "support.twinnyservice.com",
       "type": "LP1",
       "name": "TW0100P0041",
       "description": "컬리 적재함 테스트",
       "mac": "C4:00:AD:D7:A5:30",
       "rawMac": "c400add7a530",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "8/11/2025, 7:49:16 AM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-support.twinnyservice.com-CC:82:7F:22:05:50",
+      "id": "seed-21",
       "siteId": "support.twinnyservice.com",
       "type": "Nargp60-3rd-korail",
       "name": "M-AR-060-A03-B08-0002",
       "description": "GIST 테스트로봇",
       "mac": "CC:82:7F:22:05:50",
       "rawMac": "cc827f220550",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "9/5/2025, 4:28:40 AM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-support.twinnyservice.com-C4:00:AD:CE:A1:04",
+      "id": "seed-22",
       "siteId": "support.twinnyservice.com",
       "type": "LP1",
       "name": "TW0100P0102",
       "description": "용마로지스로봇",
       "mac": "C4:00:AD:CE:A1:04",
       "rawMac": "c400adcea104",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "10/16/2025, 5:52:28 AM"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
       "id": "live-twinnyshow.twinnyservice.com-C4:00:AD:7A:34:D5",
@@ -337,7 +314,7 @@
       "mac": "C4:00:AD:7A:34:D5",
       "rawMac": "c400ad7a34d5",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:19.091Z",
+      "scrapedAt": "2025-12-16T00:49:58.595Z",
       "createdAt": "2025-06-19 06:07:03"
     },
     {
@@ -349,7 +326,7 @@
       "mac": "C4:00:AD:7A:34:7B",
       "rawMac": "c400ad7a347b",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:19.091Z",
+      "scrapedAt": "2025-12-16T00:49:58.595Z",
       "createdAt": "2025-07-11 04:21:12"
     },
     {
@@ -361,7 +338,7 @@
       "mac": "F0:2F:74:B2:00:A1",
       "rawMac": "f02f74b200a1",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:19.091Z",
+      "scrapedAt": "2025-12-16T00:49:58.595Z",
       "createdAt": "2025-10-31 00:34:59"
     },
     {
@@ -373,7 +350,7 @@
       "mac": "CC:82:7F:49:D1:05",
       "rawMac": "cc827f49d105",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:25:45.311Z",
+      "scrapedAt": "2025-12-16T00:49:06.416Z",
       "createdAt": "11/4/2024, 3:36:06 AM"
     },
     {
@@ -385,7 +362,7 @@
       "mac": "C4:00:AD:CE:A0:D0",
       "rawMac": "c400adcea0d0",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:25:45.311Z",
+      "scrapedAt": "2025-12-16T00:49:06.416Z",
       "createdAt": "11/26/2024, 9:06:58 AM"
     },
     {
@@ -397,7 +374,7 @@
       "mac": "74:FE:48:96:E9:83",
       "rawMac": "74fe4896e983",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:25:45.311Z",
+      "scrapedAt": "2025-12-16T00:49:06.416Z",
       "createdAt": "12/19/2024, 2:30:10 PM"
     },
     {
@@ -409,7 +386,7 @@
       "mac": "C4:00:AD:D7:A2:8C",
       "rawMac": "c400add7a28c",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:25:45.311Z",
+      "scrapedAt": "2025-12-16T00:49:06.416Z",
       "createdAt": "1/20/2025, 8:48:42 AM"
     },
     {
@@ -421,7 +398,7 @@
       "mac": "C4:00:AD:D7:A4:5C",
       "rawMac": "c400add7a45c",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:25:45.311Z",
+      "scrapedAt": "2025-12-16T00:49:06.416Z",
       "createdAt": "1/20/2025, 9:03:53 AM"
     },
     {
@@ -433,7 +410,7 @@
       "mac": "70:5D:CC:F2:BF:38",
       "rawMac": "705dccf2bf38",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:25:45.311Z",
+      "scrapedAt": "2025-12-16T00:49:06.416Z",
       "createdAt": "2/5/2025, 8:52:35 AM"
     },
     {
@@ -445,7 +422,7 @@
       "mac": "C4:00:AD:7A:34:4E",
       "rawMac": "c400ad7a344e",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:25:45.311Z",
+      "scrapedAt": "2025-12-16T00:49:06.416Z",
       "createdAt": "2/6/2025, 6:56:10 AM"
     },
     {
@@ -457,7 +434,7 @@
       "mac": "CC:82:7F:21:F9:DB",
       "rawMac": "cc827f21f9db",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:25:45.311Z",
+      "scrapedAt": "2025-12-16T00:49:06.416Z",
       "createdAt": "3/30/2025, 7:39:24 AM"
     },
     {
@@ -469,7 +446,7 @@
       "mac": "C4:00:AD:D7:A2:84",
       "rawMac": "c400add7a284",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:25:45.311Z",
+      "scrapedAt": "2025-12-16T00:49:06.416Z",
       "createdAt": "4/16/2025, 11:24:35 AM"
     },
     {
@@ -481,7 +458,7 @@
       "mac": "C4:00:AD:D7:A3:F4",
       "rawMac": "c400add7a3f4",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:25:45.311Z",
+      "scrapedAt": "2025-12-16T00:49:06.416Z",
       "createdAt": "8/4/2025, 2:46:49 AM"
     },
     {
@@ -493,7 +470,7 @@
       "mac": "1C:69:7A:0B:97:54",
       "rawMac": "1c697a0b9754",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:25:45.311Z",
+      "scrapedAt": "2025-12-16T00:49:06.416Z",
       "createdAt": "10/16/2025, 1:15:04 AM"
     },
     {
@@ -505,188 +482,173 @@
       "mac": "04:42:1A:2B:38:CE",
       "rawMac": "04421a2b38ce",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:25:45.311Z",
+      "scrapedAt": "2025-12-16T00:49:06.416Z",
       "createdAt": "10/29/2025, 6:42:52 AM"
     },
     {
-      "id": "live-twcs.twinnyservice.com-7C:10:C9:9F:43:54",
+      "id": "seed-38",
       "siteId": "twcs.twinnyservice.com",
       "type": "sim",
       "name": "jthan",
       "description": "sim",
       "mac": "7C:10:C9:9F:43:54",
       "rawMac": "7c10c99f4354",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:25:56.567Z",
-      "createdAt": "2025-10-14 08:06:11"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-twcs.twinnyservice.com-C4:00:AD:DF:1E:B1",
+      "id": "seed-39",
       "siteId": "twcs.twinnyservice.com",
       "type": "LP1",
       "name": "TW0100P0010-CS",
       "description": "3층 TCS 테스트용 LP",
       "mac": "C4:00:AD:DF:1E:B1",
       "rawMac": "c400addf1eb1",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:25:56.567Z",
-      "createdAt": "2025-10-16 01:12:58"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-twcs.twinnyservice.com-C4:00:AD:CE:A0:50",
+      "id": "seed-40",
       "siteId": "twcs.twinnyservice.com",
       "type": "Nargo60-4th",
       "name": "M_AR_060_A04_B02-2",
       "description": "산림청로봇 2",
       "mac": "C4:00:AD:CE:A0:50",
       "rawMac": "c400adcea050",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:25:56.567Z",
-      "createdAt": "2025-10-16 03:10:55"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-twcs.twinnyservice.com-C4:00:AD:CE:98:49",
+      "id": "seed-41",
       "siteId": "twcs.twinnyservice.com",
       "type": "Nargo60-4th",
       "name": "M-AR-060-A04-B02-01",
       "description": "산림청로봇1",
       "mac": "C4:00:AD:CE:98:49",
       "rawMac": "c400adce9849",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:25:56.567Z",
-      "createdAt": "2025-10-16 03:13:02"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-twcs.twinnyservice.com-C4:00:AD:CE:9C:71",
+      "id": "seed-42",
       "siteId": "twcs.twinnyservice.com",
       "type": "Nargo60-3rd",
       "name": "TW0060N0019",
       "description": "2층별관 인포인",
       "mac": "C4:00:AD:CE:9C:71",
       "rawMac": "c400adce9c71",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:25:56.567Z",
-      "createdAt": "2025-10-16 04:53:50"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-twcs.twinnyservice.com-C4:00:AD:97:43:63",
+      "id": "seed-43",
       "siteId": "twcs.twinnyservice.com",
       "type": "Nargo60-3rd",
       "name": "TW0060N0020",
       "description": "2층별관 인포인",
       "mac": "C4:00:AD:97:43:63",
       "rawMac": "c400ad974363",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:25:56.567Z",
-      "createdAt": "2025-10-16 05:01:48"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-twcs.twinnyservice.com-C4:00:AD:CE:A0:C8",
+      "id": "seed-44",
       "siteId": "twcs.twinnyservice.com",
       "type": "Nargo60-3rd",
       "name": "DCC 로봇 17",
       "description": "DCC용 셋업",
       "mac": "C4:00:AD:CE:A0:C8",
       "rawMac": "c400adcea0c8",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:25:56.567Z",
-      "createdAt": "2025-10-16 05:48:35"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-twcs.twinnyservice.com-CC:82:7F:6B:08:4E",
+      "id": "seed-45",
       "siteId": "twcs.twinnyservice.com",
       "type": "Nargo60-4th",
       "name": "00032",
       "description": "asdasd",
       "mac": "CC:82:7F:6B:08:4E",
       "rawMac": "cc827f6b084e",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:25:56.567Z",
-      "createdAt": "2025-10-20 07:57:57"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-twcs.twinnyservice.com-CC:82:7F:6C:B9:AF",
+      "id": "seed-46",
       "siteId": "twcs.twinnyservice.com",
       "type": "Nargo60-4th",
       "name": "00033",
       "description": "30",
       "mac": "CC:82:7F:6C:B9:AF",
       "rawMac": "cc827f6cb9af",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:25:56.567Z",
-      "createdAt": "2025-10-20 09:19:12"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-twcs.twinnyservice.com-CC:82:7F:6B:07:FF",
+      "id": "seed-47",
       "siteId": "twcs.twinnyservice.com",
       "type": "Nargo60-4th",
       "name": "00034",
       "description": "29",
       "mac": "CC:82:7F:6B:07:FF",
       "rawMac": "cc827f6b07ff",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:25:56.567Z",
-      "createdAt": "2025-10-20 09:44:21"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-twcs.twinnyservice.com-CC:82:7F:6B:07:45",
+      "id": "seed-48",
       "siteId": "twcs.twinnyservice.com",
       "type": "Nargo60-3rd",
       "name": "farleft(33hogi)",
       "description": "farleft",
       "mac": "CC:82:7F:6B:07:45",
       "rawMac": "cc827f6b0745",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:25:56.567Z",
-      "createdAt": "2025-10-22 06:07:10"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-twcs.twinnyservice.com-CC:82:7F:6C:B9:A5",
+      "id": "seed-49",
       "siteId": "twcs.twinnyservice.com",
       "type": "Nargo60-3rd",
       "name": "left(31hogi)",
       "description": "left",
       "mac": "CC:82:7F:6C:B9:A5",
       "rawMac": "cc827f6cb9a5",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:25:56.567Z",
-      "createdAt": "2025-10-22 06:13:29"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-twcs.twinnyservice.com-CC:82:7F:6C:B9:E3",
+      "id": "seed-50",
       "siteId": "twcs.twinnyservice.com",
       "type": "Nargo60-3rd",
       "name": "farright(34hogi)",
       "description": "right",
       "mac": "CC:82:7F:6C:B9:E3",
       "rawMac": "cc827f6cb9e3",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:25:56.567Z",
-      "createdAt": "2025-10-22 06:24:18"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-twcs.twinnyservice.com-F0:2F:74:B1:FF:62",
+      "id": "seed-51",
       "siteId": "twcs.twinnyservice.com",
       "type": "Nargo60-3rd(Gazebo)",
       "name": "Sim_CS",
       "description": "CS_Simulator",
       "mac": "F0:2F:74:B1:FF:62",
       "rawMac": "f02f74b1ff62",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:25:56.567Z",
-      "createdAt": "2025-10-31 00:08:34"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-twcs.twinnyservice.com-CC:82:7F:4B:29:94",
+      "id": "seed-52",
       "siteId": "twcs.twinnyservice.com",
       "type": "NargoF300",
       "name": "진희님로봇",
       "description": "4층 테스트용",
       "mac": "CC:82:7F:4B:29:94",
       "rawMac": "cc827f4b2994",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:25:56.567Z",
-      "createdAt": "2025-11-07 03:10:44"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
       "id": "live-singlerobot118.twinnyservice.com-7C:10:C9:9F:43:54",
@@ -697,7 +659,7 @@
       "mac": "7C:10:C9:9F:43:54",
       "rawMac": "7c10c99f4354",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:51.680Z",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
       "createdAt": "2025-09-18 08:04:38"
     },
     {
@@ -709,7 +671,7 @@
       "mac": "C4:00:AD:97:43:6D",
       "rawMac": "c400ad97436d",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:51.680Z",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
       "createdAt": "2025-09-29 04:29:00"
     },
     {
@@ -721,7 +683,7 @@
       "mac": "C0:FB:F9:CB:1F:C7",
       "rawMac": "c0fbf9cb1fc7",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:51.680Z",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
       "createdAt": "2025-10-15 06:58:07"
     },
     {
@@ -733,7 +695,7 @@
       "mac": "CC:82:7F:6B:08:0A",
       "rawMac": "cc827f6b080a",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:51.680Z",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
       "createdAt": "2025-10-22 08:18:01"
     },
     {
@@ -745,7 +707,7 @@
       "mac": "CC:82:7F:6B:07:49",
       "rawMac": "cc827f6b0749",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:51.680Z",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
       "createdAt": "2025-10-23 04:39:40"
     },
     {
@@ -757,7 +719,7 @@
       "mac": "CC:82:7F:6B:08:7F",
       "rawMac": "cc827f6b087f",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:51.680Z",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
       "createdAt": "2025-10-23 05:05:15"
     },
     {
@@ -769,7 +731,7 @@
       "mac": "C4:00:AD:D7:A4:50",
       "rawMac": "c400add7a450",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:51.680Z",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
       "createdAt": "2025-10-23 07:37:42"
     },
     {
@@ -781,7 +743,7 @@
       "mac": "CC:82:7F:6B:07:69",
       "rawMac": "cc827f6b0769",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:51.680Z",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
       "createdAt": "2025-10-23 08:34:40"
     },
     {
@@ -793,7 +755,7 @@
       "mac": "B0:47:E9:E8:EA:CC",
       "rawMac": "b047e9e8eacc",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:51.680Z",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
       "createdAt": "2025-10-29 09:42:41"
     },
     {
@@ -805,188 +767,173 @@
       "mac": "C4:00:AD:87:DD:FE",
       "rawMac": "c400ad87ddfe",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:51.680Z",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
       "createdAt": "2025-11-06 05:49:24"
     },
     {
-      "id": "live-singlerobot.twinnyservice.com-C4:00:AD:CE:9A:08",
+      "id": "seed-63",
       "siteId": "singlerobot.twinnyservice.com",
       "type": "LP1",
-      "name": "DCC Exhivitor",
-      "description": "TW0100P0015",
+      "name": "TW0100P0015",
+      "description": "DCC Exhivitor",
       "mac": "C4:00:AD:CE:9A:08",
       "rawMac": "c400adce9a08",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:27:02.877Z",
-      "createdAt": "2025-08-05 06:29:13"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-singlerobot.twinnyservice.com-CC:82:7F:4B:29:94",
+      "id": "seed-64",
       "siteId": "singlerobot.twinnyservice.com",
       "type": "Nargo Factory 300",
-      "name": "휴림 로봇 데모",
-      "description": "나르고 팩토리 컨베이어",
+      "name": "나르고 팩토리 컨베이어",
+      "description": "휴림 로봇 데모",
       "mac": "CC:82:7F:4B:29:94",
       "rawMac": "cc827f4b2994",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:27:02.877Z",
-      "createdAt": "2025-08-13 13:10:41"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-singlerobot.twinnyservice.com-CC:82:7F:36:8A:0B",
+      "id": "seed-65",
       "siteId": "singlerobot.twinnyservice.com",
       "type": "Nargo Factory + Lift",
-      "name": "korea soft test robot",
-      "description": "KoreaSoft robot",
+      "name": "KoreaSoft robot",
+      "description": "korea soft test robot",
       "mac": "CC:82:7F:36:8A:0B",
       "rawMac": "cc827f368a0b",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:27:02.877Z",
-      "createdAt": "2025-08-19 11:35:53"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-singlerobot.twinnyservice.com-C4:00:AD:D7:A4:20",
+      "id": "seed-66",
       "siteId": "singlerobot.twinnyservice.com",
       "type": "Nargo Factory 300",
       "name": "Kerri",
       "description": "Kerri",
       "mac": "C4:00:AD:D7:A4:20",
       "rawMac": "c400add7a420",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:27:02.877Z",
-      "createdAt": "2025-08-26 16:07:50"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-singlerobot.twinnyservice.com-C4:00:AD:CE:A1:10",
+      "id": "seed-67",
       "siteId": "singlerobot.twinnyservice.com",
       "type": "LP1",
-      "name": "SCM FAIR 2025",
-      "description": "TW0100P0013",
+      "name": "TW0100P0013",
+      "description": "SCM FAIR 2025",
       "mac": "C4:00:AD:CE:A1:10",
       "rawMac": "c400adcea110",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:27:02.877Z",
-      "createdAt": "2025-08-29 06:09:37"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-singlerobot.twinnyservice.com-C4:00:AD:97:43:6B",
+      "id": "seed-68",
       "siteId": "singlerobot.twinnyservice.com",
       "type": "LP1",
-      "name": "SCM FAIR 2025",
-      "description": "TW0100P0019",
+      "name": "TW0100P0019",
+      "description": "SCM FAIR 2025",
       "mac": "C4:00:AD:97:43:6B",
       "rawMac": "c400ad97436b",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:27:02.877Z",
-      "createdAt": "2025-08-29 07:48:33"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-singlerobot.twinnyservice.com-C4:00:AD:D7:A4:50",
+      "id": "seed-69",
       "siteId": "singlerobot.twinnyservice.com",
       "type": "LP1",
-      "name": "4층 실험실 테스트 01",
-      "description": "TW0100P0009",
+      "name": "TW0100P0009",
+      "description": "4층 실험실 테스트 01",
       "mac": "C4:00:AD:D7:A4:50",
       "rawMac": "c400add7a450",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:27:02.877Z",
-      "createdAt": "2025-09-09 00:45:55"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-singlerobot.twinnyservice.com-C4:00:AD:87:DD:DE",
+      "id": "seed-70",
       "siteId": "singlerobot.twinnyservice.com",
       "type": "Nargo60-3rd-korail",
-      "name": "4층 실험실테스트 02",
-      "description": "MAR060A03B080002",
+      "name": "MAR060A03B080002",
+      "description": "4층 실험실테스트 02",
       "mac": "C4:00:AD:87:DD:DE",
       "rawMac": "c400ad87ddde",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:27:02.877Z",
-      "createdAt": "2025-09-09 04:55:29"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-singlerobot.twinnyservice.com-B0:47:E9:E8:EA:CC",
+      "id": "seed-71",
       "siteId": "singlerobot.twinnyservice.com",
       "type": "LP1-PV3",
-      "name": "4층 실험실테스트 04",
-      "description": "MLP100A0201H10001",
+      "name": "MLP100A0201H10001",
+      "description": "4층 실험실테스트 04",
       "mac": "B0:47:E9:E8:EA:CC",
       "rawMac": "b047e9e8eacc",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:27:02.877Z",
-      "createdAt": "2025-09-10 00:53:01"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-singlerobot.twinnyservice.com-CC:82:7F:22:05:7D",
+      "id": "seed-72",
       "siteId": "singlerobot.twinnyservice.com",
       "type": "lp1",
-      "name": "test",
-      "description": "tw0100p0030",
+      "name": "tw0100p0030",
+      "description": "test",
       "mac": "CC:82:7F:22:05:7D",
       "rawMac": "cc827f22057d",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:27:02.877Z",
-      "createdAt": "2025-09-10 08:36:43"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-singlerobot.twinnyservice.com-C4:00:AD:7C:BE:D8",
+      "id": "seed-73",
       "siteId": "singlerobot.twinnyservice.com",
       "type": "Nargo60-3rd",
-      "name": "4츨 실험실테스트 03",
-      "description": "MAR060A03B030008",
+      "name": "MAR060A03B030008",
+      "description": "4츨 실험실테스트 03",
       "mac": "C4:00:AD:7C:BE:D8",
       "rawMac": "c400ad7cbed8",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:27:02.877Z",
-      "createdAt": "2025-09-11 01:19:47"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-singlerobot.twinnyservice.com-C4:00:AD:CE:9B:14",
+      "id": "seed-74",
       "siteId": "singlerobot.twinnyservice.com",
       "type": "LP1",
-      "name": "3D LiDAR 교체 후 안정성 검증",
-      "description": "TW0100P0036",
+      "name": "TW0100P0036",
+      "description": "3D LiDAR 교체 후 안정성 검증",
       "mac": "C4:00:AD:CE:9B:14",
       "rawMac": "c400adce9b14",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:27:02.877Z",
-      "createdAt": "2025-09-15 03:13:47"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-singlerobot.twinnyservice.com-CC:82:7F:4B:28:C1",
+      "id": "seed-75",
       "siteId": "singlerobot.twinnyservice.com",
       "type": "factory keri",
       "name": "factory keri",
       "description": "factory keri",
       "mac": "CC:82:7F:4B:28:C1",
       "rawMac": "cc827f4b28c1",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:27:02.877Z",
-      "createdAt": "2025-09-22 08:00:56"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-singlerobot.twinnyservice.com-C0:FB:F9:CB:1F:C7",
+      "id": "seed-76",
       "siteId": "singlerobot.twinnyservice.com",
       "type": "tetra_ds5",
-      "name": "휴림로봇01",
-      "description": "tetra_ds5_for_twinny",
+      "name": "tetra_ds5_for_twinny",
+      "description": "휴림로봇01",
       "mac": "C0:FB:F9:CB:1F:C7",
       "rawMac": "c0fbf9cb1fc7",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:27:02.877Z",
-      "createdAt": "2025-10-15 06:14:24"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
-      "id": "live-singlerobot.twinnyservice.com-04:42:1A:2B:38:CE",
+      "id": "seed-77",
       "siteId": "singlerobot.twinnyservice.com",
       "type": "Nargo 60 3rd",
-      "name": "시뮬레이터",
-      "description": "Sim2",
+      "name": "Sim2",
+      "description": "시뮬레이터",
       "mac": "04:42:1A:2B:38:CE",
       "rawMac": "04421a2b38ce",
-      "source": "live",
-      "scrapedAt": "2025-11-13T12:27:02.877Z",
-      "createdAt": "2025-10-29 07:50:16"
+      "source": "seed",
+      "createdAt": "2025-12-16T00:48:57.997Z"
     },
     {
       "id": "live-in4in.twinnyservice.com-C4:00:AD:D7:A3:F4",
@@ -997,7 +944,7 @@
       "mac": "C4:00:AD:D7:A3:F4",
       "rawMac": "c400add7a3f4",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:07.942Z",
+      "scrapedAt": "2025-12-16T00:49:48.547Z",
       "createdAt": "2025-07-07 12:11:51"
     },
     {
@@ -1009,7 +956,7 @@
       "mac": "CC:82:7F:6B:07:AD",
       "rawMac": "cc827f6b07ad",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:07.942Z",
+      "scrapedAt": "2025-12-16T00:49:48.547Z",
       "createdAt": "2025-07-07 12:15:42"
     },
     {
@@ -1021,7 +968,7 @@
       "mac": "C4:00:AD:7A:34:9C",
       "rawMac": "c400ad7a349c",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:07.942Z",
+      "scrapedAt": "2025-12-16T00:49:48.547Z",
       "createdAt": "2025-09-30 04:16:49"
     },
     {
@@ -1033,7 +980,7 @@
       "mac": "C4:00:AD:CE:A0:40",
       "rawMac": "c400adcea040",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:30.350Z",
+      "scrapedAt": "2025-12-16T00:50:08.629Z",
       "createdAt": "2025-09-25 10:56:43"
     },
     {
@@ -1045,7 +992,7 @@
       "mac": "C4:00:AD:D7:A4:FE",
       "rawMac": "c400add7a4fe",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:30.350Z",
+      "scrapedAt": "2025-12-16T00:50:08.629Z",
       "createdAt": "2025-09-25 10:58:38"
     },
     {
@@ -1057,7 +1004,7 @@
       "mac": "C4:00:AD:CE:9C:77",
       "rawMac": "c400adce9c77",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:30.350Z",
+      "scrapedAt": "2025-12-16T00:50:08.629Z",
       "createdAt": "2025-09-26 13:21:07"
     },
     {
@@ -1069,7 +1016,7 @@
       "mac": "C4:00:AD:CE:9D:B9",
       "rawMac": "c400adce9db9",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:30.350Z",
+      "scrapedAt": "2025-12-16T00:50:08.629Z",
       "createdAt": "2025-09-26 13:53:56"
     },
     {
@@ -1081,7 +1028,7 @@
       "mac": "C4:00:AD:CE:A0:B2",
       "rawMac": "c400adcea0b2",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:30.350Z",
+      "scrapedAt": "2025-12-16T00:50:08.629Z",
       "createdAt": "2025-09-26 13:57:10"
     },
     {
@@ -1093,7 +1040,7 @@
       "mac": "C4:00:AD:97:42:4E",
       "rawMac": "c400ad97424e",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:27:14.069Z",
+      "scrapedAt": "2025-12-16T00:51:32.940Z",
       "createdAt": "2025-07-18 11:29:26"
     },
     {
@@ -1105,7 +1052,7 @@
       "mac": "B0:47:E9:E8:EA:86",
       "rawMac": "b047e9e8ea86",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:25:45.311Z",
+      "scrapedAt": "2025-12-16T00:49:06.416Z",
       "createdAt": "2/3/2025, 8:59:31 AM"
     },
     {
@@ -1117,39 +1064,243 @@
       "mac": "C4:00:AD:CE:9A:08",
       "rawMac": "c400adce9a08",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:25:45.311Z",
+      "scrapedAt": "2025-12-16T00:49:06.416Z",
       "createdAt": "8/5/2025, 10:16:33 AM"
     },
     {
-      "id": "live-twcs.twinnyservice.com-04:42:1A:2B:38:CE",
-      "siteId": "twcs.twinnyservice.com",
-      "type": "Nargo60-3rd",
-      "name": "sim2",
-      "description": "",
-      "mac": "04:42:1A:2B:38:CE",
-      "rawMac": "04421a2b38ce",
+      "id": "live-twinnyshow.twinnyservice.com-C4:00:AD:CE:99:99",
+      "siteId": "twinnyshow.twinnyservice.com",
+      "type": "Nargo60-4th",
+      "name": "사내",
+      "description": "남색이",
+      "mac": "C4:00:AD:CE:99:99",
+      "rawMac": "c400adce9999",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:25:56.567Z",
-      "createdAt": "2025-10-29 05:42:46"
+      "scrapedAt": "2025-12-16T00:49:58.595Z",
+      "createdAt": "2025-11-20 08:29:08"
     },
     {
-      "id": "live-support.twinnyservice.com-C4:00:AD:D7:A2:84",
-      "siteId": "support.twinnyservice.com",
-      "type": "정부과제 안내로봇(김태형)",
-      "name": "정부과제 안내로봇",
-      "description": "",
-      "mac": "C4:00:AD:D7:A2:84",
-      "rawMac": "c400add7a284",
+      "id": "live-twinnyshow.twinnyservice.com-7C:10:C9:9F:43:54",
+      "siteId": "twinnyshow.twinnyservice.com",
+      "type": "sim",
+      "name": "11",
+      "description": "jthan",
+      "mac": "7C:10:C9:9F:43:54",
+      "rawMac": "7c10c99f4354",
       "source": "live",
-      "scrapedAt": "2025-11-13T12:26:40.419Z",
-      "createdAt": "2/24/2025, 10:15:04 PM"
+      "scrapedAt": "2025-12-16T00:49:58.595Z",
+      "createdAt": "2025-12-05 02:55:39"
+    },
+    {
+      "id": "live-singlerobot118.twinnyservice.com-C4:00:AD:97:42:D3",
+      "siteId": "singlerobot118.twinnyservice.com",
+      "type": "M-AR-060-A03-B04",
+      "name": "모터드라이버 교체로봇",
+      "description": "TW0060N0015",
+      "mac": "C4:00:AD:97:42:D3",
+      "rawMac": "c400ad9742d3",
+      "source": "live",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
+      "createdAt": "2025-11-17 07:35:08"
+    },
+    {
+      "id": "live-singlerobot118.twinnyservice.com-CC:82:7F:6B:08:A5",
+      "siteId": "singlerobot118.twinnyservice.com",
+      "type": "NargoF600",
+      "name": "스마트전자 납품 팩토리 600",
+      "description": "스마트전자",
+      "mac": "CC:82:7F:6B:08:A5",
+      "rawMac": "cc827f6b08a5",
+      "source": "live",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
+      "createdAt": "2025-11-19 01:54:36"
+    },
+    {
+      "id": "live-singlerobot118.twinnyservice.com-CC:82:7F:6C:B9:A5",
+      "siteId": "singlerobot118.twinnyservice.com",
+      "type": "Nargo60",
+      "name": "USA",
+      "description": "TW0060N0031",
+      "mac": "CC:82:7F:6C:B9:A5",
+      "rawMac": "cc827f6cb9a5",
+      "source": "live",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
+      "createdAt": "2025-11-21 08:10:47"
+    },
+    {
+      "id": "live-singlerobot118.twinnyservice.com-CC:82:7F:6C:B9:AF",
+      "siteId": "singlerobot118.twinnyservice.com",
+      "type": "Nargo60",
+      "name": "USA",
+      "description": "TW0060N0030",
+      "mac": "CC:82:7F:6C:B9:AF",
+      "rawMac": "cc827f6cb9af",
+      "source": "live",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
+      "createdAt": "2025-11-21 08:20:12"
+    },
+    {
+      "id": "live-singlerobot118.twinnyservice.com-CC:82:7F:6B:08:4E",
+      "siteId": "singlerobot118.twinnyservice.com",
+      "type": "Nargo60-3rd",
+      "name": "USA32",
+      "description": "TW0060N0032",
+      "mac": "CC:82:7F:6B:08:4E",
+      "rawMac": "cc827f6b084e",
+      "source": "live",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
+      "createdAt": "2025-11-21 08:26:37"
+    },
+    {
+      "id": "live-singlerobot118.twinnyservice.com-CC:82:7F:6C:B9:E3",
+      "siteId": "singlerobot118.twinnyservice.com",
+      "type": "Nargo60-3rd",
+      "name": "USA34",
+      "description": "TW0060N0034",
+      "mac": "CC:82:7F:6C:B9:E3",
+      "rawMac": "cc827f6cb9e3",
+      "source": "live",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
+      "createdAt": "2025-11-21 08:27:20"
+    },
+    {
+      "id": "live-singlerobot118.twinnyservice.com-CC:82:7F:6B:07:45",
+      "siteId": "singlerobot118.twinnyservice.com",
+      "type": "Nargo60-3rd",
+      "name": "USA33",
+      "description": "TW0060N0033",
+      "mac": "CC:82:7F:6B:07:45",
+      "rawMac": "cc827f6b0745",
+      "source": "live",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
+      "createdAt": "2025-11-21 08:28:00"
+    },
+    {
+      "id": "live-singlerobot118.twinnyservice.com-CC:82:7F:6B:07:FF",
+      "siteId": "singlerobot118.twinnyservice.com",
+      "type": "Nargo60-3rd",
+      "name": "USA29",
+      "description": "TW0060N0029",
+      "mac": "CC:82:7F:6B:07:FF",
+      "rawMac": "cc827f6b07ff",
+      "source": "live",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
+      "createdAt": "2025-11-21 08:30:23"
+    },
+    {
+      "id": "live-singlerobot118.twinnyservice.com-58:11:22:D1:81:B4",
+      "siteId": "singlerobot118.twinnyservice.com",
+      "type": "NGU_PC",
+      "name": "남기욱PC",
+      "description": "NGU_PC",
+      "mac": "58:11:22:D1:81:B4",
+      "rawMac": "581122d181b4",
+      "source": "live",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
+      "createdAt": "2025-11-24 02:20:50"
+    },
+    {
+      "id": "live-singlerobot118.twinnyservice.com-C4:00:AD:97:42:2C",
+      "siteId": "singlerobot118.twinnyservice.com",
+      "type": "Nargo100-3rd",
+      "name": "코엠에스",
+      "description": "TW0100N0008",
+      "mac": "C4:00:AD:97:42:2C",
+      "rawMac": "c400ad97422c",
+      "source": "live",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
+      "createdAt": "2025-12-02 01:44:37"
+    },
+    {
+      "id": "live-singlerobot118.twinnyservice.com-CC:82:7F:6C:B9:FF",
+      "siteId": "singlerobot118.twinnyservice.com",
+      "type": "Nargo60-3rd",
+      "name": "TW0060N0040",
+      "description": "국립세종도서관 2F",
+      "mac": "CC:82:7F:6C:B9:FF",
+      "rawMac": "cc827f6cb9ff",
+      "source": "live",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
+      "createdAt": "2025-12-08 02:17:24"
+    },
+    {
+      "id": "live-singlerobot118.twinnyservice.com-C4:00:AD:87:DD:E1",
+      "siteId": "singlerobot118.twinnyservice.com",
+      "type": "기계연 로봇 2호기",
+      "name": "기계연 로봇 2호기",
+      "description": "기계연 로봇 2호기",
+      "mac": "C4:00:AD:87:DD:E1",
+      "rawMac": "c400ad87dde1",
+      "source": "live",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
+      "createdAt": "2025-12-08 06:44:13"
+    },
+    {
+      "id": "live-singlerobot118.twinnyservice.com-CC:82:7F:6C:B9:D9",
+      "siteId": "singlerobot118.twinnyservice.com",
+      "type": "Nargo60-3rd",
+      "name": "TW0060N0038",
+      "description": "세종 진로교육원_1F",
+      "mac": "CC:82:7F:6C:B9:D9",
+      "rawMac": "cc827f6cb9d9",
+      "source": "live",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
+      "createdAt": "2025-12-09 02:26:13"
+    },
+    {
+      "id": "live-singlerobot118.twinnyservice.com-CC:82:7F:6B:07:E4",
+      "siteId": "singlerobot118.twinnyservice.com",
+      "type": "Nargo60-3rd",
+      "name": "TW0060N0039",
+      "description": "국립세종도서관 1F",
+      "mac": "CC:82:7F:6B:07:E4",
+      "rawMac": "cc827f6b07e4",
+      "source": "live",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
+      "createdAt": "2025-12-09 05:32:02"
+    },
+    {
+      "id": "live-singlerobot118.twinnyservice.com-CC:82:7F:6C:BA:5F",
+      "siteId": "singlerobot118.twinnyservice.com",
+      "type": "Nargo60-3rd",
+      "name": "TW0060N0044",
+      "description": "세종 진로교육원 2F",
+      "mac": "CC:82:7F:6C:BA:5F",
+      "rawMac": "cc827f6cba5f",
+      "source": "live",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
+      "createdAt": "2025-12-09 05:33:21"
+    },
+    {
+      "id": "live-singlerobot118.twinnyservice.com-CC:82:7F:6C:BA:43",
+      "siteId": "singlerobot118.twinnyservice.com",
+      "type": "Nargo60-3rd",
+      "name": "TW0060N0046",
+      "description": "성남 중원도서관 1F",
+      "mac": "CC:82:7F:6C:BA:43",
+      "rawMac": "cc827f6cba43",
+      "source": "live",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
+      "createdAt": "2025-12-12 01:09:37"
+    },
+    {
+      "id": "live-singlerobot118.twinnyservice.com-CC:82:7F:6C:B9:9F",
+      "siteId": "singlerobot118.twinnyservice.com",
+      "type": "nargo 60",
+      "name": "TW0060N0045",
+      "description": "성남 중원도서관 2F",
+      "mac": "CC:82:7F:6C:B9:9F",
+      "rawMac": "cc827f6cb99f",
+      "source": "live",
+      "scrapedAt": "2025-12-16T00:50:50.792Z",
+      "createdAt": "2025-12-12 01:23:46"
     }
   ],
-  "scrapedAt": "2025-11-13T12:25:36.701Z",
-  "mergedAt": "2025-11-13T12:27:16.273Z",
+  "scrapedAt": "2025-12-16T00:48:58.449Z",
+  "mergedAt": "2025-12-16T00:51:35.135Z",
   "stats": {
-    "total": 91,
-    "live": 91,
-    "seed": 0
+    "total": 108,
+    "live": 55,
+    "seed": 53
   }
 }
