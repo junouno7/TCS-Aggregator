@@ -61,7 +61,7 @@
       "mac": "EC:2E:98:A1:8B:F7",
       "rawMac": "ec2e98a18bf7",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.356Z"
+      "createdAt": "2025-12-18T09:58:38.640Z"
     },
     {
       "id": "seed-1",
@@ -72,7 +72,7 @@
       "mac": "B0:47:E9:E8:EA:CC",
       "rawMac": "b047e9e8eacc",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.640Z"
     },
     {
       "id": "seed-2",
@@ -83,7 +83,7 @@
       "mac": "70:5D:CC:F2:BF:38",
       "rawMac": "705dccf2bf38",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.640Z"
     },
     {
       "id": "seed-3",
@@ -94,7 +94,7 @@
       "mac": "CC:82:7F:36:8A:0B",
       "rawMac": "cc827f368a0b",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.640Z"
     },
     {
       "id": "seed-4",
@@ -105,7 +105,7 @@
       "mac": "CC:82:7F:38:02:39",
       "rawMac": "cc827f380239",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.640Z"
     },
     {
       "id": "seed-5",
@@ -116,7 +116,7 @@
       "mac": "58:11:22:D1:81:B4",
       "rawMac": "581122d181b4",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.640Z"
     },
     {
       "id": "seed-6",
@@ -127,7 +127,7 @@
       "mac": "C4:00:AD:CE:99:F2",
       "rawMac": "c400adce99f2",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.640Z"
     },
     {
       "id": "seed-7",
@@ -138,7 +138,7 @@
       "mac": "C4:00:AD:CE:A0:50",
       "rawMac": "c400adcea050",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.640Z"
     },
     {
       "id": "seed-8",
@@ -149,7 +149,7 @@
       "mac": "C4:00:AD:CE:98:49",
       "rawMac": "c400adce9849",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.640Z"
     },
     {
       "id": "seed-9",
@@ -160,7 +160,7 @@
       "mac": "C4:00:AD:87:DD:FE",
       "rawMac": "c400ad87ddfe",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.640Z"
     },
     {
       "id": "seed-10",
@@ -171,7 +171,7 @@
       "mac": "74:FE:48:96:E9:63",
       "rawMac": "74fe4896e963",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.640Z"
     },
     {
       "id": "seed-11",
@@ -182,7 +182,7 @@
       "mac": "C4:00:AD:D7:A4:50",
       "rawMac": "c400add7a450",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.640Z"
     },
     {
       "id": "seed-12",
@@ -193,7 +193,7 @@
       "mac": "C4:00:AD:7C:BE:D8",
       "rawMac": "c400ad7cbed8",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.640Z"
     },
     {
       "id": "seed-13",
@@ -204,7 +204,7 @@
       "mac": "C4:00:AD:7A:34:77",
       "rawMac": "c400ad7a3477",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.640Z"
     },
     {
       "id": "seed-14",
@@ -215,7 +215,7 @@
       "mac": "CC:82:7F:6B:07:AD",
       "rawMac": "cc827f6b07ad",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.640Z"
     },
     {
       "id": "seed-15",
@@ -226,7 +226,7 @@
       "mac": "C4:00:AD:D7:A3:F4",
       "rawMac": "c400add7a3f4",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.640Z"
     },
     {
       "id": "seed-16",
@@ -237,7 +237,7 @@
       "mac": "CC:82:7F:6B:09:8A",
       "rawMac": "cc827f6b098a",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.640Z"
     },
     {
       "id": "seed-17",
@@ -248,7 +248,7 @@
       "mac": "CC:82:7F:6B:07:53",
       "rawMac": "cc827f6b0753",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.640Z"
     },
     {
       "id": "seed-18",
@@ -259,7 +259,7 @@
       "mac": "CC:82:7F:6C:B9:D3",
       "rawMac": "cc827f6cb9d3",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.640Z"
     },
     {
       "id": "seed-19",
@@ -270,7 +270,7 @@
       "mac": "F0:2F:74:B2:00:A1",
       "rawMac": "f02f74b200a1",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-20",
@@ -281,7 +281,7 @@
       "mac": "C4:00:AD:D7:A5:30",
       "rawMac": "c400add7a530",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-21",
@@ -292,7 +292,7 @@
       "mac": "CC:82:7F:22:05:50",
       "rawMac": "cc827f220550",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-22",
@@ -303,7 +303,7 @@
       "mac": "C4:00:AD:CE:A1:04",
       "rawMac": "c400adcea104",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-23",
@@ -314,7 +314,7 @@
       "mac": "C4:00:AD:7A:34:D5",
       "rawMac": "c400ad7a34d5",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-24",
@@ -325,7 +325,7 @@
       "mac": "C4:00:AD:7A:34:7B",
       "rawMac": "c400ad7a347b",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-25",
@@ -336,7 +336,7 @@
       "mac": "F0:2F:74:B2:00:A1",
       "rawMac": "f02f74b200a1",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-26",
@@ -347,7 +347,7 @@
       "mac": "CC:82:7F:49:D1:05",
       "rawMac": "cc827f49d105",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-27",
@@ -358,7 +358,7 @@
       "mac": "C4:00:AD:CE:A0:D0",
       "rawMac": "c400adcea0d0",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-28",
@@ -369,7 +369,7 @@
       "mac": "74:FE:48:96:E9:83",
       "rawMac": "74fe4896e983",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-29",
@@ -380,7 +380,7 @@
       "mac": "C4:00:AD:D7:A2:8C",
       "rawMac": "c400add7a28c",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-30",
@@ -391,7 +391,7 @@
       "mac": "C4:00:AD:D7:A4:5C",
       "rawMac": "c400add7a45c",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-31",
@@ -402,7 +402,7 @@
       "mac": "70:5D:CC:F2:BF:38",
       "rawMac": "705dccf2bf38",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-32",
@@ -413,7 +413,7 @@
       "mac": "C4:00:AD:7A:34:4E",
       "rawMac": "c400ad7a344e",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-33",
@@ -424,7 +424,7 @@
       "mac": "CC:82:7F:21:F9:DB",
       "rawMac": "cc827f21f9db",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-34",
@@ -435,7 +435,7 @@
       "mac": "C4:00:AD:D7:A2:84",
       "rawMac": "c400add7a284",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-35",
@@ -446,7 +446,7 @@
       "mac": "C4:00:AD:D7:A3:F4",
       "rawMac": "c400add7a3f4",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-36",
@@ -457,7 +457,7 @@
       "mac": "1C:69:7A:0B:97:54",
       "rawMac": "1c697a0b9754",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-37",
@@ -468,7 +468,7 @@
       "mac": "04:42:1A:2B:38:CE",
       "rawMac": "04421a2b38ce",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-38",
@@ -479,7 +479,7 @@
       "mac": "7C:10:C9:9F:43:54",
       "rawMac": "7c10c99f4354",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-39",
@@ -490,7 +490,7 @@
       "mac": "C4:00:AD:DF:1E:B1",
       "rawMac": "c400addf1eb1",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-40",
@@ -501,7 +501,7 @@
       "mac": "C4:00:AD:CE:A0:50",
       "rawMac": "c400adcea050",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-41",
@@ -512,7 +512,7 @@
       "mac": "C4:00:AD:CE:98:49",
       "rawMac": "c400adce9849",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-42",
@@ -523,7 +523,7 @@
       "mac": "C4:00:AD:CE:9C:71",
       "rawMac": "c400adce9c71",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-43",
@@ -534,7 +534,7 @@
       "mac": "C4:00:AD:97:43:63",
       "rawMac": "c400ad974363",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-44",
@@ -545,7 +545,7 @@
       "mac": "C4:00:AD:CE:A0:C8",
       "rawMac": "c400adcea0c8",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-45",
@@ -556,7 +556,7 @@
       "mac": "CC:82:7F:6B:08:4E",
       "rawMac": "cc827f6b084e",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-46",
@@ -567,7 +567,7 @@
       "mac": "CC:82:7F:6C:B9:AF",
       "rawMac": "cc827f6cb9af",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-47",
@@ -578,7 +578,7 @@
       "mac": "CC:82:7F:6B:07:FF",
       "rawMac": "cc827f6b07ff",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-48",
@@ -589,7 +589,7 @@
       "mac": "CC:82:7F:6B:07:45",
       "rawMac": "cc827f6b0745",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-49",
@@ -600,7 +600,7 @@
       "mac": "CC:82:7F:6C:B9:A5",
       "rawMac": "cc827f6cb9a5",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-50",
@@ -611,7 +611,7 @@
       "mac": "CC:82:7F:6C:B9:E3",
       "rawMac": "cc827f6cb9e3",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-51",
@@ -622,7 +622,7 @@
       "mac": "F0:2F:74:B1:FF:62",
       "rawMac": "f02f74b1ff62",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-52",
@@ -633,7 +633,7 @@
       "mac": "CC:82:7F:4B:29:94",
       "rawMac": "cc827f4b2994",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-53",
@@ -644,7 +644,7 @@
       "mac": "7C:10:C9:9F:43:54",
       "rawMac": "7c10c99f4354",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-54",
@@ -655,7 +655,7 @@
       "mac": "C4:00:AD:97:43:6D",
       "rawMac": "c400ad97436d",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-55",
@@ -666,7 +666,7 @@
       "mac": "C0:FB:F9:CB:1F:C7",
       "rawMac": "c0fbf9cb1fc7",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-56",
@@ -677,7 +677,7 @@
       "mac": "CC:82:7F:6B:08:0A",
       "rawMac": "cc827f6b080a",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-57",
@@ -688,7 +688,7 @@
       "mac": "CC:82:7F:6B:07:49",
       "rawMac": "cc827f6b0749",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-58",
@@ -699,7 +699,7 @@
       "mac": "CC:82:7F:6B:08:7F",
       "rawMac": "cc827f6b087f",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-59",
@@ -710,7 +710,7 @@
       "mac": "C4:00:AD:D7:A4:50",
       "rawMac": "c400add7a450",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-60",
@@ -721,7 +721,7 @@
       "mac": "CC:82:7F:6B:07:69",
       "rawMac": "cc827f6b0769",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-61",
@@ -732,7 +732,7 @@
       "mac": "B0:47:E9:E8:EA:CC",
       "rawMac": "b047e9e8eacc",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-62",
@@ -743,7 +743,7 @@
       "mac": "C4:00:AD:87:DD:FE",
       "rawMac": "c400ad87ddfe",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-63",
@@ -754,7 +754,7 @@
       "mac": "C4:00:AD:CE:9A:08",
       "rawMac": "c400adce9a08",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-64",
@@ -765,7 +765,7 @@
       "mac": "CC:82:7F:4B:29:94",
       "rawMac": "cc827f4b2994",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-65",
@@ -776,7 +776,7 @@
       "mac": "CC:82:7F:36:8A:0B",
       "rawMac": "cc827f368a0b",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-66",
@@ -787,7 +787,7 @@
       "mac": "C4:00:AD:D7:A4:20",
       "rawMac": "c400add7a420",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-67",
@@ -798,7 +798,7 @@
       "mac": "C4:00:AD:CE:A1:10",
       "rawMac": "c400adcea110",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-68",
@@ -809,7 +809,7 @@
       "mac": "C4:00:AD:97:43:6B",
       "rawMac": "c400ad97436b",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-69",
@@ -820,7 +820,7 @@
       "mac": "C4:00:AD:D7:A4:50",
       "rawMac": "c400add7a450",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-70",
@@ -831,7 +831,7 @@
       "mac": "C4:00:AD:87:DD:DE",
       "rawMac": "c400ad87ddde",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-71",
@@ -842,7 +842,7 @@
       "mac": "B0:47:E9:E8:EA:CC",
       "rawMac": "b047e9e8eacc",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-72",
@@ -853,7 +853,7 @@
       "mac": "CC:82:7F:22:05:7D",
       "rawMac": "cc827f22057d",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-73",
@@ -864,7 +864,7 @@
       "mac": "C4:00:AD:7C:BE:D8",
       "rawMac": "c400ad7cbed8",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-74",
@@ -875,7 +875,7 @@
       "mac": "C4:00:AD:CE:9B:14",
       "rawMac": "c400adce9b14",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-75",
@@ -886,7 +886,7 @@
       "mac": "CC:82:7F:4B:28:C1",
       "rawMac": "cc827f4b28c1",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-76",
@@ -897,7 +897,7 @@
       "mac": "C0:FB:F9:CB:1F:C7",
       "rawMac": "c0fbf9cb1fc7",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-77",
@@ -908,7 +908,7 @@
       "mac": "04:42:1A:2B:38:CE",
       "rawMac": "04421a2b38ce",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-78",
@@ -919,7 +919,7 @@
       "mac": "C4:00:AD:D7:A3:F4",
       "rawMac": "c400add7a3f4",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-79",
@@ -930,7 +930,7 @@
       "mac": "CC:82:7F:6B:07:AD",
       "rawMac": "cc827f6b07ad",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-80",
@@ -941,7 +941,7 @@
       "mac": "C4:00:AD:7A:34:9C",
       "rawMac": "c400ad7a349c",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-81",
@@ -952,7 +952,7 @@
       "mac": "C4:00:AD:CE:A0:40",
       "rawMac": "c400adcea040",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-82",
@@ -963,7 +963,7 @@
       "mac": "C4:00:AD:D7:A4:FE",
       "rawMac": "c400add7a4fe",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-83",
@@ -974,7 +974,7 @@
       "mac": "C4:00:AD:CE:9C:77",
       "rawMac": "c400adce9c77",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-84",
@@ -985,7 +985,7 @@
       "mac": "C4:00:AD:CE:9D:B9",
       "rawMac": "c400adce9db9",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-85",
@@ -996,7 +996,7 @@
       "mac": "C4:00:AD:CE:A0:B2",
       "rawMac": "c400adcea0b2",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     },
     {
       "id": "seed-86",
@@ -1007,7 +1007,7 @@
       "mac": "C4:00:AD:97:42:4E",
       "rawMac": "c400ad97424e",
       "source": "seed",
-      "createdAt": "2025-11-13T10:08:23.357Z"
+      "createdAt": "2025-12-18T09:58:38.641Z"
     }
   ]
 }

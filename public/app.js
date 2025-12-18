@@ -72,37 +72,31 @@ function updateDataInfo(data) {
     return;
   }
   
-  // Count sources
-  const liveCount = allRobots.filter(r => r.source === 'live').length;
-  const seedCount = allRobots.filter(r => r.source === 'seed').length;
+  // Use stats from API response (already computed server-side)
+  const { live = 0, seed = 0 } = data.stats || {};
   
-  if (liveCount > 0 && seedCount > 0) {
-    dataSourceEl.textContent = `Mixed (${liveCount} live, ${seedCount} backup)`;
-  } else if (liveCount > 0) {
-    dataSourceEl.textContent = `Live Data (${liveCount} robots)`;
+  if (live > 0 && seed > 0) {
+    dataSourceEl.textContent = `Mixed (${live} live, ${seed} backup)`;
+  } else if (live > 0) {
+    dataSourceEl.textContent = `Live Data (${live} robots)`;
   } else {
-    dataSourceEl.textContent = `Backup Data (${seedCount} robots)`;
+    dataSourceEl.textContent = `Backup Data (${seed} robots)`;
   }
   
   // Show last scrape time if available
   if (data.scrapedAt) {
-    const scrapedDate = new Date(data.scrapedAt);
-    const now = new Date();
-    const diffMs = now - scrapedDate;
+    const diffMs = Date.now() - new Date(data.scrapedAt);
     const diffMins = Math.floor(diffMs / 60000);
     const diffHours = Math.floor(diffMins / 60);
     
-    let timeAgo;
-    if (diffHours > 0) {
-      timeAgo = `${diffHours} hour${diffHours > 1 ? 's' : ''} ago`;
-    } else if (diffMins > 0) {
-      timeAgo = `${diffMins} minute${diffMins > 1 ? 's' : ''} ago`;
-    } else {
-      timeAgo = 'Just now';
-    }
+    const timeAgo = diffHours > 0 
+      ? `${diffHours} hour${diffHours > 1 ? 's' : ''} ago`
+      : diffMins > 0 
+        ? `${diffMins} minute${diffMins > 1 ? 's' : ''} ago`
+        : 'Just now';
     
     lastUpdatedEl.textContent = timeAgo;
-    lastUpdatedEl.title = scrapedDate.toLocaleString();
+    lastUpdatedEl.title = new Date(data.scrapedAt).toLocaleString();
   } else {
     lastUpdatedEl.textContent = 'Unknown';
   }
@@ -172,17 +166,19 @@ function handleSortChange(event) {
 function toggleSortOrder() {
   currentSort.ascending = !currentSort.ascending;
   const btn = document.getElementById('sort-order');
-  btn.textContent = currentSort.ascending ? '↑' : '↓';
+  btn.textContent = currentSort.ascending ? '▲' : '▼';
   btn.title = currentSort.ascending ? 'Ascending' : 'Descending';
   renderRobots();
 }
+
+// Cached collator for Korean text sorting
+const koreanCollator = new Intl.Collator('ko', { sensitivity: 'base' });
 
 // Sort robots with Korean support
 function sortRobots(robots) {
   return robots.sort((a, b) => {
     let comparison = 0;
     
-    // Special handling for date sorting
     if (currentSort.field === 'date') {
       const dateA = parseDate(a.createdAt || a.registeredDate);
       const dateB = parseDate(b.createdAt || b.registeredDate);
@@ -194,11 +190,7 @@ function sortRobots(robots) {
       
       comparison = dateA.getTime() - dateB.getTime();
     } else {
-      // Text sorting with Korean support
-      const collator = new Intl.Collator('ko', { sensitivity: 'base' });
-      let aVal = a[currentSort.field] || '';
-      let bVal = b[currentSort.field] || '';
-      comparison = collator.compare(aVal, bVal);
+      comparison = koreanCollator.compare(a[currentSort.field] || '', b[currentSort.field] || '');
     }
     
     return currentSort.ascending ? comparison : -comparison;
@@ -208,24 +200,8 @@ function sortRobots(robots) {
 // Parse date from various formats
 function parseDate(dateStr) {
   if (!dateStr) return null;
-  
-  try {
-    // Try parsing as ISO string first
-    const isoDate = new Date(dateStr);
-    if (!isNaN(isoDate.getTime())) {
-      return isoDate;
-    }
-    
-    // Try parsing common formats like "2/14/2025, 5:50:39 PM"
-    const parsed = new Date(dateStr);
-    if (!isNaN(parsed.getTime())) {
-      return parsed;
-    }
-    
-    return null;
-  } catch (e) {
-    return null;
-  }
+  const date = new Date(dateStr);
+  return isNaN(date.getTime()) ? null : date;
 }
 
 // Format date for display
@@ -270,28 +246,23 @@ function renderRobots() {
 
 // Render grouped by site
 function renderGroupedView(container) {
-  const robotsBySite = {};
+  // Build site lookup map once
+  const siteMap = new Map(allSites.map(s => [s.id, s]));
   
   // Group robots by site
+  const robotsBySite = {};
   filteredRobots.forEach(robot => {
-    if (!robotsBySite[robot.siteId]) {
-      robotsBySite[robot.siteId] = [];
-    }
-    robotsBySite[robot.siteId].push(robot);
+    (robotsBySite[robot.siteId] ??= []).push(robot);
   });
   
-  let html = '';
-  
   // Sort sites alphabetically
-  const sortedSites = Object.keys(robotsBySite).sort((a, b) => 
-    new Intl.Collator('ko').compare(a, b)
-  );
+  const sortedSites = Object.keys(robotsBySite).sort((a, b) => koreanCollator.compare(a, b));
   
-  sortedSites.forEach(siteId => {
-    const site = allSites.find(s => s.id === siteId) || { id: siteId, baseUrl: `http://${siteId}/`, status: 'active' };
+  const html = sortedSites.map(siteId => {
+    const site = siteMap.get(siteId) || { id: siteId, baseUrl: `http://${siteId}/`, status: 'active' };
     const robots = sortRobots([...robotsBySite[siteId]]);
     
-    html += `
+    return `
       <div class="site-group" id="site-${siteId.replace(/\./g, '-')}">
         <div class="site-header" onclick="toggleSiteGroup('${siteId}')">
           <div class="site-info">
@@ -302,11 +273,11 @@ function renderGroupedView(container) {
           <span class="collapse-icon">▼</span>
         </div>
         <div class="site-robots">
-          ${renderRobotTable(robots, site)}
+          ${renderRobotTable(robots)}
         </div>
       </div>
     `;
-  });
+  }).join('');
   
   container.innerHTML = html;
 }
@@ -324,12 +295,29 @@ function renderFlatView(container) {
 }
 
 // Render robot table
-function renderRobotTable(robots, site) {
+function renderRobotTable(robots) {
   if (robots.length === 0) {
     return '<div style="padding: 20px; text-align: center; color: #999;">No robots in this site</div>';
   }
   
-  let html = `
+  const rows = robots.map(robot => {
+    const dateStr = formatDate(robot.createdAt || robot.registeredDate);
+    const sourceLabel = robot.source === 'seed' ? 'backup' : robot.source;
+    
+    // Wrap all text content in spans with cell-text class so we can detect clicks on text vs empty space
+    return `
+      <tr data-site-id="${robot.siteId}" onmousedown="handleRowMouseDown(event)" onclick="handleRowClick(event, '${robot.siteId}')" class="clickable-row">
+        <td class="robot-type"><span class="cell-text">${highlightText(robot.type, searchQuery)}</span></td>
+        <td class="robot-name"><span class="cell-text">${highlightText(robot.name, searchQuery)}</span></td>
+        <td class="mac-address" title="Raw: ${robot.rawMac}"><span class="cell-text">${highlightText(robot.mac, searchQuery)}</span></td>
+        <td><span class="cell-text">${highlightText(robot.description, searchQuery)}</span></td>
+        <td class="robot-date" title="${robot.createdAt || robot.registeredDate || 'Unknown'}"><span class="cell-text">${dateStr}</span></td>
+        <td><span class="source-badge ${robot.source}">${sourceLabel}</span></td>
+      </tr>
+    `;
+  }).join('');
+
+  return `
     <table class="robot-table">
       <thead>
         <tr>
@@ -339,34 +327,36 @@ function renderRobotTable(robots, site) {
           <th>Description</th>
           <th>Date Registered</th>
           <th>Source</th>
-          <th>Actions</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody>${rows}</tbody>
+    </table>
   `;
+}
+
+// Track where mousedown started to prevent triggering on text selection release
+let mouseDownOnEmptySpace = false;
+
+// Handle mousedown on rows - track if it started on empty space
+function handleRowMouseDown(event) {
+  const target = event.target;
+  mouseDownOnEmptySpace = (target.tagName === 'TD' || target.tagName === 'TR');
+}
+
+// Handle row click - only trigger if BOTH mousedown and mouseup are on empty space
+function handleRowClick(event, siteId) {
+  const target = event.target;
+  const clickedOnEmptySpace = (target.tagName === 'TD' || target.tagName === 'TR');
   
-  robots.forEach(robot => {
-    const siteInfo = site || allSites.find(s => s.id === robot.siteId);
-    const dateStr = formatDate(robot.createdAt || robot.registeredDate);
-    
-    html += `
-      <tr>
-        <td class="robot-type">${highlightText(robot.type, searchQuery)}</td>
-        <td class="robot-name">${highlightText(robot.name, searchQuery)}</td>
-        <td class="mac-address" title="Raw: ${robot.rawMac}">${highlightText(robot.mac, searchQuery)}</td>
-        <td>${highlightText(robot.description, searchQuery)}</td>
-        <td class="robot-date" title="${robot.createdAt || robot.registeredDate || 'Unknown'}">${dateStr}</td>
-        <td><span class="source-badge ${robot.source}">${robot.source}</span></td>
-        <td class="robot-actions">
-          <button onclick="copyMac('${robot.mac}')" class="btn-icon" title="Copy MAC">📋</button>
-          ${siteInfo ? `<button onclick="openSite('${siteInfo.baseUrl}')" class="btn-icon" title="Open ${robot.siteId}">🔗</button>` : ''}
-        </td>
-      </tr>
-    `;
-  });
+  // Only open link if both mousedown AND click/mouseup are on empty space
+  if (mouseDownOnEmptySpace && clickedOnEmptySpace) {
+    const site = allSites.find(s => s.id === siteId);
+    const url = site?.baseUrl || `http://${siteId}/`;
+    window.open(url, '_blank');
+  }
   
-  html += '</tbody></table>';
-  return html;
+  // Reset the flag
+  mouseDownOnEmptySpace = false;
 }
 
 // Toggle site group collapse
@@ -375,20 +365,6 @@ function toggleSiteGroup(siteId) {
   if (group) {
     group.classList.toggle('collapsed');
   }
-}
-
-// Copy MAC address
-function copyMac(mac) {
-  navigator.clipboard.writeText(mac).then(() => {
-    showToast('MAC address copied: ' + mac, 'success');
-  }).catch(err => {
-    showToast('Failed to copy: ' + err.message, 'error');
-  });
-}
-
-// Open site in new tab
-function openSite(url) {
-  window.open(url, '_blank');
 }
 
 // Toggle credentials visibility
@@ -517,7 +493,8 @@ function showToast(message, type = 'success') {
 
 // Toggle all sections (collapse/expand)
 function toggleAllSections() {
-  const btn = document.getElementById('collapse-expand-btn');
+  const iconSpan = document.querySelector('#collapse-expand-btn .collapse-icon-btn');
+  const textSpan = document.querySelector('#collapse-expand-btn .collapse-text');
   const allTables = document.querySelectorAll('.robot-table');
   const allHeaders = document.querySelectorAll('.site-header');
   
@@ -536,11 +513,13 @@ function toggleAllSections() {
     }
   });
   
-  // Update button text
+  // Update button icon and text separately
   if (anyVisible) {
-    btn.textContent = '▶ Expand All';
+    iconSpan.textContent = '▶';
+    textSpan.textContent = 'Expand All';
   } else {
-    btn.textContent = '▼ Close All';
+    iconSpan.textContent = '▼';
+    textSpan.textContent = 'Close All';
   }
 }
 

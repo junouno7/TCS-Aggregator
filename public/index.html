@@ -47,7 +47,7 @@
         <div class="group-toggle">
           <label>
             <input type="checkbox" id="group-by-site" checked>
-            Group by Website
+            Group by Server
           </label>
         </div>
 
@@ -60,7 +60,7 @@
             <option value="description">Description</option>
             <option value="date">Date Registered</option>
           </select>
-          <button onclick="toggleSortOrder()" class="btn-icon" id="sort-order" title="Toggle sort order">↑</button>
+          <button onclick="toggleSortOrder()" class="btn-icon" id="sort-order" title="Toggle sort order">▲</button>
         </div>
       </div>
 
@@ -83,8 +83,9 @@
         </button>
       </div>
       <div class="collapse-expand-wrapper">
-        <button onclick="toggleAllSections()" class="btn-secondary btn-small" id="collapse-expand-btn" title="Collapse/Expand all sections">
-          ▼ Close All
+        <button onclick="toggleAllSections()" id="collapse-expand-btn" title="Collapse/Expand all sections">
+          <span class="collapse-icon-btn">▼</span>
+          <span class="collapse-text">Close All</span>
         </button>
       </div>
     </section>

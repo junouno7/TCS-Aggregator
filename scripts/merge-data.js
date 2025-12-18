@@ -105,9 +105,26 @@ function mergeRobotData() {
   console.log(`     Live data: ${liveRobots} (${(liveRobots / mergedRobots.length * 100).toFixed(1)}%)`);
   console.log(`     Backup data: ${seedRobots} (${(seedRobots / mergedRobots.length * 100).toFixed(1)}%)`);
 
+  // Build live status per site based on scrape success
+  const statusBySiteId = new Map();
+  scrapedData.sites.forEach(s => {
+    if (!s || !s.siteId) return;
+    statusBySiteId.set(s.siteId, s.success ? 'active' : 'down');
+  });
+
+  // Merge site list: keep seed sites, override status with live health (except 'unused')
+  const mergedSites = (seedData.sites || []).map(site => {
+    const liveStatus = statusBySiteId.get(site.id);
+    const newStatus = site.status === 'unused' ? site.status : (liveStatus || site.status || 'active');
+    return {
+      ...site,
+      status: newStatus
+    };
+  });
+
   // Create merged output
   const mergedOutput = {
-    sites: seedData.sites, // Use seed sites list
+    sites: mergedSites,
     robots: mergedRobots,
     scrapedAt: scrapedData.scrapedAt || null,
     mergedAt: new Date().toISOString(),
