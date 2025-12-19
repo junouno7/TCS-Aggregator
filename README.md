@@ -1,3 +1,11 @@
-*TCS Aggregator*
+# TCS Aggregator
 
-tcsmaster.netlify.app
+A simple README for the TCS Aggregator project.
+
+Demo
+
+Visit the demo at: [tcsmaster.netlify.app](https://tcsmaster.netlify.app)
+
+License
+
+MIT
