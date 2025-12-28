@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2025-12-25T00:48:20.244Z",
+  "scrapedAt": "2025-12-28T00:55:13.672Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -103,7 +103,7 @@
           "registeredDate": "10/29/2025, 6:42:52 AM"
         }
       ],
-      "scrapedAt": "2025-12-25T00:48:28.518Z",
+      "scrapedAt": "2025-12-28T00:55:21.579Z",
       "success": true
     },
     {
@@ -229,7 +229,7 @@
           "registeredDate": "2025-12-09 03:21:13"
         }
       ],
-      "scrapedAt": "2025-12-25T00:48:39.827Z",
+      "scrapedAt": "2025-12-28T00:55:32.899Z",
       "success": true
     },
     {
@@ -257,7 +257,7 @@
           "registeredDate": "2025-09-30 04:16:49"
         }
       ],
-      "scrapedAt": "2025-12-25T00:48:51.003Z",
+      "scrapedAt": "2025-12-28T00:55:44.214Z",
       "success": true
     },
     {
@@ -299,7 +299,7 @@
           "registeredDate": "2025-12-05 02:55:39"
         }
       ],
-      "scrapedAt": "2025-12-25T00:49:02.071Z",
+      "scrapedAt": "2025-12-28T00:55:55.363Z",
       "success": true
     },
     {
@@ -341,13 +341,13 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2025-12-25T00:49:13.270Z",
+      "scrapedAt": "2025-12-28T00:56:06.652Z",
       "success": true
     },
     {
       "siteId": "support.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2025-12-25T00:49:45.367Z",
+      "scrapedAt": "2025-12-28T00:56:38.754Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -579,13 +579,13 @@
           "registeredDate": "2025-12-23 00:45:22"
         }
       ],
-      "scrapedAt": "2025-12-25T00:49:56.599Z",
+      "scrapedAt": "2025-12-28T00:56:49.952Z",
       "success": true
     },
     {
       "siteId": "singlerobot.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2025-12-25T00:50:28.696Z",
+      "scrapedAt": "2025-12-28T00:57:22.051Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -600,7 +600,7 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2025-12-25T00:50:39.884Z",
+      "scrapedAt": "2025-12-28T00:57:33.323Z",
       "success": true
     }
   ],
