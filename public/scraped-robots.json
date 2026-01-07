@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-01-04T00:56:23.577Z",
+  "scrapedAt": "2026-01-07T00:49:07.811Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -103,7 +103,7 @@
           "registeredDate": "10/29/2025, 6:42:52 AM"
         }
       ],
-      "scrapedAt": "2026-01-04T00:56:31.842Z",
+      "scrapedAt": "2026-01-07T00:49:15.877Z",
       "success": true
     },
     {
@@ -231,12 +231,12 @@
         {
           "type": "nargo60",
           "name": "M-AR-060-A03-B05",
-          "mac": "ec2e98a16ec9",
+          "mac": "c400ad7cbe28",
           "description": "M-AR-060-A03-B05-0001",
-          "registeredDate": "2026-01-02 04:36:48"
+          "registeredDate": "2026-01-05 01:39:34"
         }
       ],
-      "scrapedAt": "2026-01-04T00:56:42.962Z",
+      "scrapedAt": "2026-01-07T00:49:27.337Z",
       "success": true
     },
     {
@@ -264,7 +264,7 @@
           "registeredDate": "2025-09-30 04:16:49"
         }
       ],
-      "scrapedAt": "2026-01-04T00:56:53.192Z",
+      "scrapedAt": "2026-01-07T00:49:38.873Z",
       "success": true
     },
     {
@@ -306,7 +306,7 @@
           "registeredDate": "2025-12-05 02:55:39"
         }
       ],
-      "scrapedAt": "2026-01-04T00:57:03.241Z",
+      "scrapedAt": "2026-01-07T00:49:50.125Z",
       "success": true
     },
     {
@@ -348,13 +348,13 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2026-01-04T00:57:13.440Z",
+      "scrapedAt": "2026-01-07T00:50:01.515Z",
       "success": true
     },
     {
       "siteId": "support.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-01-04T00:57:45.542Z",
+      "scrapedAt": "2026-01-07T00:50:33.608Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -586,13 +586,13 @@
           "registeredDate": "2025-12-23 00:45:22"
         }
       ],
-      "scrapedAt": "2026-01-04T00:57:56.591Z",
+      "scrapedAt": "2026-01-07T00:50:45.078Z",
       "success": true
     },
     {
       "siteId": "singlerobot.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-01-04T00:58:28.693Z",
+      "scrapedAt": "2026-01-07T00:51:17.180Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -607,7 +607,7 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-01-04T00:58:38.853Z",
+      "scrapedAt": "2026-01-07T00:51:28.683Z",
       "success": true
     }
   ],
