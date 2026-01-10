@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-01-07T00:49:07.811Z",
+  "scrapedAt": "2026-01-10T00:48:38.552Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -103,7 +103,7 @@
           "registeredDate": "10/29/2025, 6:42:52 AM"
         }
       ],
-      "scrapedAt": "2026-01-07T00:49:15.877Z",
+      "scrapedAt": "2026-01-10T00:48:46.854Z",
       "success": true
     },
     {
@@ -236,7 +236,7 @@
           "registeredDate": "2026-01-05 01:39:34"
         }
       ],
-      "scrapedAt": "2026-01-07T00:49:27.337Z",
+      "scrapedAt": "2026-01-10T00:48:58.082Z",
       "success": true
     },
     {
@@ -264,7 +264,7 @@
           "registeredDate": "2025-09-30 04:16:49"
         }
       ],
-      "scrapedAt": "2026-01-07T00:49:38.873Z",
+      "scrapedAt": "2026-01-10T00:49:09.281Z",
       "success": true
     },
     {
@@ -304,9 +304,16 @@
           "mac": "7c10c99f4354",
           "description": "jthan",
           "registeredDate": "2025-12-05 02:55:39"
+        },
+        {
+          "type": "LP1",
+          "name": "육군시연",
+          "mac": "c400adce9b14",
+          "description": "TW0100P0036",
+          "registeredDate": "2026-01-08 07:45:19"
         }
       ],
-      "scrapedAt": "2026-01-07T00:49:50.125Z",
+      "scrapedAt": "2026-01-10T00:49:20.382Z",
       "success": true
     },
     {
@@ -348,13 +355,13 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2026-01-07T00:50:01.515Z",
+      "scrapedAt": "2026-01-10T00:49:31.556Z",
       "success": true
     },
     {
       "siteId": "support.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-01-07T00:50:33.608Z",
+      "scrapedAt": "2026-01-10T00:50:03.649Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -584,17 +591,38 @@
           "mac": "c400ad7cbe78",
           "description": "MAR060A03B030022",
           "registeredDate": "2025-12-23 00:45:22"
+        },
+        {
+          "type": "Nargo60_Gazebo",
+          "name": "CS팀 시뮬레이션",
+          "mac": "04421a2b38ce",
+          "description": "Sim_CS",
+          "registeredDate": "2026-01-07 06:40:43"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "TW0060N0017",
+          "mac": "c400adcea0c8",
+          "description": "사무실3F",
+          "registeredDate": "2026-01-08 01:29:39"
+        },
+        {
+          "type": "LP1",
+          "name": "시연",
+          "mac": "c400adce9b14",
+          "description": "TW0100P0036_육군시연",
+          "registeredDate": "2026-01-08 05:16:11"
         }
       ],
-      "scrapedAt": "2026-01-07T00:50:45.078Z",
+      "scrapedAt": "2026-01-10T00:50:14.818Z",
       "success": true
     },
     {
       "siteId": "singlerobot.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-01-07T00:51:17.180Z",
+      "scrapedAt": "2026-01-10T00:50:17.160Z",
       "success": false,
-      "error": "Navigation timeout of 30000 ms exceeded"
+      "error": "net::ERR_CONNECTION_REFUSED at http://singlerobot.twinnyservice.com/login"
     },
     {
       "siteId": "sunbo118.twinnyservice.com",
@@ -607,9 +635,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-01-07T00:51:28.683Z",
+      "scrapedAt": "2026-01-10T00:50:28.447Z",
       "success": true
     }
   ],
-  "totalRobots": 78
+  "totalRobots": 82
 }
