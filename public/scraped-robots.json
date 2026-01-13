@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-01-10T00:48:38.552Z",
+  "scrapedAt": "2026-01-13T00:45:47.190Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -103,7 +103,7 @@
           "registeredDate": "10/29/2025, 6:42:52 AM"
         }
       ],
-      "scrapedAt": "2026-01-10T00:48:46.854Z",
+      "scrapedAt": "2026-01-13T00:45:55.222Z",
       "success": true
     },
     {
@@ -227,16 +227,9 @@
           "mac": "cc827f6cb9cd",
           "description": "",
           "registeredDate": "2025-12-09 03:21:13"
-        },
-        {
-          "type": "nargo60",
-          "name": "M-AR-060-A03-B05",
-          "mac": "c400ad7cbe28",
-          "description": "M-AR-060-A03-B05-0001",
-          "registeredDate": "2026-01-05 01:39:34"
         }
       ],
-      "scrapedAt": "2026-01-10T00:48:58.082Z",
+      "scrapedAt": "2026-01-13T00:46:05.286Z",
       "success": true
     },
     {
@@ -264,7 +257,7 @@
           "registeredDate": "2025-09-30 04:16:49"
         }
       ],
-      "scrapedAt": "2026-01-10T00:49:09.281Z",
+      "scrapedAt": "2026-01-13T00:46:15.286Z",
       "success": true
     },
     {
@@ -313,7 +306,7 @@
           "registeredDate": "2026-01-08 07:45:19"
         }
       ],
-      "scrapedAt": "2026-01-10T00:49:20.382Z",
+      "scrapedAt": "2026-01-13T00:46:25.252Z",
       "success": true
     },
     {
@@ -355,13 +348,13 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2026-01-10T00:49:31.556Z",
+      "scrapedAt": "2026-01-13T00:46:35.267Z",
       "success": true
     },
     {
       "siteId": "support.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-01-10T00:50:03.649Z",
+      "scrapedAt": "2026-01-13T00:47:07.369Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -614,15 +607,15 @@
           "registeredDate": "2026-01-08 05:16:11"
         }
       ],
-      "scrapedAt": "2026-01-10T00:50:14.818Z",
+      "scrapedAt": "2026-01-13T00:47:17.399Z",
       "success": true
     },
     {
       "siteId": "singlerobot.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-01-10T00:50:17.160Z",
+      "scrapedAt": "2026-01-13T00:47:49.504Z",
       "success": false,
-      "error": "net::ERR_CONNECTION_REFUSED at http://singlerobot.twinnyservice.com/login"
+      "error": "Navigation timeout of 30000 ms exceeded"
     },
     {
       "siteId": "sunbo118.twinnyservice.com",
@@ -635,9 +628,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-01-10T00:50:28.447Z",
+      "scrapedAt": "2026-01-13T00:47:59.531Z",
       "success": true
     }
   ],
-  "totalRobots": 82
+  "totalRobots": 81
 }
