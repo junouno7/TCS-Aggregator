@@ -61,7 +61,7 @@
       "mac": "EC:2E:98:A1:8B:F7",
       "rawMac": "ec2e98a18bf7",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.708Z"
+      "createdAt": "2026-01-16T00:50:25.592Z"
     },
     {
       "id": "seed-1",
@@ -72,7 +72,7 @@
       "mac": "B0:47:E9:E8:EA:CC",
       "rawMac": "b047e9e8eacc",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.708Z"
+      "createdAt": "2026-01-16T00:50:25.592Z"
     },
     {
       "id": "seed-2",
@@ -83,7 +83,7 @@
       "mac": "70:5D:CC:F2:BF:38",
       "rawMac": "705dccf2bf38",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.708Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-3",
@@ -94,7 +94,7 @@
       "mac": "CC:82:7F:36:8A:0B",
       "rawMac": "cc827f368a0b",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.708Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-4",
@@ -105,7 +105,7 @@
       "mac": "CC:82:7F:38:02:39",
       "rawMac": "cc827f380239",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.708Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-5",
@@ -116,7 +116,7 @@
       "mac": "58:11:22:D1:81:B4",
       "rawMac": "581122d181b4",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.708Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-6",
@@ -127,7 +127,7 @@
       "mac": "C4:00:AD:CE:99:F2",
       "rawMac": "c400adce99f2",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.708Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-7",
@@ -138,7 +138,7 @@
       "mac": "C4:00:AD:CE:A0:50",
       "rawMac": "c400adcea050",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.708Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-8",
@@ -149,7 +149,7 @@
       "mac": "C4:00:AD:CE:98:49",
       "rawMac": "c400adce9849",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.708Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-9",
@@ -160,7 +160,7 @@
       "mac": "C4:00:AD:87:DD:FE",
       "rawMac": "c400ad87ddfe",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-10",
@@ -171,7 +171,7 @@
       "mac": "74:FE:48:96:E9:63",
       "rawMac": "74fe4896e963",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-11",
@@ -182,7 +182,7 @@
       "mac": "C4:00:AD:D7:A4:50",
       "rawMac": "c400add7a450",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-12",
@@ -193,7 +193,7 @@
       "mac": "C4:00:AD:7C:BE:D8",
       "rawMac": "c400ad7cbed8",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-13",
@@ -204,7 +204,7 @@
       "mac": "C4:00:AD:7A:34:77",
       "rawMac": "c400ad7a3477",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-14",
@@ -215,7 +215,7 @@
       "mac": "CC:82:7F:6B:07:AD",
       "rawMac": "cc827f6b07ad",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-15",
@@ -226,7 +226,7 @@
       "mac": "C4:00:AD:D7:A3:F4",
       "rawMac": "c400add7a3f4",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-16",
@@ -237,7 +237,7 @@
       "mac": "CC:82:7F:6B:09:8A",
       "rawMac": "cc827f6b098a",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-17",
@@ -248,7 +248,7 @@
       "mac": "CC:82:7F:6B:07:53",
       "rawMac": "cc827f6b0753",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-18",
@@ -259,7 +259,7 @@
       "mac": "CC:82:7F:6C:B9:D3",
       "rawMac": "cc827f6cb9d3",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-19",
@@ -270,7 +270,7 @@
       "mac": "F0:2F:74:B2:00:A1",
       "rawMac": "f02f74b200a1",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-20",
@@ -281,7 +281,7 @@
       "mac": "C4:00:AD:D7:A5:30",
       "rawMac": "c400add7a530",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-21",
@@ -292,7 +292,7 @@
       "mac": "CC:82:7F:22:05:50",
       "rawMac": "cc827f220550",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-22",
@@ -303,7 +303,7 @@
       "mac": "C4:00:AD:CE:A1:04",
       "rawMac": "c400adcea104",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "live-twinnyshow.twinnyservice.com-C4:00:AD:7A:34:D5",
@@ -314,7 +314,7 @@
       "mac": "C4:00:AD:7A:34:D5",
       "rawMac": "c400ad7a34d5",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:25.252Z",
+      "scrapedAt": "2026-01-16T00:51:07.345Z",
       "createdAt": "2025-06-19 06:07:03"
     },
     {
@@ -326,7 +326,7 @@
       "mac": "C4:00:AD:7A:34:7B",
       "rawMac": "c400ad7a347b",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:25.252Z",
+      "scrapedAt": "2026-01-16T00:51:07.345Z",
       "createdAt": "2025-07-11 04:21:12"
     },
     {
@@ -338,7 +338,7 @@
       "mac": "F0:2F:74:B2:00:A1",
       "rawMac": "f02f74b200a1",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:25.252Z",
+      "scrapedAt": "2026-01-16T00:51:07.345Z",
       "createdAt": "2025-10-31 00:34:59"
     },
     {
@@ -350,7 +350,7 @@
       "mac": "CC:82:7F:49:D1:05",
       "rawMac": "cc827f49d105",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:45:55.222Z",
+      "scrapedAt": "2026-01-16T00:50:34.129Z",
       "createdAt": "11/4/2024, 3:36:06 AM"
     },
     {
@@ -362,7 +362,7 @@
       "mac": "C4:00:AD:CE:A0:D0",
       "rawMac": "c400adcea0d0",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:45:55.222Z",
+      "scrapedAt": "2026-01-16T00:50:34.129Z",
       "createdAt": "11/26/2024, 9:06:58 AM"
     },
     {
@@ -374,7 +374,7 @@
       "mac": "74:FE:48:96:E9:83",
       "rawMac": "74fe4896e983",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:45:55.222Z",
+      "scrapedAt": "2026-01-16T00:50:34.129Z",
       "createdAt": "12/19/2024, 2:30:10 PM"
     },
     {
@@ -386,7 +386,7 @@
       "mac": "C4:00:AD:D7:A2:8C",
       "rawMac": "c400add7a28c",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:45:55.222Z",
+      "scrapedAt": "2026-01-16T00:50:34.129Z",
       "createdAt": "1/20/2025, 8:48:42 AM"
     },
     {
@@ -398,7 +398,7 @@
       "mac": "C4:00:AD:D7:A4:5C",
       "rawMac": "c400add7a45c",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:45:55.222Z",
+      "scrapedAt": "2026-01-16T00:50:34.129Z",
       "createdAt": "1/20/2025, 9:03:53 AM"
     },
     {
@@ -410,7 +410,7 @@
       "mac": "70:5D:CC:F2:BF:38",
       "rawMac": "705dccf2bf38",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:45:55.222Z",
+      "scrapedAt": "2026-01-16T00:50:34.129Z",
       "createdAt": "2/5/2025, 8:52:35 AM"
     },
     {
@@ -422,7 +422,7 @@
       "mac": "C4:00:AD:7A:34:4E",
       "rawMac": "c400ad7a344e",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:45:55.222Z",
+      "scrapedAt": "2026-01-16T00:50:34.129Z",
       "createdAt": "2/6/2025, 6:56:10 AM"
     },
     {
@@ -434,7 +434,7 @@
       "mac": "CC:82:7F:21:F9:DB",
       "rawMac": "cc827f21f9db",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:45:55.222Z",
+      "scrapedAt": "2026-01-16T00:50:34.129Z",
       "createdAt": "3/30/2025, 7:39:24 AM"
     },
     {
@@ -446,7 +446,7 @@
       "mac": "C4:00:AD:D7:A2:84",
       "rawMac": "c400add7a284",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:45:55.222Z",
+      "scrapedAt": "2026-01-16T00:50:34.129Z",
       "createdAt": "4/16/2025, 11:24:35 AM"
     },
     {
@@ -458,7 +458,7 @@
       "mac": "C4:00:AD:D7:A3:F4",
       "rawMac": "c400add7a3f4",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:45:55.222Z",
+      "scrapedAt": "2026-01-16T00:50:34.129Z",
       "createdAt": "8/4/2025, 2:46:49 AM"
     },
     {
@@ -470,7 +470,7 @@
       "mac": "1C:69:7A:0B:97:54",
       "rawMac": "1c697a0b9754",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:45:55.222Z",
+      "scrapedAt": "2026-01-16T00:50:34.129Z",
       "createdAt": "10/16/2025, 1:15:04 AM"
     },
     {
@@ -482,7 +482,7 @@
       "mac": "04:42:1A:2B:38:CE",
       "rawMac": "04421a2b38ce",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:45:55.222Z",
+      "scrapedAt": "2026-01-16T00:50:34.129Z",
       "createdAt": "10/29/2025, 6:42:52 AM"
     },
     {
@@ -494,7 +494,7 @@
       "mac": "7C:10:C9:9F:43:54",
       "rawMac": "7c10c99f4354",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:05.286Z",
+      "scrapedAt": "2026-01-16T00:50:45.247Z",
       "createdAt": "2025-10-14 08:06:11"
     },
     {
@@ -506,7 +506,7 @@
       "mac": "C4:00:AD:DF:1E:B1",
       "rawMac": "c400addf1eb1",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:05.286Z",
+      "scrapedAt": "2026-01-16T00:50:45.247Z",
       "createdAt": "2025-10-16 01:12:58"
     },
     {
@@ -518,7 +518,7 @@
       "mac": "C4:00:AD:CE:A0:50",
       "rawMac": "c400adcea050",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:05.286Z",
+      "scrapedAt": "2026-01-16T00:50:45.247Z",
       "createdAt": "2025-10-16 03:10:55"
     },
     {
@@ -530,7 +530,7 @@
       "mac": "C4:00:AD:CE:98:49",
       "rawMac": "c400adce9849",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:05.286Z",
+      "scrapedAt": "2026-01-16T00:50:45.247Z",
       "createdAt": "2025-10-16 03:13:02"
     },
     {
@@ -542,7 +542,7 @@
       "mac": "C4:00:AD:CE:9C:71",
       "rawMac": "c400adce9c71",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:05.286Z",
+      "scrapedAt": "2026-01-16T00:50:45.247Z",
       "createdAt": "2025-10-16 04:53:50"
     },
     {
@@ -554,7 +554,7 @@
       "mac": "C4:00:AD:97:43:63",
       "rawMac": "c400ad974363",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:05.286Z",
+      "scrapedAt": "2026-01-16T00:50:45.247Z",
       "createdAt": "2025-10-16 05:01:48"
     },
     {
@@ -566,7 +566,7 @@
       "mac": "C4:00:AD:CE:A0:C8",
       "rawMac": "c400adcea0c8",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:05.286Z",
+      "scrapedAt": "2026-01-16T00:50:45.247Z",
       "createdAt": "2025-10-16 05:48:35"
     },
     {
@@ -578,7 +578,7 @@
       "mac": "CC:82:7F:6B:08:4E",
       "rawMac": "cc827f6b084e",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:05.286Z",
+      "scrapedAt": "2026-01-16T00:50:45.247Z",
       "createdAt": "2025-10-20 07:57:57"
     },
     {
@@ -590,7 +590,7 @@
       "mac": "CC:82:7F:6C:B9:AF",
       "rawMac": "cc827f6cb9af",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:05.286Z",
+      "scrapedAt": "2026-01-16T00:50:45.247Z",
       "createdAt": "2025-10-20 09:19:12"
     },
     {
@@ -602,7 +602,7 @@
       "mac": "CC:82:7F:6B:07:FF",
       "rawMac": "cc827f6b07ff",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:05.286Z",
+      "scrapedAt": "2026-01-16T00:50:45.247Z",
       "createdAt": "2025-10-20 09:44:21"
     },
     {
@@ -614,7 +614,7 @@
       "mac": "CC:82:7F:6B:07:45",
       "rawMac": "cc827f6b0745",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:05.286Z",
+      "scrapedAt": "2026-01-16T00:50:45.247Z",
       "createdAt": "2025-10-22 06:07:10"
     },
     {
@@ -626,7 +626,7 @@
       "mac": "CC:82:7F:6C:B9:A5",
       "rawMac": "cc827f6cb9a5",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:05.286Z",
+      "scrapedAt": "2026-01-16T00:50:45.247Z",
       "createdAt": "2025-10-22 06:13:29"
     },
     {
@@ -638,7 +638,7 @@
       "mac": "CC:82:7F:6C:B9:E3",
       "rawMac": "cc827f6cb9e3",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:05.286Z",
+      "scrapedAt": "2026-01-16T00:50:45.247Z",
       "createdAt": "2025-10-22 06:24:18"
     },
     {
@@ -650,7 +650,7 @@
       "mac": "F0:2F:74:B1:FF:62",
       "rawMac": "f02f74b1ff62",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:05.286Z",
+      "scrapedAt": "2026-01-16T00:50:45.247Z",
       "createdAt": "2025-10-31 00:08:34"
     },
     {
@@ -662,7 +662,7 @@
       "mac": "CC:82:7F:4B:29:94",
       "rawMac": "cc827f4b2994",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "live-singlerobot118.twinnyservice.com-7C:10:C9:9F:43:54",
@@ -673,7 +673,7 @@
       "mac": "7C:10:C9:9F:43:54",
       "rawMac": "7c10c99f4354",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-09-18 08:04:38"
     },
     {
@@ -685,7 +685,7 @@
       "mac": "C4:00:AD:97:43:6D",
       "rawMac": "c400ad97436d",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-09-29 04:29:00"
     },
     {
@@ -697,7 +697,7 @@
       "mac": "C0:FB:F9:CB:1F:C7",
       "rawMac": "c0fbf9cb1fc7",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-10-15 06:58:07"
     },
     {
@@ -709,7 +709,7 @@
       "mac": "CC:82:7F:6B:08:0A",
       "rawMac": "cc827f6b080a",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-10-22 08:18:01"
     },
     {
@@ -721,7 +721,7 @@
       "mac": "CC:82:7F:6B:07:49",
       "rawMac": "cc827f6b0749",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-10-23 04:39:40"
     },
     {
@@ -733,7 +733,7 @@
       "mac": "CC:82:7F:6B:08:7F",
       "rawMac": "cc827f6b087f",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-10-23 05:05:15"
     },
     {
@@ -745,7 +745,7 @@
       "mac": "C4:00:AD:D7:A4:50",
       "rawMac": "c400add7a450",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-10-23 07:37:42"
     },
     {
@@ -757,7 +757,7 @@
       "mac": "CC:82:7F:6B:07:69",
       "rawMac": "cc827f6b0769",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-10-23 08:34:40"
     },
     {
@@ -769,7 +769,7 @@
       "mac": "B0:47:E9:E8:EA:CC",
       "rawMac": "b047e9e8eacc",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-10-29 09:42:41"
     },
     {
@@ -781,7 +781,7 @@
       "mac": "C4:00:AD:87:DD:FE",
       "rawMac": "c400ad87ddfe",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-11-06 05:49:24"
     },
     {
@@ -793,7 +793,7 @@
       "mac": "C4:00:AD:CE:9A:08",
       "rawMac": "c400adce9a08",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-64",
@@ -804,7 +804,7 @@
       "mac": "CC:82:7F:4B:29:94",
       "rawMac": "cc827f4b2994",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-65",
@@ -815,7 +815,7 @@
       "mac": "CC:82:7F:36:8A:0B",
       "rawMac": "cc827f368a0b",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-66",
@@ -826,7 +826,7 @@
       "mac": "C4:00:AD:D7:A4:20",
       "rawMac": "c400add7a420",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-67",
@@ -837,7 +837,7 @@
       "mac": "C4:00:AD:CE:A1:10",
       "rawMac": "c400adcea110",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-68",
@@ -848,7 +848,7 @@
       "mac": "C4:00:AD:97:43:6B",
       "rawMac": "c400ad97436b",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-69",
@@ -859,7 +859,7 @@
       "mac": "C4:00:AD:D7:A4:50",
       "rawMac": "c400add7a450",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-70",
@@ -870,7 +870,7 @@
       "mac": "C4:00:AD:87:DD:DE",
       "rawMac": "c400ad87ddde",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-71",
@@ -881,7 +881,7 @@
       "mac": "B0:47:E9:E8:EA:CC",
       "rawMac": "b047e9e8eacc",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-72",
@@ -892,7 +892,7 @@
       "mac": "CC:82:7F:22:05:7D",
       "rawMac": "cc827f22057d",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-73",
@@ -903,7 +903,7 @@
       "mac": "C4:00:AD:7C:BE:D8",
       "rawMac": "c400ad7cbed8",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-74",
@@ -914,7 +914,7 @@
       "mac": "C4:00:AD:CE:9B:14",
       "rawMac": "c400adce9b14",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-75",
@@ -925,7 +925,7 @@
       "mac": "CC:82:7F:4B:28:C1",
       "rawMac": "cc827f4b28c1",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-76",
@@ -936,7 +936,7 @@
       "mac": "C0:FB:F9:CB:1F:C7",
       "rawMac": "c0fbf9cb1fc7",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "seed-77",
@@ -947,7 +947,7 @@
       "mac": "04:42:1A:2B:38:CE",
       "rawMac": "04421a2b38ce",
       "source": "seed",
-      "createdAt": "2026-01-13T00:45:46.709Z"
+      "createdAt": "2026-01-16T00:50:25.593Z"
     },
     {
       "id": "live-in4in.twinnyservice.com-C4:00:AD:D7:A3:F4",
@@ -958,7 +958,7 @@
       "mac": "C4:00:AD:D7:A3:F4",
       "rawMac": "c400add7a3f4",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:15.286Z",
+      "scrapedAt": "2026-01-16T00:50:56.362Z",
       "createdAt": "2025-07-07 12:11:51"
     },
     {
@@ -970,7 +970,7 @@
       "mac": "CC:82:7F:6B:07:AD",
       "rawMac": "cc827f6b07ad",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:15.286Z",
+      "scrapedAt": "2026-01-16T00:50:56.362Z",
       "createdAt": "2025-07-07 12:15:42"
     },
     {
@@ -982,7 +982,7 @@
       "mac": "C4:00:AD:7A:34:9C",
       "rawMac": "c400ad7a349c",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:15.286Z",
+      "scrapedAt": "2026-01-16T00:50:56.362Z",
       "createdAt": "2025-09-30 04:16:49"
     },
     {
@@ -994,7 +994,7 @@
       "mac": "C4:00:AD:CE:A0:40",
       "rawMac": "c400adcea040",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:35.267Z",
+      "scrapedAt": "2026-01-16T00:51:17.611Z",
       "createdAt": "2025-09-25 10:56:43"
     },
     {
@@ -1006,7 +1006,7 @@
       "mac": "C4:00:AD:D7:A4:FE",
       "rawMac": "c400add7a4fe",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:35.267Z",
+      "scrapedAt": "2026-01-16T00:51:17.611Z",
       "createdAt": "2025-09-25 10:58:38"
     },
     {
@@ -1018,7 +1018,7 @@
       "mac": "C4:00:AD:CE:9C:77",
       "rawMac": "c400adce9c77",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:35.267Z",
+      "scrapedAt": "2026-01-16T00:51:17.611Z",
       "createdAt": "2025-09-26 13:21:07"
     },
     {
@@ -1030,7 +1030,7 @@
       "mac": "C4:00:AD:CE:9D:B9",
       "rawMac": "c400adce9db9",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:35.267Z",
+      "scrapedAt": "2026-01-16T00:51:17.611Z",
       "createdAt": "2025-09-26 13:53:56"
     },
     {
@@ -1042,7 +1042,7 @@
       "mac": "C4:00:AD:CE:A0:B2",
       "rawMac": "c400adcea0b2",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:35.267Z",
+      "scrapedAt": "2026-01-16T00:51:17.611Z",
       "createdAt": "2025-09-26 13:57:10"
     },
     {
@@ -1054,7 +1054,7 @@
       "mac": "C4:00:AD:97:42:4E",
       "rawMac": "c400ad97424e",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:59.531Z",
+      "scrapedAt": "2026-01-16T00:52:43.224Z",
       "createdAt": "2025-07-18 11:29:26"
     },
     {
@@ -1066,7 +1066,7 @@
       "mac": "B0:47:E9:E8:EA:86",
       "rawMac": "b047e9e8ea86",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:45:55.222Z",
+      "scrapedAt": "2026-01-16T00:50:34.129Z",
       "createdAt": "2/3/2025, 8:59:31 AM"
     },
     {
@@ -1078,7 +1078,7 @@
       "mac": "C4:00:AD:CE:9A:08",
       "rawMac": "c400adce9a08",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:45:55.222Z",
+      "scrapedAt": "2026-01-16T00:50:34.129Z",
       "createdAt": "8/5/2025, 10:16:33 AM"
     },
     {
@@ -1090,7 +1090,7 @@
       "mac": "04:42:1A:2B:38:CE",
       "rawMac": "04421a2b38ce",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:05.286Z",
+      "scrapedAt": "2026-01-16T00:50:45.247Z",
       "createdAt": "2025-10-29 05:42:46"
     },
     {
@@ -1102,7 +1102,7 @@
       "mac": "C4:00:AD:97:42:2C",
       "rawMac": "c400ad97422c",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:05.286Z",
+      "scrapedAt": "2026-01-16T00:50:45.247Z",
       "createdAt": "2025-11-19 08:30:10"
     },
     {
@@ -1114,7 +1114,7 @@
       "mac": "CC:82:7F:6C:B9:CD",
       "rawMac": "cc827f6cb9cd",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:05.286Z",
+      "scrapedAt": "2026-01-16T00:50:45.247Z",
       "createdAt": "2025-12-09 03:21:13"
     },
     {
@@ -1126,7 +1126,7 @@
       "mac": "C4:00:AD:CE:99:99",
       "rawMac": "c400adce9999",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:25.252Z",
+      "scrapedAt": "2026-01-16T00:51:07.345Z",
       "createdAt": "2025-11-20 08:29:08"
     },
     {
@@ -1138,7 +1138,7 @@
       "mac": "7C:10:C9:9F:43:54",
       "rawMac": "7c10c99f4354",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:25.252Z",
+      "scrapedAt": "2026-01-16T00:51:07.345Z",
       "createdAt": "2025-12-05 02:55:39"
     },
     {
@@ -1150,7 +1150,7 @@
       "mac": "C4:00:AD:CE:9B:14",
       "rawMac": "c400adce9b14",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:46:25.252Z",
+      "scrapedAt": "2026-01-16T00:51:07.345Z",
       "createdAt": "2026-01-08 07:45:19"
     },
     {
@@ -1162,7 +1162,7 @@
       "mac": "C4:00:AD:97:42:D3",
       "rawMac": "c400ad9742d3",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-11-17 07:35:08"
     },
     {
@@ -1174,7 +1174,7 @@
       "mac": "CC:82:7F:6B:08:A5",
       "rawMac": "cc827f6b08a5",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-11-19 01:54:36"
     },
     {
@@ -1186,7 +1186,7 @@
       "mac": "CC:82:7F:6C:B9:A5",
       "rawMac": "cc827f6cb9a5",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-11-21 08:10:47"
     },
     {
@@ -1198,7 +1198,7 @@
       "mac": "CC:82:7F:6C:B9:AF",
       "rawMac": "cc827f6cb9af",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-11-21 08:20:12"
     },
     {
@@ -1210,7 +1210,7 @@
       "mac": "CC:82:7F:6B:08:4E",
       "rawMac": "cc827f6b084e",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-11-21 08:26:37"
     },
     {
@@ -1222,7 +1222,7 @@
       "mac": "CC:82:7F:6C:B9:E3",
       "rawMac": "cc827f6cb9e3",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-11-21 08:27:20"
     },
     {
@@ -1234,7 +1234,7 @@
       "mac": "CC:82:7F:6B:07:45",
       "rawMac": "cc827f6b0745",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-11-21 08:28:00"
     },
     {
@@ -1246,7 +1246,7 @@
       "mac": "CC:82:7F:6B:07:FF",
       "rawMac": "cc827f6b07ff",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-11-21 08:30:23"
     },
     {
@@ -1258,7 +1258,7 @@
       "mac": "58:11:22:D1:81:B4",
       "rawMac": "581122d181b4",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-11-24 02:20:50"
     },
     {
@@ -1270,7 +1270,7 @@
       "mac": "C4:00:AD:97:42:2C",
       "rawMac": "c400ad97422c",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-12-02 01:44:37"
     },
     {
@@ -1282,7 +1282,7 @@
       "mac": "CC:82:7F:6C:B9:FF",
       "rawMac": "cc827f6cb9ff",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-12-08 02:17:24"
     },
     {
@@ -1294,7 +1294,7 @@
       "mac": "C4:00:AD:87:DD:E1",
       "rawMac": "c400ad87dde1",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-12-08 06:44:13"
     },
     {
@@ -1306,7 +1306,7 @@
       "mac": "CC:82:7F:6C:B9:D9",
       "rawMac": "cc827f6cb9d9",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-12-09 02:26:13"
     },
     {
@@ -1318,7 +1318,7 @@
       "mac": "CC:82:7F:6B:07:E4",
       "rawMac": "cc827f6b07e4",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-12-09 05:32:02"
     },
     {
@@ -1330,7 +1330,7 @@
       "mac": "CC:82:7F:6C:BA:5F",
       "rawMac": "cc827f6cba5f",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-12-09 05:33:21"
     },
     {
@@ -1342,7 +1342,7 @@
       "mac": "CC:82:7F:6C:BA:43",
       "rawMac": "cc827f6cba43",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-12-12 01:09:37"
     },
     {
@@ -1354,7 +1354,7 @@
       "mac": "CC:82:7F:6C:B9:9F",
       "rawMac": "cc827f6cb99f",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-12-12 01:23:46"
     },
     {
@@ -1366,7 +1366,7 @@
       "mac": "CC:82:7F:6B:08:FD",
       "rawMac": "cc827f6b08fd",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-12-16 04:47:01"
     },
     {
@@ -1378,7 +1378,7 @@
       "mac": "CC:82:7F:6C:BA:27",
       "rawMac": "cc827f6cba27",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-12-22 00:56:07"
     },
     {
@@ -1390,7 +1390,7 @@
       "mac": "CC:82:7F:6B:09:1C",
       "rawMac": "cc827f6b091c",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-12-22 01:35:33"
     },
     {
@@ -1402,7 +1402,7 @@
       "mac": "CC:82:7F:6C:B9:B5",
       "rawMac": "cc827f6cb9b5",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-12-22 01:45:02"
     },
     {
@@ -1414,7 +1414,7 @@
       "mac": "C4:00:AD:7C:BE:78",
       "rawMac": "c400ad7cbe78",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2025-12-23 00:45:22"
     },
     {
@@ -1426,7 +1426,7 @@
       "mac": "04:42:1A:2B:38:CE",
       "rawMac": "04421a2b38ce",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2026-01-07 06:40:43"
     },
     {
@@ -1438,7 +1438,7 @@
       "mac": "C4:00:AD:CE:A0:C8",
       "rawMac": "c400adcea0c8",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2026-01-08 01:29:39"
     },
     {
@@ -1450,12 +1450,12 @@
       "mac": "C4:00:AD:CE:9B:14",
       "rawMac": "c400adce9b14",
       "source": "live",
-      "scrapedAt": "2026-01-13T00:47:17.399Z",
+      "scrapedAt": "2026-01-16T00:52:00.857Z",
       "createdAt": "2026-01-08 05:16:11"
     }
   ],
-  "scrapedAt": "2026-01-13T00:45:47.190Z",
-  "mergedAt": "2026-01-13T00:48:01.737Z",
+  "scrapedAt": "2026-01-16T00:50:26.007Z",
+  "mergedAt": "2026-01-16T00:52:45.428Z",
   "stats": {
     "total": 120,
     "live": 81,
