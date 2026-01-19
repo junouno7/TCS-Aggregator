@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-01-16T00:50:26.007Z",
+  "scrapedAt": "2026-01-19T00:54:17.536Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -101,9 +101,16 @@
           "mac": "04421a2b38ce",
           "description": "시뮬레이션 로봇",
           "registeredDate": "10/29/2025, 6:42:52 AM"
+        },
+        {
+          "type": "LP1",
+          "name": "아신",
+          "mac": "c400add7a558",
+          "description": "TW0100P0094",
+          "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-01-16T00:50:34.129Z",
+      "scrapedAt": "2026-01-19T00:54:26.481Z",
       "success": true
     },
     {
@@ -227,9 +234,16 @@
           "mac": "cc827f6cb9cd",
           "description": "",
           "registeredDate": "2025-12-09 03:21:13"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0094",
+          "mac": "c400add7a558",
+          "description": "asin",
+          "registeredDate": "2026-01-16 09:07:38"
         }
       ],
-      "scrapedAt": "2026-01-16T00:50:45.247Z",
+      "scrapedAt": "2026-01-19T00:54:37.805Z",
       "success": true
     },
     {
@@ -257,7 +271,7 @@
           "registeredDate": "2025-09-30 04:16:49"
         }
       ],
-      "scrapedAt": "2026-01-16T00:50:56.362Z",
+      "scrapedAt": "2026-01-19T00:54:49.109Z",
       "success": true
     },
     {
@@ -304,9 +318,16 @@
           "mac": "c400adce9b14",
           "description": "TW0100P0036",
           "registeredDate": "2026-01-08 07:45:19"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0094",
+          "mac": "c400add7a558",
+          "description": "아신",
+          "registeredDate": "2026-01-16 09:23:39"
         }
       ],
-      "scrapedAt": "2026-01-16T00:51:07.345Z",
+      "scrapedAt": "2026-01-19T00:55:00.302Z",
       "success": true
     },
     {
@@ -348,13 +369,13 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2026-01-16T00:51:17.611Z",
+      "scrapedAt": "2026-01-19T00:55:11.554Z",
       "success": true
     },
     {
       "siteId": "support.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-01-16T00:51:49.711Z",
+      "scrapedAt": "2026-01-19T00:55:43.649Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -605,15 +626,22 @@
           "mac": "c400adce9b14",
           "description": "TW0100P0036_육군시연",
           "registeredDate": "2026-01-08 05:16:11"
+        },
+        {
+          "type": "LP1",
+          "name": "asin",
+          "mac": "c400add7a558",
+          "description": "TW0100P0094",
+          "registeredDate": "2026-01-16 09:13:41"
         }
       ],
-      "scrapedAt": "2026-01-16T00:52:00.857Z",
+      "scrapedAt": "2026-01-19T00:55:54.890Z",
       "success": true
     },
     {
       "siteId": "singlerobot.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-01-16T00:52:32.955Z",
+      "scrapedAt": "2026-01-19T00:56:26.990Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -628,9 +656,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-01-16T00:52:43.224Z",
+      "scrapedAt": "2026-01-19T00:56:38.267Z",
       "success": true
     }
   ],
-  "totalRobots": 81
+  "totalRobots": 85
 }
