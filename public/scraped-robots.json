@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-01-25T00:56:25.809Z",
+  "scrapedAt": "2026-01-28T00:50:15.865Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,7 +110,7 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-01-25T00:56:33.775Z",
+      "scrapedAt": "2026-01-28T00:50:24.093Z",
       "success": true
     },
     {
@@ -243,7 +243,7 @@
           "registeredDate": "2026-01-16 09:07:38"
         }
       ],
-      "scrapedAt": "2026-01-25T00:56:45.104Z",
+      "scrapedAt": "2026-01-28T00:50:35.680Z",
       "success": true
     },
     {
@@ -271,7 +271,7 @@
           "registeredDate": "2025-09-30 04:16:49"
         }
       ],
-      "scrapedAt": "2026-01-25T00:56:56.362Z",
+      "scrapedAt": "2026-01-28T00:50:47.077Z",
       "success": true
     },
     {
@@ -313,7 +313,7 @@
           "registeredDate": "2026-01-08 07:45:19"
         }
       ],
-      "scrapedAt": "2026-01-25T00:57:07.427Z",
+      "scrapedAt": "2026-01-28T00:50:58.474Z",
       "success": true
     },
     {
@@ -355,13 +355,13 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2026-01-25T00:57:18.779Z",
+      "scrapedAt": "2026-01-28T00:51:09.986Z",
       "success": true
     },
     {
       "siteId": "support.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-01-25T00:57:50.877Z",
+      "scrapedAt": "2026-01-28T00:51:42.080Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -628,13 +628,13 @@
           "registeredDate": "2026-01-23 05:24:39"
         }
       ],
-      "scrapedAt": "2026-01-25T00:58:02.148Z",
+      "scrapedAt": "2026-01-28T00:51:53.499Z",
       "success": true
     },
     {
       "siteId": "singlerobot.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-01-25T00:58:34.246Z",
+      "scrapedAt": "2026-01-28T00:52:25.592Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -649,7 +649,7 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-01-25T00:58:45.518Z",
+      "scrapedAt": "2026-01-28T00:52:37.008Z",
       "success": true
     }
   ],
