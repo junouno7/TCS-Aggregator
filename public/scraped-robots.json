@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-01-28T00:50:15.865Z",
+  "scrapedAt": "2026-01-31T00:56:29.694Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,7 +110,7 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-01-28T00:50:24.093Z",
+      "scrapedAt": "2026-01-31T00:56:38.095Z",
       "success": true
     },
     {
@@ -243,7 +243,7 @@
           "registeredDate": "2026-01-16 09:07:38"
         }
       ],
-      "scrapedAt": "2026-01-28T00:50:35.680Z",
+      "scrapedAt": "2026-01-31T00:56:49.473Z",
       "success": true
     },
     {
@@ -271,7 +271,7 @@
           "registeredDate": "2025-09-30 04:16:49"
         }
       ],
-      "scrapedAt": "2026-01-28T00:50:47.077Z",
+      "scrapedAt": "2026-01-31T00:57:00.931Z",
       "success": true
     },
     {
@@ -313,7 +313,7 @@
           "registeredDate": "2026-01-08 07:45:19"
         }
       ],
-      "scrapedAt": "2026-01-28T00:50:58.474Z",
+      "scrapedAt": "2026-01-31T00:57:12.219Z",
       "success": true
     },
     {
@@ -355,13 +355,13 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2026-01-28T00:51:09.986Z",
+      "scrapedAt": "2026-01-31T00:57:23.659Z",
       "success": true
     },
     {
       "siteId": "support.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-01-28T00:51:42.080Z",
+      "scrapedAt": "2026-01-31T00:57:55.753Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -622,19 +622,19 @@
         },
         {
           "type": "NargoF300",
-          "name": "전남대 잔출 예정 로봇",
+          "name": "TW0300F0010",
           "mac": "cc827f6cba59",
-          "description": "TW0300F0010",
+          "description": "전남대학교",
           "registeredDate": "2026-01-23 05:24:39"
         }
       ],
-      "scrapedAt": "2026-01-28T00:51:53.499Z",
+      "scrapedAt": "2026-01-31T00:58:07.199Z",
       "success": true
     },
     {
       "siteId": "singlerobot.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-01-28T00:52:25.592Z",
+      "scrapedAt": "2026-01-31T00:58:39.297Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -649,7 +649,7 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-01-28T00:52:37.008Z",
+      "scrapedAt": "2026-01-31T00:58:50.720Z",
       "success": true
     }
   ],
