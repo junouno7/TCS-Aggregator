@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-02-01T01:08:39.759Z",
+  "scrapedAt": "2026-02-04T00:58:18.865Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,7 +110,7 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-02-01T01:08:47.568Z",
+      "scrapedAt": "2026-02-04T00:58:26.841Z",
       "success": true
     },
     {
@@ -243,7 +243,7 @@
           "registeredDate": "2026-01-16 09:07:38"
         }
       ],
-      "scrapedAt": "2026-02-01T01:08:57.565Z",
+      "scrapedAt": "2026-02-04T00:58:38.244Z",
       "success": true
     },
     {
@@ -271,7 +271,7 @@
           "registeredDate": "2025-09-30 04:16:49"
         }
       ],
-      "scrapedAt": "2026-02-01T01:09:07.632Z",
+      "scrapedAt": "2026-02-04T00:58:49.578Z",
       "success": true
     },
     {
@@ -313,7 +313,7 @@
           "registeredDate": "2026-01-08 07:45:19"
         }
       ],
-      "scrapedAt": "2026-02-01T01:09:17.533Z",
+      "scrapedAt": "2026-02-04T00:59:00.689Z",
       "success": true
     },
     {
@@ -355,13 +355,13 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2026-02-01T01:09:27.531Z",
+      "scrapedAt": "2026-02-04T00:59:11.915Z",
       "success": true
     },
     {
       "siteId": "support.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-02-01T01:09:59.635Z",
+      "scrapedAt": "2026-02-04T00:59:44.009Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -586,13 +586,6 @@
           "registeredDate": "2025-12-22 01:45:02"
         },
         {
-          "type": "Nargo60-3rd",
-          "name": "엔진테스트로봇",
-          "mac": "c400ad7cbe78",
-          "description": "MAR060A03B030022",
-          "registeredDate": "2025-12-23 00:45:22"
-        },
-        {
           "type": "Nargo60_Gazebo",
           "name": "CS팀 시뮬레이션",
           "mac": "04421a2b38ce",
@@ -626,15 +619,22 @@
           "mac": "cc827f6cba59",
           "description": "전남대학교",
           "registeredDate": "2026-01-23 05:24:39"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "엔진 테스트 로봇",
+          "mac": "c400ad7cbed8",
+          "description": "MAR060A03B030008",
+          "registeredDate": "2026-02-02 04:52:48"
         }
       ],
-      "scrapedAt": "2026-02-01T01:10:11.500Z",
+      "scrapedAt": "2026-02-04T00:59:55.304Z",
       "success": true
     },
     {
       "siteId": "singlerobot.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-02-01T01:10:43.597Z",
+      "scrapedAt": "2026-02-04T01:00:27.402Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -649,7 +649,7 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-02-01T01:10:53.594Z",
+      "scrapedAt": "2026-02-04T01:00:38.701Z",
       "success": true
     }
   ],
