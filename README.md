@@ -1,4 +1,4 @@
 # TCS Aggregator
 
-Live Site: [tcsmaster.netlify.app](https://tcsmaster.netlify.app)
+Aggregates all servers into one master
 
