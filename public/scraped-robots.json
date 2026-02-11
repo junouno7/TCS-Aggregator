@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-02-04T00:58:18.865Z",
+  "scrapedAt": "2026-02-11T01:21:08.406Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,7 +110,7 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-02-04T00:58:26.841Z",
+      "scrapedAt": "2026-02-11T01:21:16.504Z",
       "success": true
     },
     {
@@ -243,7 +243,7 @@
           "registeredDate": "2026-01-16 09:07:38"
         }
       ],
-      "scrapedAt": "2026-02-04T00:58:38.244Z",
+      "scrapedAt": "2026-02-11T01:21:28.013Z",
       "success": true
     },
     {
@@ -271,7 +271,7 @@
           "registeredDate": "2025-09-30 04:16:49"
         }
       ],
-      "scrapedAt": "2026-02-04T00:58:49.578Z",
+      "scrapedAt": "2026-02-11T01:21:39.717Z",
       "success": true
     },
     {
@@ -313,7 +313,7 @@
           "registeredDate": "2026-01-08 07:45:19"
         }
       ],
-      "scrapedAt": "2026-02-04T00:59:00.689Z",
+      "scrapedAt": "2026-02-11T01:21:51.173Z",
       "success": true
     },
     {
@@ -355,13 +355,13 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2026-02-04T00:59:11.915Z",
+      "scrapedAt": "2026-02-11T01:22:02.748Z",
       "success": true
     },
     {
       "siteId": "support.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-02-04T00:59:44.009Z",
+      "scrapedAt": "2026-02-11T01:22:34.845Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -626,15 +626,29 @@
           "mac": "c400ad7cbed8",
           "description": "MAR060A03B030008",
           "registeredDate": "2026-02-02 04:52:48"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0029",
+          "mac": "cc827f21f9d7",
+          "description": "(예정) 게스템프",
+          "registeredDate": "2026-02-04 04:03:08"
+        },
+        {
+          "type": "NargoF300",
+          "name": "코엠에스_반출예정",
+          "mac": "cc827f4b28d2",
+          "description": "TW0300F0011",
+          "registeredDate": "2026-02-11 00:22:47"
         }
       ],
-      "scrapedAt": "2026-02-04T00:59:55.304Z",
+      "scrapedAt": "2026-02-11T01:22:46.515Z",
       "success": true
     },
     {
       "siteId": "singlerobot.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-02-04T01:00:27.402Z",
+      "scrapedAt": "2026-02-11T01:23:18.612Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -649,9 +663,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-02-04T01:00:38.701Z",
+      "scrapedAt": "2026-02-11T01:23:30.174Z",
       "success": true
     }
   ],
-  "totalRobots": 84
+  "totalRobots": 86
 }
