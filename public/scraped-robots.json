@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-02-11T01:21:08.406Z",
+  "scrapedAt": "2026-02-16T01:13:11.143Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,7 +110,7 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-02-11T01:21:16.504Z",
+      "scrapedAt": "2026-02-16T01:13:19.117Z",
       "success": true
     },
     {
@@ -243,7 +243,7 @@
           "registeredDate": "2026-01-16 09:07:38"
         }
       ],
-      "scrapedAt": "2026-02-11T01:21:28.013Z",
+      "scrapedAt": "2026-02-16T01:13:30.396Z",
       "success": true
     },
     {
@@ -251,27 +251,20 @@
       "robots": [
         {
           "type": "TS1",
-          "name": "세종시청 2호기",
+          "name": "2호기",
           "mac": "C4:00:AD:D7:A3:F4",
           "description": "나르고 딜리버리 2호기",
           "registeredDate": "2025-07-07 12:11:51"
         },
         {
           "type": "TS1",
-          "name": "세종시청 1호기",
+          "name": "1호기",
           "mac": "CC:82:7F:6B:07:AD",
           "description": "나르고 딜리버리 1호기",
           "registeredDate": "2025-07-07 12:15:42"
-        },
-        {
-          "type": "Nargo60_3rd",
-          "name": "세종시청 3호기",
-          "mac": "C4:00:AD:7A:34:9C",
-          "description": "나르고 60 3호기",
-          "registeredDate": "2025-09-30 04:16:49"
         }
       ],
-      "scrapedAt": "2026-02-11T01:21:39.717Z",
+      "scrapedAt": "2026-02-16T01:13:41.840Z",
       "success": true
     },
     {
@@ -313,7 +306,7 @@
           "registeredDate": "2026-01-08 07:45:19"
         }
       ],
-      "scrapedAt": "2026-02-11T01:21:51.173Z",
+      "scrapedAt": "2026-02-16T01:13:52.932Z",
       "success": true
     },
     {
@@ -355,13 +348,13 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2026-02-11T01:22:02.748Z",
+      "scrapedAt": "2026-02-16T01:14:04.250Z",
       "success": true
     },
     {
       "siteId": "support.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-02-11T01:22:34.845Z",
+      "scrapedAt": "2026-02-16T01:14:36.357Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -642,13 +635,13 @@
           "registeredDate": "2026-02-11 00:22:47"
         }
       ],
-      "scrapedAt": "2026-02-11T01:22:46.515Z",
+      "scrapedAt": "2026-02-16T01:14:47.609Z",
       "success": true
     },
     {
       "siteId": "singlerobot.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-02-11T01:23:18.612Z",
+      "scrapedAt": "2026-02-16T01:15:19.714Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -663,9 +656,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-02-11T01:23:30.174Z",
+      "scrapedAt": "2026-02-16T01:15:31.039Z",
       "success": true
     }
   ],
-  "totalRobots": 86
+  "totalRobots": 85
 }
