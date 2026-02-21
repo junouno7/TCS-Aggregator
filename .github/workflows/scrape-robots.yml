@@ -44,7 +44,7 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          git add public/scraped-robots.json public/merged-robots.json
+          git add public/scraped-robots.json public/merged-robots.json public/backup-robots.json
           if git diff --cached --quiet; then
             echo "changes=false" >> $GITHUB_OUTPUT
             echo "No changes detected"
