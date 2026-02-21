@@ -11,6 +11,8 @@ const CREDENTIALS = {
   password: 'rtcl5435!!'
 };
 
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
 /**
  * Scrape robots from a single TCS MASTER site
  */
@@ -18,9 +20,12 @@ async function scrapeSite(siteConfig, options = {}) {
   const { headless = true, timeout = 30000 } = options;
   
   console.log(`\n🤖 Scraping ${siteConfig.id}...`);
+  // New Chromium headless mode can block plain HTTP pages with ERR_BLOCKED_BY_CLIENT.
+  // Use headless shell mode in CI so legacy http:// TCS sites remain accessible.
+  const launchHeadlessMode = headless ? 'shell' : false;
   
   const browser = await puppeteer.launch({
-    headless,
+    headless: launchHeadlessMode,
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
     defaultViewport: { width: 1280, height: 800 }
   });
@@ -32,7 +37,7 @@ async function scrapeSite(siteConfig, options = {}) {
     // Step 1: Navigate to login page
     console.log(`  ➡️  Navigating to ${siteConfig.loginUrl}`);
     await page.goto(siteConfig.loginUrl, { waitUntil: 'networkidle2' });
-    await page.waitForTimeout(1000);
+    await sleep(1000);
 
     // Step 2: Fill credentials
     console.log(`  🔐 Logging in as ${CREDENTIALS.username}...`);
@@ -48,7 +53,7 @@ async function scrapeSite(siteConfig, options = {}) {
       })
     ]);
 
-    await page.waitForTimeout(1000);
+    await sleep(1000);
 
     // Step 4: Navigate to robots page
     console.log(`  ➡️  Navigating to ${siteConfig.robotsUrl}`);
@@ -57,7 +62,7 @@ async function scrapeSite(siteConfig, options = {}) {
     // Step 5: Wait for table to load
     console.log(`  ⏳ Waiting for robot table...`);
     await page.waitForSelector(siteConfig.selectors.waitForElement, { timeout: 10000 });
-    await page.waitForTimeout(2000); // Extra wait for dynamic content
+    await sleep(2000); // Extra wait for dynamic content
 
     // Step 6: Extract robot data using site-specific column mapping
     console.log(`  📊 Extracting robot data...`);

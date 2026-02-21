@@ -6,6 +6,12 @@ let currentSort = { field: 'name', ascending: true };
 let searchQuery = '';
 let groupBySite = true;
 
+// Sites intentionally hidden from UI (permanent decommission).
+const hiddenSiteIds = new Set([
+  'support.twinnyservice.com',
+  'singlerobot.twinnyservice.com'
+]);
+
 // Master credentials - can be loaded from environment or config
 // For security, set these as environment variables in Netlify dashboard
 const masterCredentials = {
@@ -46,12 +52,24 @@ async function loadRobots() {
     if (!response.ok) throw new Error('Failed to fetch robots');
     
     const data = await response.json();
-    allSites = data.sites || [];
-    allRobots = data.robots || [];
+    allSites = (data.sites || []).filter(site => !hiddenSiteIds.has(site.id));
+    allRobots = (data.robots || []).filter(robot => !hiddenSiteIds.has(robot.siteId));
     filteredRobots = [...allRobots];
+
+    // Recompute displayed source counts after UI-level site filtering.
+    const visibleLive = allRobots.filter(robot => robot.source === 'live').length;
+    const visibleSeed = allRobots.filter(robot => robot.source === 'seed').length;
+    const visibleData = {
+      ...data,
+      stats: {
+        total: allRobots.length,
+        live: visibleLive,
+        seed: visibleSeed
+      }
+    };
     
     updateStats();
-    updateDataInfo(data);
+    updateDataInfo(visibleData);
     renderRobots();
   } catch (error) {
     console.error('Error loading robots:', error);
