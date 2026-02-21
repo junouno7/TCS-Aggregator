@@ -1,69 +1,650 @@
 {
-  "scrapedAt": "2026-02-21T11:54:30.777Z",
+  "scrapedAt": "2026-02-21T12:32:04.601Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
-      "robots": [],
-      "scrapedAt": "2026-02-21T11:54:35.808Z",
-      "success": false,
-      "error": "net::ERR_BLOCKED_BY_CLIENT at http://cs.twinnyservice.com/login"
+      "robots": [
+        {
+          "type": "대화형인공지능로봇",
+          "name": "코레일_광명역_LLM_1호기",
+          "mac": "cc827f49d105",
+          "description": "코레일_광명역_LLM_1호기",
+          "registeredDate": "11/4/2024, 3:36:06 AM"
+        },
+        {
+          "type": "나르고500",
+          "name": "나르고500ft 리드앤",
+          "mac": "c400adcea0d0",
+          "description": "나르고500ft 리드앤",
+          "registeredDate": "11/26/2024, 9:06:58 AM"
+        },
+        {
+          "type": "오더피킹PV3_테스트",
+          "name": "M_LP_A0333",
+          "mac": "74fe4896e983",
+          "description": "sddd",
+          "registeredDate": "12/19/2024, 2:30:10 PM"
+        },
+        {
+          "type": "Nargo300",
+          "name": "강원랜드_1호기",
+          "mac": "c400add7a28c",
+          "description": "TW0300N0001",
+          "registeredDate": "1/20/2025, 8:48:42 AM"
+        },
+        {
+          "type": "Nargo300",
+          "name": "강원랜드_2호기",
+          "mac": "c400add7a45c",
+          "description": "TW0300N0002",
+          "registeredDate": "1/20/2025, 9:03:53 AM"
+        },
+        {
+          "type": "오더피킹PV3_battery",
+          "name": "M_LP_100_A02_01-0001",
+          "mac": "b047e9e8ea86",
+          "description": "",
+          "registeredDate": "2/3/2025, 8:59:31 AM"
+        },
+        {
+          "type": "Nargo60",
+          "name": "경덕산업",
+          "mac": "705dccf2bf38",
+          "description": "경덕산업 TCT전환",
+          "registeredDate": "2/5/2025, 8:52:35 AM"
+        },
+        {
+          "type": "Nargo60",
+          "name": "대전TP",
+          "mac": "c400ad7a344e",
+          "description": "대전TP",
+          "registeredDate": "2/6/2025, 6:56:10 AM"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0032",
+          "mac": "cc827f21f9db",
+          "description": "test",
+          "registeredDate": "3/30/2025, 7:39:24 AM"
+        },
+        {
+          "type": "나르고60",
+          "name": "정부과제_안내로봇",
+          "mac": "c400add7a284",
+          "description": "LLM 정부과제 안내 로봇",
+          "registeredDate": "4/16/2025, 11:24:35 AM"
+        },
+        {
+          "type": "TS1",
+          "name": "세종시청 2호기",
+          "mac": "c400add7a3f4",
+          "description": "M-TS-060-A01-B04-0002",
+          "registeredDate": "8/4/2025, 2:46:49 AM"
+        },
+        {
+          "type": "",
+          "name": "Exhibition_Nargo_OrderPicking",
+          "mac": "c400adce9a08",
+          "description": "",
+          "registeredDate": "8/5/2025, 10:16:33 AM"
+        },
+        {
+          "type": "Nargo-3rd",
+          "name": "Sim",
+          "mac": "1c697a0b9754",
+          "description": "병호_시뮬레이션",
+          "registeredDate": "10/16/2025, 1:15:04 AM"
+        },
+        {
+          "type": "Nargo-3rd",
+          "name": "Sim2",
+          "mac": "04421a2b38ce",
+          "description": "시뮬레이션 로봇",
+          "registeredDate": "10/29/2025, 6:42:52 AM"
+        },
+        {
+          "type": "LP1",
+          "name": "아신",
+          "mac": "c400add7a558",
+          "description": "TW0100P0094",
+          "registeredDate": "1/16/2026, 9:18:38 AM"
+        }
+      ],
+      "scrapedAt": "2026-02-21T12:32:12.308Z",
+      "success": true
     },
     {
       "siteId": "twcs.twinnyservice.com",
-      "robots": [],
-      "scrapedAt": "2026-02-21T11:54:41.158Z",
-      "success": false,
-      "error": "net::ERR_BLOCKED_BY_CLIENT at http://twcs.twinnyservice.com/login"
+      "robots": [
+        {
+          "type": "sim",
+          "name": "jthan",
+          "mac": "7c10c99f4354",
+          "description": "sim",
+          "registeredDate": "2025-10-14 08:06:11"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0010-CS",
+          "mac": "c400addf1eb1",
+          "description": "3층 TCS 테스트용 LP",
+          "registeredDate": "2025-10-16 01:12:58"
+        },
+        {
+          "type": "Nargo60-4th",
+          "name": "M_AR_060_A04_B02-2",
+          "mac": "c400adcea050",
+          "description": "산림청로봇 2",
+          "registeredDate": "2025-10-16 03:10:55"
+        },
+        {
+          "type": "Nargo60-4th",
+          "name": "M-AR-060-A04-B02-01",
+          "mac": "c400adce9849",
+          "description": "산림청로봇1",
+          "registeredDate": "2025-10-16 03:13:02"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "TW0060N0019",
+          "mac": "c400adce9c71",
+          "description": "2층별관 인포인",
+          "registeredDate": "2025-10-16 04:53:50"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "TW0060N0020",
+          "mac": "c400ad974363",
+          "description": "2층별관 인포인",
+          "registeredDate": "2025-10-16 05:01:48"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "DCC 로봇 17",
+          "mac": "c400adcea0c8",
+          "description": "DCC용 셋업",
+          "registeredDate": "2025-10-16 05:48:35"
+        },
+        {
+          "type": "Nargo60-4th",
+          "name": "00032",
+          "mac": "cc827f6b084e",
+          "description": "asdasd",
+          "registeredDate": "2025-10-20 07:57:57"
+        },
+        {
+          "type": "Nargo60-4th",
+          "name": "00033",
+          "mac": "cc827f6cb9af",
+          "description": "30",
+          "registeredDate": "2025-10-20 09:19:12"
+        },
+        {
+          "type": "Nargo60-4th",
+          "name": "00034",
+          "mac": "cc827f6b07ff",
+          "description": "29",
+          "registeredDate": "2025-10-20 09:44:21"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "farleft(33hogi)",
+          "mac": "cc827f6b0745",
+          "description": "farleft",
+          "registeredDate": "2025-10-22 06:07:10"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "left(31hogi)",
+          "mac": "cc827f6cb9a5",
+          "description": "left",
+          "registeredDate": "2025-10-22 06:13:29"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "farright(34hogi)",
+          "mac": "cc827f6cb9e3",
+          "description": "right",
+          "registeredDate": "2025-10-22 06:24:18"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "sim2",
+          "mac": "04421a2b38ce",
+          "description": "",
+          "registeredDate": "2025-10-29 05:42:46"
+        },
+        {
+          "type": "Nargo60-3rd(Gazebo)",
+          "name": "Sim_CS",
+          "mac": "f02f74b1ff62",
+          "description": "CS_Simulator",
+          "registeredDate": "2025-10-31 00:08:34"
+        },
+        {
+          "type": "Nargo100-3rd",
+          "name": "TW0100N0008",
+          "mac": "c400ad97422c",
+          "description": "코엠에스",
+          "registeredDate": "2025-11-19 08:30:10"
+        },
+        {
+          "type": "Nargo60",
+          "name": "TW0060N0047",
+          "mac": "cc827f6cb9cd",
+          "description": "",
+          "registeredDate": "2025-12-09 03:21:13"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0094",
+          "mac": "c400add7a558",
+          "description": "asin",
+          "registeredDate": "2026-01-16 09:07:38"
+        }
+      ],
+      "scrapedAt": "2026-02-21T12:32:22.543Z",
+      "success": true
     },
     {
       "siteId": "in4in.twinnyservice.com",
-      "robots": [],
-      "scrapedAt": "2026-02-21T11:54:46.499Z",
-      "success": false,
-      "error": "net::ERR_BLOCKED_BY_CLIENT at http://in4in.twinnyservice.com/login"
+      "robots": [
+        {
+          "type": "TS1",
+          "name": "2호기",
+          "mac": "C4:00:AD:D7:A3:F4",
+          "description": "나르고 딜리버리 2호기",
+          "registeredDate": "2025-07-07 12:11:51"
+        },
+        {
+          "type": "TS1",
+          "name": "1호기",
+          "mac": "CC:82:7F:6B:07:AD",
+          "description": "나르고 딜리버리 1호기",
+          "registeredDate": "2025-07-07 12:15:42"
+        }
+      ],
+      "scrapedAt": "2026-02-21T12:32:32.860Z",
+      "success": true
     },
     {
       "siteId": "twinnyshow.twinnyservice.com",
-      "robots": [],
-      "scrapedAt": "2026-02-21T11:54:51.849Z",
-      "success": false,
-      "error": "net::ERR_BLOCKED_BY_CLIENT at http://twinnyshow.twinnyservice.com/login"
+      "robots": [
+        {
+          "type": "Nargo100",
+          "name": "하이록코리아",
+          "mac": "c400ad7a34d5",
+          "description": "하이록코리아",
+          "registeredDate": "2025-06-19 06:07:03"
+        },
+        {
+          "type": "Nargo100-3rd",
+          "name": "M-AR-100-A03-B02-0003",
+          "mac": "c400ad7a347b",
+          "description": "희성촉매_나르고100_01",
+          "registeredDate": "2025-07-11 04:21:12"
+        },
+        {
+          "type": "Nargo60-3rd(Gazebo)",
+          "name": "수돈레이션",
+          "mac": "f02f74b200a1",
+          "description": "Sim_SD",
+          "registeredDate": "2025-10-31 00:34:59"
+        },
+        {
+          "type": "Nargo60-4th",
+          "name": "사내",
+          "mac": "c400adce9999",
+          "description": "남색이",
+          "registeredDate": "2025-11-20 08:29:08"
+        },
+        {
+          "type": "LP1",
+          "name": "육군시연",
+          "mac": "c400adce9b14",
+          "description": "TW0100P0036",
+          "registeredDate": "2026-01-08 07:45:19"
+        }
+      ],
+      "scrapedAt": "2026-02-21T12:32:42.944Z",
+      "success": true
     },
     {
       "siteId": "fine.twinnyservice.com",
-      "robots": [],
-      "scrapedAt": "2026-02-21T11:54:57.203Z",
-      "success": false,
-      "error": "net::ERR_BLOCKED_BY_CLIENT at http://fine.twinnyservice.com/login"
-    },
-    {
-      "siteId": "support.twinnyservice.com",
-      "robots": [],
-      "scrapedAt": "2026-02-21T11:55:02.558Z",
-      "success": false,
-      "error": "net::ERR_BLOCKED_BY_CLIENT at http://support.twinnyservice.com/login"
+      "robots": [
+        {
+          "type": "nargo60_patrol",
+          "name": "화인베스틸 in4in",
+          "mac": "c400adcea040",
+          "description": "TW0060N0018",
+          "registeredDate": "2025-09-25 10:56:43"
+        },
+        {
+          "type": "nargo60_air_cleaner",
+          "name": "화인베스틸 in4in",
+          "mac": "c400add7a4fe",
+          "description": "TW0060N0021",
+          "registeredDate": "2025-09-25 10:58:38"
+        },
+        {
+          "type": "nargo60_air_cleaner",
+          "name": "화인베스틸 in4in",
+          "mac": "c400adce9c77",
+          "description": "TW0060N0022",
+          "registeredDate": "2025-09-26 13:21:07"
+        },
+        {
+          "type": "nargo60_air_cleaner",
+          "name": "화인베스틸 in4in",
+          "mac": "c400adce9db9",
+          "description": "TW0060N0023",
+          "registeredDate": "2025-09-26 13:53:56"
+        },
+        {
+          "type": "nargo60_patrol",
+          "name": "화인베스틸 in4in",
+          "mac": "c400adcea0b2",
+          "description": "TW0060N0024",
+          "registeredDate": "2025-09-26 13:57:10"
+        }
+      ],
+      "scrapedAt": "2026-02-21T12:32:53.142Z",
+      "success": true
     },
     {
       "siteId": "singlerobot118.twinnyservice.com",
-      "robots": [],
-      "scrapedAt": "2026-02-21T11:55:07.924Z",
-      "success": false,
-      "error": "net::ERR_BLOCKED_BY_CLIENT at http://singlerobot118.twinnyservice.com/login"
-    },
-    {
-      "siteId": "singlerobot.twinnyservice.com",
-      "robots": [],
-      "scrapedAt": "2026-02-21T11:55:13.284Z",
-      "success": false,
-      "error": "net::ERR_BLOCKED_BY_CLIENT at http://singlerobot.twinnyservice.com/login"
+      "robots": [
+        {
+          "type": "simulator",
+          "name": "jthan",
+          "mac": "7c10c99f4354",
+          "description": "jthan 시뮬레이터로봇",
+          "registeredDate": "2025-09-18 08:04:38"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "카이스트_납품한_나르고60",
+          "mac": "c400ad97436d",
+          "description": "카이스트_나르고",
+          "registeredDate": "2025-09-29 04:29:00"
+        },
+        {
+          "type": "tetra_ds5",
+          "name": "휴림로봇01",
+          "mac": "c0fbf9cb1fc7",
+          "description": "tetra_ds5_for_twinny",
+          "registeredDate": "2025-10-15 06:58:07"
+        },
+        {
+          "type": "M-AR-060-A03-B03",
+          "name": "미국수출로봇36",
+          "mac": "cc827f6b080a",
+          "description": "TW0060N0036",
+          "registeredDate": "2025-10-22 08:18:01"
+        },
+        {
+          "type": "M-AR-060-A03-B03",
+          "name": "미국수출로봇35",
+          "mac": "cc827f6b0749",
+          "description": "TW0060N0035",
+          "registeredDate": "2025-10-23 04:39:40"
+        },
+        {
+          "type": "M-AR-060-A03-B03",
+          "name": "미국수출로봇37",
+          "mac": "cc827f6b087f",
+          "description": "TW0060N0037",
+          "registeredDate": "2025-10-23 05:05:15"
+        },
+        {
+          "type": "M-LP-100-A01-B01",
+          "name": "엔진_2.11.6_테스트",
+          "mac": "c400add7a450",
+          "description": "TW0100P0009",
+          "registeredDate": "2025-10-23 07:37:42"
+        },
+        {
+          "type": "M-AR-060-A03-B03",
+          "name": "미국수출로봇28",
+          "mac": "cc827f6b0769",
+          "description": "TW0060N0028",
+          "registeredDate": "2025-10-23 08:34:40"
+        },
+        {
+          "type": "LP1-PV3",
+          "name": "4층 실험실테스트 04",
+          "mac": "b047e9e8eacc",
+          "description": "MLP100A0201H10001",
+          "registeredDate": "2025-10-29 09:42:41"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "ML-X센서테스트",
+          "mac": "c400ad87ddfe",
+          "description": "MAR060A03B030007",
+          "registeredDate": "2025-11-06 05:49:24"
+        },
+        {
+          "type": "M-AR-060-A03-B04",
+          "name": "모터드라이버 교체로봇",
+          "mac": "c400ad9742d3",
+          "description": "TW0060N0015",
+          "registeredDate": "2025-11-17 07:35:08"
+        },
+        {
+          "type": "NargoF600",
+          "name": "스마트전자 납품 팩토리 600",
+          "mac": "cc827f6b08a5",
+          "description": "스마트전자",
+          "registeredDate": "2025-11-19 01:54:36"
+        },
+        {
+          "type": "Nargo60",
+          "name": "USA",
+          "mac": "cc827f6cb9a5",
+          "description": "TW0060N0031",
+          "registeredDate": "2025-11-21 08:10:47"
+        },
+        {
+          "type": "Nargo60",
+          "name": "USA",
+          "mac": "cc827f6cb9af",
+          "description": "TW0060N0030",
+          "registeredDate": "2025-11-21 08:20:12"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "USA32",
+          "mac": "cc827f6b084e",
+          "description": "TW0060N0032",
+          "registeredDate": "2025-11-21 08:26:37"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "USA34",
+          "mac": "cc827f6cb9e3",
+          "description": "TW0060N0034",
+          "registeredDate": "2025-11-21 08:27:20"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "USA33",
+          "mac": "cc827f6b0745",
+          "description": "TW0060N0033",
+          "registeredDate": "2025-11-21 08:28:00"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "USA29",
+          "mac": "cc827f6b07ff",
+          "description": "TW0060N0029",
+          "registeredDate": "2025-11-21 08:30:23"
+        },
+        {
+          "type": "NGU_PC",
+          "name": "남기욱PC",
+          "mac": "581122d181b4",
+          "description": "NGU_PC",
+          "registeredDate": "2025-11-24 02:20:50"
+        },
+        {
+          "type": "Nargo100-3rd",
+          "name": "코엠에스",
+          "mac": "c400ad97422c",
+          "description": "TW0100N0008",
+          "registeredDate": "2025-12-02 01:44:37"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "TW0060N0040",
+          "mac": "cc827f6cb9ff",
+          "description": "국립세종도서관 2F",
+          "registeredDate": "2025-12-08 02:17:24"
+        },
+        {
+          "type": "기계연 로봇 2호기",
+          "name": "기계연 로봇 2호기",
+          "mac": "c400ad87dde1",
+          "description": "기계연 로봇 2호기",
+          "registeredDate": "2025-12-08 06:44:13"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "TW0060N0038",
+          "mac": "cc827f6cb9d9",
+          "description": "세종 진로교육원_2F",
+          "registeredDate": "2025-12-09 02:26:13"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "TW0060N0039",
+          "mac": "cc827f6b07e4",
+          "description": "국립세종도서관 1F",
+          "registeredDate": "2025-12-09 05:32:02"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "TW0060N0044",
+          "mac": "cc827f6cba5f",
+          "description": "세종 진로교육원_3F",
+          "registeredDate": "2025-12-09 05:33:21"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "TW0060N0046",
+          "mac": "cc827f6cba43",
+          "description": "성남 중원도서관 1F",
+          "registeredDate": "2025-12-12 01:09:37"
+        },
+        {
+          "type": "nargo 60",
+          "name": "TW0060N0045",
+          "mac": "cc827f6cb99f",
+          "description": "성남 중원도서관 2F",
+          "registeredDate": "2025-12-12 01:23:46"
+        },
+        {
+          "type": "M-AR-300-A01-02",
+          "name": "포항공대 반출 예정 로봇",
+          "mac": "cc827f6b08fd",
+          "description": "TW0300F0012",
+          "registeredDate": "2025-12-16 04:47:01"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "반출예정로봇_3",
+          "mac": "cc827f6cba27",
+          "description": "TW0060N0043",
+          "registeredDate": "2025-12-22 00:56:07"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "반출예정로봇_1",
+          "mac": "cc827f6b091c",
+          "description": "TW0060N0041",
+          "registeredDate": "2025-12-22 01:35:33"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "반출예정로봇_2",
+          "mac": "cc827f6cb9b5",
+          "description": "TW0060N0042",
+          "registeredDate": "2025-12-22 01:45:02"
+        },
+        {
+          "type": "Nargo60_Gazebo",
+          "name": "CS팀 시뮬레이션",
+          "mac": "04421a2b38ce",
+          "description": "Sim_CS",
+          "registeredDate": "2026-01-07 06:40:43"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "TW0060N0017",
+          "mac": "c400adcea0c8",
+          "description": "사무실3F",
+          "registeredDate": "2026-01-08 01:29:39"
+        },
+        {
+          "type": "LP1",
+          "name": "시연",
+          "mac": "c400adce9b14",
+          "description": "TW0100P0036_육군시연",
+          "registeredDate": "2026-01-08 05:16:11"
+        },
+        {
+          "type": "LP1",
+          "name": "asin",
+          "mac": "c400add7a558",
+          "description": "TW0100P0094",
+          "registeredDate": "2026-01-16 09:13:41"
+        },
+        {
+          "type": "NargoF300",
+          "name": "TW0300F0010",
+          "mac": "cc827f6cba59",
+          "description": "전남대학교",
+          "registeredDate": "2026-01-23 05:24:39"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "엔진 테스트 로봇",
+          "mac": "c400ad7cbed8",
+          "description": "MAR060A03B030008",
+          "registeredDate": "2026-02-02 04:52:48"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0029",
+          "mac": "cc827f21f9d7",
+          "description": "(예정) 게스템프",
+          "registeredDate": "2026-02-04 04:03:08"
+        },
+        {
+          "type": "NargoF300",
+          "name": "코엠에스_반출예정",
+          "mac": "cc827f4b28d2",
+          "description": "TW0300F0011",
+          "registeredDate": "2026-02-11 00:22:47"
+        }
+      ],
+      "scrapedAt": "2026-02-21T12:33:03.325Z",
+      "success": true
     },
     {
       "siteId": "sunbo118.twinnyservice.com",
-      "robots": [],
-      "scrapedAt": "2026-02-21T11:55:18.645Z",
-      "success": false,
-      "error": "net::ERR_BLOCKED_BY_CLIENT at http://sunbo118.twinnyservice.com/login"
+      "robots": [
+        {
+          "type": "Nargo60-3rd",
+          "name": "SUNBO CAFE DELIVERY",
+          "mac": "c400ad97424e",
+          "description": "M_AR_060_A03_B03",
+          "registeredDate": "2025-07-18 11:29:26"
+        }
+      ],
+      "scrapedAt": "2026-02-21T12:33:13.541Z",
+      "success": true
     }
   ],
-  "totalRobots": 0
+  "totalRobots": 85
 }
