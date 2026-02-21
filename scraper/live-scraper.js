@@ -18,9 +18,12 @@ async function scrapeSite(siteConfig, options = {}) {
   const { headless = true, timeout = 30000 } = options;
   
   console.log(`\n🤖 Scraping ${siteConfig.id}...`);
+  // New Chromium headless mode can block plain HTTP pages with ERR_BLOCKED_BY_CLIENT.
+  // Use headless shell mode in CI so legacy http:// TCS sites remain accessible.
+  const launchHeadlessMode = headless ? 'shell' : false;
   
   const browser = await puppeteer.launch({
-    headless,
+    headless: launchHeadlessMode,
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
     defaultViewport: { width: 1280, height: 800 }
   });
