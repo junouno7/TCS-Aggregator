@@ -3,7 +3,9 @@ const path = require('path');
 
 /**
  * Merge static seed data (robotlist.txt) with live scraped data
- * Strategy: Prefer live data, use seed as fallback
+ * Strategy:
+ * - If a site scrape succeeds, use live data only for that site.
+ * - If a site scrape fails or is missing, use seed data as fallback.
  */
 
 function normalizeMac(mac) {
@@ -41,12 +43,31 @@ function mergeRobotData() {
     console.log('     To scrape: npm run scrape');
   }
 
+  // If a site was successfully scraped, that site's merged robots should come from
+  // the latest live result only (do not retain stale seed/backup entries).
+  const successfulSiteIds = new Set(
+    (scrapedData.sites || [])
+      .filter(site => site && site.siteId && site.success && Array.isArray(site.robots))
+      .map(site => site.siteId)
+  );
+
+  if (successfulSiteIds.size > 0) {
+    console.log(`  ✅ Successful live scrape for ${successfulSiteIds.size} site(s); those sites will be live-only`);
+  }
+
   // Create robot map by siteId + MAC address (key = siteId:mac)
   // This allows same robot to exist on multiple sites
   const robotMap = new Map();
 
-  // First, add all seed robots (as backup)
+  // First, add seed robots as backup only for sites without successful live scrape
+  let seedAdded = 0;
+  let seedSkippedForSuccessfulSites = 0;
   seedData.robots.forEach(robot => {
+    if (successfulSiteIds.has(robot.siteId)) {
+      seedSkippedForSuccessfulSites++;
+      return;
+    }
+
     const normalizedMac = normalizeMac(robot.mac);
     if (normalizedMac && robot.siteId) {
       const key = `${robot.siteId}:${normalizedMac}`;
@@ -54,15 +75,19 @@ function mergeRobotData() {
         ...robot,
         source: 'seed'
       });
+      seedAdded++;
     }
   });
 
-  console.log(`\n  📊 Added ${robotMap.size} robots from seed data (backup)`);
+  console.log(`\n  📊 Added ${seedAdded} robots from seed data (backup)`);
+  if (seedSkippedForSuccessfulSites > 0) {
+    console.log(`     Skipped ${seedSkippedForSuccessfulSites} seed robots from successfully scraped sites`);
+  }
 
   // Then, override/add with scraped robots (prefer live data)
   let liveCount = 0;
   let liveUpdates = 0;
-  scrapedData.sites.forEach(site => {
+  (scrapedData.sites || []).forEach(site => {
     if (!site.success || !site.robots) return;
     
     site.robots.forEach(robot => {
