@@ -16,10 +16,9 @@
   },
   "dependencies": {
     "@netlify/blobs": "^7.2.0",
-    "puppeteer": "^21.0.0"
+    "puppeteer": "^24.37.5"
   },
   "devDependencies": {
     "netlify-cli": "^17.10.1"
   }
 }
-
