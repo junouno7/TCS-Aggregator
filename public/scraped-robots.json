@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-02-21T12:32:04.601Z",
+  "scrapedAt": "2026-02-26T01:04:57.061Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,7 +110,7 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-02-21T12:32:12.308Z",
+      "scrapedAt": "2026-02-26T01:05:05.043Z",
       "success": true
     },
     {
@@ -243,7 +243,7 @@
           "registeredDate": "2026-01-16 09:07:38"
         }
       ],
-      "scrapedAt": "2026-02-21T12:32:22.543Z",
+      "scrapedAt": "2026-02-26T01:05:15.940Z",
       "success": true
     },
     {
@@ -264,7 +264,7 @@
           "registeredDate": "2025-07-07 12:15:42"
         }
       ],
-      "scrapedAt": "2026-02-21T12:32:32.860Z",
+      "scrapedAt": "2026-02-26T01:05:26.607Z",
       "success": true
     },
     {
@@ -306,7 +306,7 @@
           "registeredDate": "2026-01-08 07:45:19"
         }
       ],
-      "scrapedAt": "2026-02-21T12:32:42.944Z",
+      "scrapedAt": "2026-02-26T01:05:37.139Z",
       "success": true
     },
     {
@@ -348,7 +348,7 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2026-02-21T12:32:53.142Z",
+      "scrapedAt": "2026-02-26T01:05:47.721Z",
       "success": true
     },
     {
@@ -626,9 +626,16 @@
           "mac": "cc827f4b28d2",
           "description": "TW0300F0011",
           "registeredDate": "2026-02-11 00:22:47"
+        },
+        {
+          "type": "Nargo60",
+          "name": "M-AR-060-A03-B03-0020",
+          "mac": "c400ad7a344b",
+          "description": "용산시제품제작소",
+          "registeredDate": "2026-02-23 03:21:45"
         }
       ],
-      "scrapedAt": "2026-02-21T12:33:03.325Z",
+      "scrapedAt": "2026-02-26T01:05:58.272Z",
       "success": true
     },
     {
@@ -642,9 +649,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-02-21T12:33:13.541Z",
+      "scrapedAt": "2026-02-26T01:06:08.871Z",
       "success": true
     }
   ],
-  "totalRobots": 85
+  "totalRobots": 86
 }
