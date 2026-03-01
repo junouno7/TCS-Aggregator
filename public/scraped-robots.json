@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-02-26T01:04:57.061Z",
+  "scrapedAt": "2026-03-01T01:13:37.915Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,7 +110,7 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-02-26T01:05:05.043Z",
+      "scrapedAt": "2026-03-01T01:13:45.594Z",
       "success": true
     },
     {
@@ -243,7 +243,7 @@
           "registeredDate": "2026-01-16 09:07:38"
         }
       ],
-      "scrapedAt": "2026-02-26T01:05:15.940Z",
+      "scrapedAt": "2026-03-01T01:13:55.628Z",
       "success": true
     },
     {
@@ -264,7 +264,7 @@
           "registeredDate": "2025-07-07 12:15:42"
         }
       ],
-      "scrapedAt": "2026-02-26T01:05:26.607Z",
+      "scrapedAt": "2026-03-01T01:14:05.663Z",
       "success": true
     },
     {
@@ -306,7 +306,7 @@
           "registeredDate": "2026-01-08 07:45:19"
         }
       ],
-      "scrapedAt": "2026-02-26T01:05:37.139Z",
+      "scrapedAt": "2026-03-01T01:14:15.561Z",
       "success": true
     },
     {
@@ -348,19 +348,12 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2026-02-26T01:05:47.721Z",
+      "scrapedAt": "2026-03-01T01:14:25.654Z",
       "success": true
     },
     {
       "siteId": "singlerobot118.twinnyservice.com",
       "robots": [
-        {
-          "type": "simulator",
-          "name": "jthan",
-          "mac": "7c10c99f4354",
-          "description": "jthan 시뮬레이터로봇",
-          "registeredDate": "2025-09-18 08:04:38"
-        },
         {
           "type": "Nargo60-3rd",
           "name": "카이스트_납품한_나르고60",
@@ -635,7 +628,7 @@
           "registeredDate": "2026-02-23 03:21:45"
         }
       ],
-      "scrapedAt": "2026-02-26T01:05:58.272Z",
+      "scrapedAt": "2026-03-01T01:14:35.721Z",
       "success": true
     },
     {
@@ -649,9 +642,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-02-26T01:06:08.871Z",
+      "scrapedAt": "2026-03-01T01:14:45.743Z",
       "success": true
     }
   ],
-  "totalRobots": 86
+  "totalRobots": 85
 }
