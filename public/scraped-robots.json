@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-03-10T00:21:49.495Z",
+  "scrapedAt": "2026-03-11T01:02:47.777Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,7 +110,7 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-03-10T00:22:00.281Z",
+      "scrapedAt": "2026-03-11T01:02:56.291Z",
       "success": true
     },
     {
@@ -243,7 +243,7 @@
           "registeredDate": "2026-01-16 09:07:38"
         }
       ],
-      "scrapedAt": "2026-03-10T00:22:11.107Z",
+      "scrapedAt": "2026-03-11T01:03:06.236Z",
       "success": true
     },
     {
@@ -264,7 +264,7 @@
           "registeredDate": "2025-07-07 12:15:42"
         }
       ],
-      "scrapedAt": "2026-03-10T00:22:21.923Z",
+      "scrapedAt": "2026-03-11T01:03:16.185Z",
       "success": true
     },
     {
@@ -306,7 +306,7 @@
           "registeredDate": "2026-01-08 07:45:19"
         }
       ],
-      "scrapedAt": "2026-03-10T00:22:32.645Z",
+      "scrapedAt": "2026-03-11T01:03:26.036Z",
       "success": true
     },
     {
@@ -348,7 +348,7 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2026-03-10T00:22:43.462Z",
+      "scrapedAt": "2026-03-11T01:03:35.984Z",
       "success": true
     },
     {
@@ -545,9 +545,9 @@
         },
         {
           "type": "Nargo60-3rd",
-          "name": "반출예정로봇_1",
+          "name": "TW0060N0041",
           "mac": "cc827f6b091c",
-          "description": "TW0060N0041",
+          "description": "(예정) 태주솔루션",
           "registeredDate": "2025-12-22 01:35:33"
         },
         {
@@ -603,7 +603,7 @@
           "type": "LP1",
           "name": "TW0100P0029",
           "mac": "cc827f21f9d7",
-          "description": "(예정) 게스템프",
+          "description": "게스템프",
           "registeredDate": "2026-02-04 04:03:08"
         },
         {
@@ -626,9 +626,16 @@
           "mac": "8cc58c00797b",
           "description": "tetra_ds5_for_twinny",
           "registeredDate": "2026-03-05 06:21:45"
+        },
+        {
+          "type": "M-LP-100-A01-B02",
+          "name": "TW0100P0104",
+          "mac": "cc827f2205bf",
+          "description": "대구 육군기지 시연",
+          "registeredDate": "2026-03-10 02:16:00"
         }
       ],
-      "scrapedAt": "2026-03-10T00:22:54.328Z",
+      "scrapedAt": "2026-03-11T01:03:45.884Z",
       "success": true
     },
     {
@@ -642,9 +649,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-03-10T00:23:05.171Z",
+      "scrapedAt": "2026-03-11T01:03:55.834Z",
       "success": true
     }
   ],
-  "totalRobots": 85
+  "totalRobots": 86
 }
