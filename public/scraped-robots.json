@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-03-11T01:02:47.777Z",
+  "scrapedAt": "2026-03-15T06:39:10.962Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,7 +110,7 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-03-11T01:02:56.291Z",
+      "scrapedAt": "2026-03-15T06:39:19.119Z",
       "success": true
     },
     {
@@ -243,7 +243,7 @@
           "registeredDate": "2026-01-16 09:07:38"
         }
       ],
-      "scrapedAt": "2026-03-11T01:03:06.236Z",
+      "scrapedAt": "2026-03-15T06:39:29.167Z",
       "success": true
     },
     {
@@ -264,7 +264,7 @@
           "registeredDate": "2025-07-07 12:15:42"
         }
       ],
-      "scrapedAt": "2026-03-11T01:03:16.185Z",
+      "scrapedAt": "2026-03-15T06:39:39.207Z",
       "success": true
     },
     {
@@ -306,7 +306,7 @@
           "registeredDate": "2026-01-08 07:45:19"
         }
       ],
-      "scrapedAt": "2026-03-11T01:03:26.036Z",
+      "scrapedAt": "2026-03-15T06:39:49.099Z",
       "success": true
     },
     {
@@ -348,7 +348,7 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2026-03-11T01:03:35.984Z",
+      "scrapedAt": "2026-03-15T06:39:59.083Z",
       "success": true
     },
     {
@@ -580,9 +580,9 @@
         },
         {
           "type": "LP1",
-          "name": "asin",
+          "name": "TW0100P0094",
           "mac": "c400add7a558",
-          "description": "TW0100P0094",
+          "description": "아신",
           "registeredDate": "2026-01-16 09:13:41"
         },
         {
@@ -633,9 +633,23 @@
           "mac": "cc827f2205bf",
           "description": "대구 육군기지 시연",
           "registeredDate": "2026-03-10 02:16:00"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0101",
+          "mac": "c400add7a33c",
+          "description": "전시회 로봇 101 (반복주행)",
+          "registeredDate": "2026-03-14 09:19:02"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0102",
+          "mac": "c400adcea104",
+          "description": "전시회 로봇 102 (멀티오더)",
+          "registeredDate": "2026-03-14 09:59:11"
         }
       ],
-      "scrapedAt": "2026-03-11T01:03:45.884Z",
+      "scrapedAt": "2026-03-15T06:40:09.141Z",
       "success": true
     },
     {
@@ -649,9 +663,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-03-11T01:03:55.834Z",
+      "scrapedAt": "2026-03-15T06:40:19.131Z",
       "success": true
     }
   ],
-  "totalRobots": 86
+  "totalRobots": 88
 }
