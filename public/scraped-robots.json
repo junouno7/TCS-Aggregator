@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-03-16T01:15:51.612Z",
+  "scrapedAt": "2026-03-21T01:02:49.430Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,7 +110,7 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-03-16T01:16:01.250Z",
+      "scrapedAt": "2026-03-21T01:02:57.489Z",
       "success": true
     },
     {
@@ -241,9 +241,16 @@
           "mac": "c400add7a558",
           "description": "asin",
           "registeredDate": "2026-01-16 09:07:38"
+        },
+        {
+          "type": "NargoF300",
+          "name": "컨베이어 로봇",
+          "mac": "cc827f368a0b",
+          "description": "M-NL-300-A01-B02-0001",
+          "registeredDate": "2026-03-17 03:03:49"
         }
       ],
-      "scrapedAt": "2026-03-16T01:16:11.304Z",
+      "scrapedAt": "2026-03-21T01:03:08.123Z",
       "success": true
     },
     {
@@ -264,7 +271,7 @@
           "registeredDate": "2025-07-07 12:15:42"
         }
       ],
-      "scrapedAt": "2026-03-16T01:16:21.355Z",
+      "scrapedAt": "2026-03-21T01:03:18.707Z",
       "success": true
     },
     {
@@ -306,7 +313,7 @@
           "registeredDate": "2026-01-08 07:45:19"
         }
       ],
-      "scrapedAt": "2026-03-16T01:16:31.312Z",
+      "scrapedAt": "2026-03-21T01:03:29.156Z",
       "success": true
     },
     {
@@ -348,7 +355,7 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2026-03-16T01:16:41.335Z",
+      "scrapedAt": "2026-03-21T01:03:39.739Z",
       "success": true
     },
     {
@@ -647,9 +654,44 @@
           "mac": "c400adcea104",
           "description": "전시회 로봇 102 (멀티오더)",
           "registeredDate": "2026-03-14 09:59:11"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0019",
+          "mac": "c400ad97436b",
+          "description": "전시회 로봇 19 (TCS 스페어)",
+          "registeredDate": "2026-03-16 05:03:18"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0012",
+          "mac": "c400ad97421f",
+          "description": "전시회 테스트 로봇 12호기",
+          "registeredDate": "2026-03-16 05:28:49"
+        },
+        {
+          "type": "AMR",
+          "name": "M-NL-300-A01-B02-0001",
+          "mac": "cc827f368a0b",
+          "description": "컨베이어 로봇",
+          "registeredDate": "2026-03-17 02:54:22"
+        },
+        {
+          "type": "LP1",
+          "name": "컬리납품로봇",
+          "mac": "cc827f6b0913",
+          "description": "TW0100P0176",
+          "registeredDate": "2026-03-19 00:32:35"
+        },
+        {
+          "type": "LP1",
+          "name": "컬리납품로봇",
+          "mac": "cc827f6cba45",
+          "description": "TW0100P0167",
+          "registeredDate": "2026-03-19 02:56:08"
         }
       ],
-      "scrapedAt": "2026-03-16T01:16:51.412Z",
+      "scrapedAt": "2026-03-21T01:03:50.373Z",
       "success": true
     },
     {
@@ -663,9 +705,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-03-16T01:17:01.439Z",
+      "scrapedAt": "2026-03-21T01:04:00.955Z",
       "success": true
     }
   ],
-  "totalRobots": 88
+  "totalRobots": 94
 }
