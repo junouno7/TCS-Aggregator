@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-04-01T01:22:49.513Z",
+  "scrapedAt": "2026-04-06T01:19:17.339Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,7 +110,7 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-04-01T01:22:57.424Z",
+      "scrapedAt": "2026-04-06T01:19:25.321Z",
       "success": true
     },
     {
@@ -304,9 +304,86 @@
           "mac": "cc827f6b0954",
           "description": "새로봇 테스트",
           "registeredDate": "2026-03-30 08:47:57"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0182",
+          "mac": "cc827f6b0901",
+          "description": "새로봇 테스트",
+          "registeredDate": "2026-04-01 02:35:15"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0163",
+          "mac": "cc827f4b2948",
+          "description": "새로봇 테스트",
+          "registeredDate": "2026-04-01 07:09:21"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0181",
+          "mac": "cc827f6b0864",
+          "description": "새로봇 테스트",
+          "registeredDate": "2026-04-01 08:24:05"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0179",
+          "mac": "cc827f6cba61",
+          "description": "새로봇 테스트",
+          "registeredDate": "2026-04-02 04:39:04"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0176",
+          "mac": "cc827f6b0913",
+          "description": "새로봇 테스트",
+          "registeredDate": "2026-04-02 05:58:35"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0166",
+          "mac": "cc827f6b083c",
+          "description": "새로봇 테스트",
+          "registeredDate": "2026-04-02 07:14:11"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0173",
+          "mac": "cc827f6cba0d",
+          "description": "새로봇 테스트",
+          "registeredDate": "2026-04-02 08:27:33"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0167",
+          "mac": "cc827f6cba45",
+          "description": "새로봇 테스트",
+          "registeredDate": "2026-04-03 04:16:45"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0171",
+          "mac": "cc827f6b08f4",
+          "description": "새로봇 테스트",
+          "registeredDate": "2026-04-03 06:15:51"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0186",
+          "mac": "c400ad7cbe78",
+          "description": "새로봇 테스트",
+          "registeredDate": "2026-04-03 09:45:21"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0164",
+          "mac": "cc827f380167",
+          "description": "새로봇 테스트",
+          "registeredDate": "2026-04-03 09:51:08"
         }
       ],
-      "scrapedAt": "2026-04-01T01:23:07.986Z",
+      "scrapedAt": "2026-04-06T01:19:36.363Z",
       "success": true
     },
     {
@@ -327,7 +404,7 @@
           "registeredDate": "2025-07-07 12:15:42"
         }
       ],
-      "scrapedAt": "2026-04-01T01:23:18.651Z",
+      "scrapedAt": "2026-04-06T01:19:47.745Z",
       "success": true
     },
     {
@@ -369,7 +446,7 @@
           "registeredDate": "2026-01-08 07:45:19"
         }
       ],
-      "scrapedAt": "2026-04-01T01:23:29.319Z",
+      "scrapedAt": "2026-04-06T01:19:58.317Z",
       "success": true
     },
     {
@@ -411,7 +488,7 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2026-04-01T01:23:40.034Z",
+      "scrapedAt": "2026-04-06T01:20:09.350Z",
       "success": true
     },
     {
@@ -885,9 +962,58 @@
           "mac": "c400ad7cbe78",
           "description": "TW0100P0186",
           "registeredDate": "2026-04-01 01:19:00"
+        },
+        {
+          "type": "LP1",
+          "name": "출고예정로봇",
+          "mac": "c400add7a3b4",
+          "description": "TW0100P0187",
+          "registeredDate": "2026-04-01 02:11:09"
+        },
+        {
+          "type": "LP1",
+          "name": "출고예정로봇",
+          "mac": "c400adce99ff",
+          "description": "TW0100P0183",
+          "registeredDate": "2026-04-01 03:02:25"
+        },
+        {
+          "type": "LP1",
+          "name": "출고예정로봇",
+          "mac": "c400ad974304",
+          "description": "TW0100P0190",
+          "registeredDate": "2026-04-01 04:17:22"
+        },
+        {
+          "type": "LP1",
+          "name": "출고예정로봇",
+          "mac": "c400ad9742e9",
+          "description": "TW0100P0191",
+          "registeredDate": "2026-04-01 05:35:49"
+        },
+        {
+          "type": "LP1",
+          "name": "출고예정로봇",
+          "mac": "c400ad7cbea2",
+          "description": "TW0100P0184",
+          "registeredDate": "2026-04-01 06:17:04"
+        },
+        {
+          "type": "LP1",
+          "name": "출고예정로봇",
+          "mac": "c400ad7a347d",
+          "description": "TW0100P0192",
+          "registeredDate": "2026-04-01 07:01:51"
+        },
+        {
+          "type": "LP1",
+          "name": "출고예정로봇",
+          "mac": "c400ad7cbec0",
+          "description": "TW0100P0188",
+          "registeredDate": "2026-04-01 07:41:46"
         }
       ],
-      "scrapedAt": "2026-04-01T01:23:50.608Z",
+      "scrapedAt": "2026-04-06T01:20:20.295Z",
       "success": true
     },
     {
@@ -901,9 +1027,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-04-01T01:24:01.182Z",
+      "scrapedAt": "2026-04-06T01:20:31.177Z",
       "success": true
     }
   ],
-  "totalRobots": 122
+  "totalRobots": 140
 }
