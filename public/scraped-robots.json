@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-04-06T01:19:17.339Z",
+  "scrapedAt": "2026-04-11T01:13:51.356Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,7 +110,7 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-04-06T01:19:25.321Z",
+      "scrapedAt": "2026-04-11T01:14:00.527Z",
       "success": true
     },
     {
@@ -381,9 +381,30 @@
           "mac": "cc827f380167",
           "description": "새로봇 테스트",
           "registeredDate": "2026-04-03 09:51:08"
+        },
+        {
+          "type": "LP1",
+          "name": "118호기",
+          "mac": "c400ad7cbec0",
+          "description": "TW0100P0188",
+          "registeredDate": "2026-04-06 06:38:23"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0189",
+          "mac": "c400add7a29e",
+          "description": "새로봇 셋팅",
+          "registeredDate": "2026-04-10 08:40:05"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0185",
+          "mac": "cc827f6b0942",
+          "description": "새로봇셋팅",
+          "registeredDate": "2026-04-10 09:28:03"
         }
       ],
-      "scrapedAt": "2026-04-06T01:19:36.363Z",
+      "scrapedAt": "2026-04-11T01:14:11.528Z",
       "success": true
     },
     {
@@ -404,7 +425,7 @@
           "registeredDate": "2025-07-07 12:15:42"
         }
       ],
-      "scrapedAt": "2026-04-06T01:19:47.745Z",
+      "scrapedAt": "2026-04-11T01:14:22.436Z",
       "success": true
     },
     {
@@ -446,7 +467,7 @@
           "registeredDate": "2026-01-08 07:45:19"
         }
       ],
-      "scrapedAt": "2026-04-06T01:19:58.317Z",
+      "scrapedAt": "2026-04-11T01:14:33.053Z",
       "success": true
     },
     {
@@ -488,7 +509,7 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2026-04-06T01:20:09.350Z",
+      "scrapedAt": "2026-04-11T01:14:44.059Z",
       "success": true
     },
     {
@@ -868,13 +889,6 @@
         {
           "type": "LP1",
           "name": "CJ납품로봇",
-          "mac": "cc827f6b0852",
-          "description": "TW0100P0172",
-          "registeredDate": "2026-03-24 01:49:57"
-        },
-        {
-          "type": "LP1",
-          "name": "CJ납품로봇",
           "mac": "cc827f6b0901",
           "description": "TW0100P0182",
           "registeredDate": "2026-03-24 02:44:13"
@@ -1011,9 +1025,51 @@
           "mac": "c400ad7cbec0",
           "description": "TW0100P0188",
           "registeredDate": "2026-04-01 07:41:46"
+        },
+        {
+          "type": "LP1",
+          "name": "CJ납품로봇",
+          "mac": "c400ad974378",
+          "description": "TW0100P0172",
+          "registeredDate": "2026-04-06 07:54:20"
+        },
+        {
+          "type": "NargoF300",
+          "name": "코리아노바6",
+          "mac": "cc827f6b0757",
+          "description": "TW0300F0006",
+          "registeredDate": "2026-04-07 06:49:31"
+        },
+        {
+          "type": "LP1",
+          "name": "출고예정로봇",
+          "mac": "c400add7a29e",
+          "description": "TW0100P0189",
+          "registeredDate": "2026-04-08 07:24:22"
+        },
+        {
+          "type": "LP1",
+          "name": "출고예정로봇",
+          "mac": "cc827f6b0942",
+          "description": "TW0100P0185",
+          "registeredDate": "2026-04-08 09:41:02"
+        },
+        {
+          "type": "NargoF300",
+          "name": "코리아노바9",
+          "mac": "cc827f6b07f6",
+          "description": "TW0300F0009",
+          "registeredDate": "2026-04-10 06:44:24"
+        },
+        {
+          "type": "NargoF300",
+          "name": "코리아노바4",
+          "mac": "cc827f4b289d",
+          "description": "TW0300F0004",
+          "registeredDate": "2026-04-10 10:10:19"
         }
       ],
-      "scrapedAt": "2026-04-06T01:20:20.295Z",
+      "scrapedAt": "2026-04-11T01:14:55.009Z",
       "success": true
     },
     {
@@ -1027,9 +1083,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-04-06T01:20:31.177Z",
+      "scrapedAt": "2026-04-11T01:15:05.918Z",
       "success": true
     }
   ],
-  "totalRobots": 140
+  "totalRobots": 148
 }
