@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-04-26T01:28:04.444Z",
+  "scrapedAt": "2026-05-01T01:53:14.925Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,7 +110,7 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-04-26T01:28:12.456Z",
+      "scrapedAt": "2026-05-01T01:53:24.917Z",
       "success": true
     },
     {
@@ -425,7 +425,7 @@
           "registeredDate": "2026-04-24 06:00:54"
         }
       ],
-      "scrapedAt": "2026-04-26T01:28:23.400Z",
+      "scrapedAt": "2026-05-01T01:53:35.976Z",
       "success": true
     },
     {
@@ -446,7 +446,7 @@
           "registeredDate": "2025-07-07 12:15:42"
         }
       ],
-      "scrapedAt": "2026-04-26T01:28:34.371Z",
+      "scrapedAt": "2026-05-01T01:53:46.981Z",
       "success": true
     },
     {
@@ -488,7 +488,7 @@
           "registeredDate": "2026-01-08 07:45:19"
         }
       ],
-      "scrapedAt": "2026-04-26T01:28:44.987Z",
+      "scrapedAt": "2026-05-01T01:53:57.630Z",
       "success": true
     },
     {
@@ -530,7 +530,7 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2026-04-26T01:28:55.997Z",
+      "scrapedAt": "2026-05-01T01:54:08.712Z",
       "success": true
     },
     {
@@ -857,9 +857,23 @@
           "mac": "cc827f4b289d",
           "description": "TW0300F0004",
           "registeredDate": "2026-04-10 10:10:19"
+        },
+        {
+          "type": "LP1",
+          "name": "납품예정로봇1",
+          "mac": "c400add7a420",
+          "description": "TW0100P0164",
+          "registeredDate": "2026-04-28 05:23:02"
+        },
+        {
+          "type": "LP1",
+          "name": "납품예정로봇",
+          "mac": "c400ad7cbea2",
+          "description": "TW0100P0184",
+          "registeredDate": "2026-04-28 07:53:45"
         }
       ],
-      "scrapedAt": "2026-04-26T01:29:06.946Z",
+      "scrapedAt": "2026-05-01T01:54:19.697Z",
       "success": true
     },
     {
@@ -873,9 +887,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-04-26T01:29:17.996Z",
+      "scrapedAt": "2026-05-01T01:54:30.656Z",
       "success": true
     }
   ],
-  "totalRobots": 118
+  "totalRobots": 120
 }
