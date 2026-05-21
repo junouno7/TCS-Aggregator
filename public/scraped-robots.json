@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-05-16T01:52:04.810Z",
+  "scrapedAt": "2026-05-21T02:03:41.706Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,27 +110,27 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-05-16T01:52:14.742Z",
+      "scrapedAt": "2026-05-21T02:03:49.198Z",
       "success": true
     },
     {
       "siteId": "twcs.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-05-16T01:52:46.852Z",
+      "scrapedAt": "2026-05-21T02:04:21.326Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
     {
       "siteId": "in4in.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-05-16T01:53:18.958Z",
+      "scrapedAt": "2026-05-21T02:04:53.450Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
     {
       "siteId": "twinnyshow.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-05-16T01:53:51.075Z",
+      "scrapedAt": "2026-05-21T02:05:25.577Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -173,7 +173,7 @@
           "registeredDate": "2025-09-26 13:57:10"
         }
       ],
-      "scrapedAt": "2026-05-16T01:54:01.233Z",
+      "scrapedAt": "2026-05-21T02:05:35.800Z",
       "success": true
     },
     {
@@ -395,9 +395,30 @@
           "mac": "c400ad7cbe28",
           "description": "E/V TEST",
           "registeredDate": "2026-05-14 03:25:25"
+        },
+        {
+          "type": "LP1",
+          "name": "반출예정로봇",
+          "mac": "cc827f6b0871",
+          "description": "TW0100P0199",
+          "registeredDate": "2026-05-18 02:48:42"
+        },
+        {
+          "type": "LP1",
+          "name": "반출예정로봇",
+          "mac": "c400add7a61c",
+          "description": "TW0100P0205",
+          "registeredDate": "2026-05-18 09:40:52"
+        },
+        {
+          "type": "LP1",
+          "name": "반출예정로봇",
+          "mac": "c400add7a47e",
+          "description": "TW0100P0207",
+          "registeredDate": "2026-05-20 02:50:36"
         }
       ],
-      "scrapedAt": "2026-05-16T01:54:11.441Z",
+      "scrapedAt": "2026-05-21T02:05:46.043Z",
       "success": true
     },
     {
@@ -411,9 +432,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-05-16T01:54:21.630Z",
+      "scrapedAt": "2026-05-21T02:05:56.259Z",
       "success": true
     }
   ],
-  "totalRobots": 52
+  "totalRobots": 55
 }
