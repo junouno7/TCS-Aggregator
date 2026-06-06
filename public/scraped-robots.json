@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-01T02:32:56.479Z",
+  "scrapedAt": "2026-06-06T02:00:02.097Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,27 +110,27 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-06-01T02:33:05.017Z",
+      "scrapedAt": "2026-06-06T02:00:09.842Z",
       "success": true
     },
     {
       "siteId": "twcs.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-06-01T02:33:37.155Z",
+      "scrapedAt": "2026-06-06T02:00:41.976Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
     {
       "siteId": "in4in.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-06-01T02:34:09.297Z",
+      "scrapedAt": "2026-06-06T02:01:14.103Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
     {
       "siteId": "twinnyshow.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-06-01T02:34:41.434Z",
+      "scrapedAt": "2026-06-06T02:01:46.232Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -171,9 +171,16 @@
           "mac": "c400adcea0b2",
           "description": "TW0060N0024",
           "registeredDate": "2025-09-26 13:57:10"
+        },
+        {
+          "type": "Nargo60-3rd",
+          "name": "TW0060N0016",
+          "mac": "c400add7a284",
+          "description": "엘리베이터 시험 로봇",
+          "registeredDate": "2026-06-01 02:35:41"
         }
       ],
-      "scrapedAt": "2026-06-01T02:34:51.979Z",
+      "scrapedAt": "2026-06-06T02:01:56.381Z",
       "success": true
     },
     {
@@ -376,13 +383,6 @@
           "registeredDate": "2026-04-28 05:23:02"
         },
         {
-          "type": "LP1",
-          "name": "납품예정로봇",
-          "mac": "c400ad7cbea2",
-          "description": "TW0100P0184",
-          "registeredDate": "2026-04-28 07:53:45"
-        },
-        {
           "type": "NargoF300",
           "name": "코리아노바7",
           "mac": "cc827f6cba4f",
@@ -437,9 +437,30 @@
           "mac": "c400add7a454",
           "description": "Tw0100P0203",
           "registeredDate": "2026-05-22 02:31:45"
+        },
+        {
+          "type": "LP1",
+          "name": "3F_test",
+          "mac": "cc827f6b0852",
+          "description": "TW0100P0206",
+          "registeredDate": "2026-06-04 02:27:37"
+        },
+        {
+          "type": "LP1",
+          "name": "3F_test",
+          "mac": "c400ad7cbea2",
+          "description": "TW0100P0184",
+          "registeredDate": "2026-06-04 02:51:51"
+        },
+        {
+          "type": "LP1",
+          "name": "4F_test",
+          "mac": "cc827f6cba01",
+          "description": "TW0100P0180",
+          "registeredDate": "2026-06-04 06:42:36"
         }
       ],
-      "scrapedAt": "2026-06-01T02:35:02.395Z",
+      "scrapedAt": "2026-06-06T02:02:06.573Z",
       "success": true
     },
     {
@@ -453,9 +474,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-06-01T02:35:12.744Z",
+      "scrapedAt": "2026-06-06T02:02:16.730Z",
       "success": true
     }
   ],
-  "totalRobots": 58
+  "totalRobots": 61
 }
