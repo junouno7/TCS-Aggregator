@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-06T02:00:02.097Z",
+  "scrapedAt": "2026-06-11T02:32:05.968Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,29 +110,29 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-06-06T02:00:09.842Z",
+      "scrapedAt": "2026-06-11T02:32:14.819Z",
       "success": true
     },
     {
       "siteId": "twcs.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-06-06T02:00:41.976Z",
+      "scrapedAt": "2026-06-11T02:32:46.992Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
     {
       "siteId": "in4in.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-06-06T02:01:14.103Z",
+      "scrapedAt": "2026-06-11T02:33:19.121Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
     {
       "siteId": "twinnyshow.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-06-06T02:01:46.232Z",
+      "scrapedAt": "2026-06-11T02:33:21.472Z",
       "success": false,
-      "error": "Navigation timeout of 30000 ms exceeded"
+      "error": "net::ERR_CONNECTION_REFUSED at http://twinnyshow.twinnyservice.com/login"
     },
     {
       "siteId": "fine.twinnyservice.com",
@@ -180,7 +180,7 @@
           "registeredDate": "2026-06-01 02:35:41"
         }
       ],
-      "scrapedAt": "2026-06-06T02:01:56.381Z",
+      "scrapedAt": "2026-06-11T02:33:32.303Z",
       "success": true
     },
     {
@@ -460,7 +460,7 @@
           "registeredDate": "2026-06-04 06:42:36"
         }
       ],
-      "scrapedAt": "2026-06-06T02:02:06.573Z",
+      "scrapedAt": "2026-06-11T02:33:43.192Z",
       "success": true
     },
     {
@@ -474,7 +474,7 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-06-06T02:02:16.730Z",
+      "scrapedAt": "2026-06-11T02:33:53.959Z",
       "success": true
     }
   ],
