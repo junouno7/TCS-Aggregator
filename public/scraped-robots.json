@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-11T02:32:05.968Z",
+  "scrapedAt": "2026-06-16T02:37:56.394Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,29 +110,29 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-06-11T02:32:14.819Z",
+      "scrapedAt": "2026-06-16T02:38:05.461Z",
       "success": true
     },
     {
       "siteId": "twcs.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-06-11T02:32:46.992Z",
+      "scrapedAt": "2026-06-16T02:38:37.603Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
     {
       "siteId": "in4in.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-06-11T02:33:19.121Z",
+      "scrapedAt": "2026-06-16T02:39:09.734Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
     {
       "siteId": "twinnyshow.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-06-11T02:33:21.472Z",
+      "scrapedAt": "2026-06-16T02:39:41.872Z",
       "success": false,
-      "error": "net::ERR_CONNECTION_REFUSED at http://twinnyshow.twinnyservice.com/login"
+      "error": "Navigation timeout of 30000 ms exceeded"
     },
     {
       "siteId": "fine.twinnyservice.com",
@@ -180,7 +180,7 @@
           "registeredDate": "2026-06-01 02:35:41"
         }
       ],
-      "scrapedAt": "2026-06-11T02:33:32.303Z",
+      "scrapedAt": "2026-06-16T02:39:52.840Z",
       "success": true
     },
     {
@@ -458,9 +458,16 @@
           "mac": "cc827f6cba01",
           "description": "TW0100P0180",
           "registeredDate": "2026-06-04 06:42:36"
+        },
+        {
+          "type": "jt",
+          "name": "jt",
+          "mac": "7c10c99f4354",
+          "description": "jt",
+          "registeredDate": "2026-06-12 11:24:03"
         }
       ],
-      "scrapedAt": "2026-06-11T02:33:43.192Z",
+      "scrapedAt": "2026-06-16T02:40:03.868Z",
       "success": true
     },
     {
@@ -474,9 +481,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-06-11T02:33:53.959Z",
+      "scrapedAt": "2026-06-16T02:40:14.950Z",
       "success": true
     }
   ],
-  "totalRobots": 61
+  "totalRobots": 62
 }
