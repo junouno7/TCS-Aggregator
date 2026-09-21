@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-16T02:06:24.120Z",
+  "scrapedAt": "2026-09-21T02:07:03.384Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,27 +110,27 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-09-16T02:06:32.426Z",
+      "scrapedAt": "2026-09-21T02:07:12.417Z",
       "success": true
     },
     {
       "siteId": "twcs.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-09-16T02:07:04.592Z",
+      "scrapedAt": "2026-09-21T02:07:44.575Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
     {
       "siteId": "in4in.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-09-16T02:07:36.740Z",
+      "scrapedAt": "2026-09-21T02:08:16.730Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
     {
       "siteId": "twinnyshow.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-09-16T02:08:08.890Z",
+      "scrapedAt": "2026-09-21T02:08:48.883Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -180,7 +180,7 @@
           "registeredDate": "2026-06-01 02:35:41"
         }
       ],
-      "scrapedAt": "2026-09-16T02:08:19.933Z",
+      "scrapedAt": "2026-09-21T02:08:59.922Z",
       "success": true
     },
     {
@@ -474,7 +474,7 @@
           "registeredDate": "2026-07-14 02:46:24"
         }
       ],
-      "scrapedAt": "2026-09-16T02:08:31.049Z",
+      "scrapedAt": "2026-09-21T02:09:11.217Z",
       "success": true
     },
     {
@@ -488,7 +488,7 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-09-16T02:08:42.064Z",
+      "scrapedAt": "2026-09-21T02:09:22.512Z",
       "success": true
     }
   ],
