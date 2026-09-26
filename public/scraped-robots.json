@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-21T02:07:03.384Z",
+  "scrapedAt": "2026-09-26T02:20:59.554Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,27 +110,27 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-09-21T02:07:12.417Z",
+      "scrapedAt": "2026-09-26T02:21:08.408Z",
       "success": true
     },
     {
       "siteId": "twcs.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-09-21T02:07:44.575Z",
+      "scrapedAt": "2026-09-26T02:21:40.558Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
     {
       "siteId": "in4in.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-09-21T02:08:16.730Z",
+      "scrapedAt": "2026-09-26T02:22:12.706Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
     {
       "siteId": "twinnyshow.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-09-21T02:08:48.883Z",
+      "scrapedAt": "2026-09-26T02:22:44.857Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -180,7 +180,7 @@
           "registeredDate": "2026-06-01 02:35:41"
         }
       ],
-      "scrapedAt": "2026-09-21T02:08:59.922Z",
+      "scrapedAt": "2026-09-26T02:22:55.876Z",
       "success": true
     },
     {
@@ -472,9 +472,72 @@
           "mac": "cc827f4b2994",
           "description": "매니퓰레이터(뉴로메카)",
           "registeredDate": "2026-07-14 02:46:24"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0208",
+          "mac": "c400ad9743c5",
+          "description": "TW0100P0208",
+          "registeredDate": "2026-09-22 06:01:18"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0210",
+          "mac": "c400ad81c162",
+          "description": "TW0100P0210",
+          "registeredDate": "2026-09-22 06:05:39"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0195",
+          "mac": "cc827f6b08eb",
+          "description": "TW0100P0195",
+          "registeredDate": "2026-09-22 06:20:34"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0201",
+          "mac": "cc827f6b097f",
+          "description": "TW0100P0201",
+          "registeredDate": "2026-09-22 06:21:08"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0202",
+          "mac": "cc827f6b098e",
+          "description": "TW0100P0202",
+          "registeredDate": "2026-09-22 06:22:02"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0212",
+          "mac": "c400ad974378",
+          "description": "TW0100P0212",
+          "registeredDate": "2026-09-22 06:22:33"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0105",
+          "mac": "cc827f38013b",
+          "description": "TW0100P0105",
+          "registeredDate": "2026-09-22 06:23:20"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0158",
+          "mac": "c400add7a604",
+          "description": "TW0100P0158",
+          "registeredDate": "2026-09-22 06:25:17"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0161",
+          "mac": "cc827f6b0940",
+          "description": "TW0100P0161",
+          "registeredDate": "2026-09-22 06:26:00"
         }
       ],
-      "scrapedAt": "2026-09-21T02:09:11.217Z",
+      "scrapedAt": "2026-09-26T02:23:06.910Z",
       "success": true
     },
     {
@@ -488,9 +551,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-09-21T02:09:22.512Z",
+      "scrapedAt": "2026-09-26T02:23:17.760Z",
       "success": true
     }
   ],
-  "totalRobots": 63
+  "totalRobots": 72
 }
