@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-21T04:37:18.883Z",
+  "scrapedAt": "2026-11-26T05:46:35.378Z",
   "sites": [
     {
       "siteId": "cs.twinnyservice.com",
@@ -110,27 +110,27 @@
           "registeredDate": "1/16/2026, 9:18:38 AM"
         }
       ],
-      "scrapedAt": "2026-11-21T04:37:26.724Z",
+      "scrapedAt": "2026-11-26T05:46:43.238Z",
       "success": true
     },
     {
       "siteId": "twcs.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-11-21T04:37:59.316Z",
+      "scrapedAt": "2026-11-26T05:47:15.360Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
     {
       "siteId": "in4in.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-11-21T04:38:31.549Z",
+      "scrapedAt": "2026-11-26T05:47:47.503Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
     {
       "siteId": "twinnyshow.twinnyservice.com",
       "robots": [],
-      "scrapedAt": "2026-11-21T04:39:03.663Z",
+      "scrapedAt": "2026-11-26T05:48:19.635Z",
       "success": false,
       "error": "Navigation timeout of 30000 ms exceeded"
     },
@@ -180,7 +180,7 @@
           "registeredDate": "2026-06-01 02:35:41"
         }
       ],
-      "scrapedAt": "2026-11-21T04:39:14.215Z",
+      "scrapedAt": "2026-11-26T05:48:30.249Z",
       "success": true
     },
     {
@@ -535,9 +535,44 @@
           "mac": "cc827f6b0940",
           "description": "TW0100P0161",
           "registeredDate": "2026-09-22 06:26:00"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0080",
+          "mac": "cc827f3802a6",
+          "description": "마켓컬리반출로봇1",
+          "registeredDate": "2026-11-23 03:03:55"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0131",
+          "mac": "cc827f380000",
+          "description": "마켓컬리반출로봇2",
+          "registeredDate": "2026-11-23 06:17:38"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0114",
+          "mac": "cc827f6b07d9",
+          "description": "마켓컬리반출로봇3",
+          "registeredDate": "2026-11-24 01:57:45"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0152",
+          "mac": "cc827f38006d",
+          "description": "마켓컬리반출로봇4",
+          "registeredDate": "2026-11-24 03:21:19"
+        },
+        {
+          "type": "LP1",
+          "name": "TW0100P0102",
+          "mac": "c400adcea104",
+          "description": "마켓컬리반출로봇5",
+          "registeredDate": "2026-11-24 06:16:00"
         }
       ],
-      "scrapedAt": "2026-11-21T04:39:24.647Z",
+      "scrapedAt": "2026-11-26T05:48:40.648Z",
       "success": true
     },
     {
@@ -551,9 +586,9 @@
           "registeredDate": "2025-07-18 11:29:26"
         }
       ],
-      "scrapedAt": "2026-11-21T04:39:35.197Z",
+      "scrapedAt": "2026-11-26T05:48:51.163Z",
       "success": true
     }
   ],
-  "totalRobots": 72
+  "totalRobots": 77
 }
